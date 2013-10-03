@@ -1,15 +1,3 @@
-###########
-## Composer
-###########
-
-/vendor/
-/cache/
-composer.lock
-
-###########
-## General
-###########
-
 sftp-config.json
 Thumbs.db
 Desktop.ini
