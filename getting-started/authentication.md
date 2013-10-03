@@ -23,3 +23,27 @@ The easiest grant type to get started with. Designed to grant access to your own
 Designed for apps which may integrate with numerous stores (i.e. accountancy app or price comparison website). This grant type is for developers of third party apps and requires the store owner to login to authorize the application before access is granted. This is the most common OAuth 2.0 grant type and will be familiar to those of you who have ever used Facebook to login to an app or website.
 
 #### Authorising with Client Credentials
+Coming Soon
+
+#### Authorizing with Authorization Code
+Authorizing with the authorization code grant type is a little more complicated than client credentials. Below is a diagram of how the authorization code grant type works.
+
+```
++--------+                               +---------------+
+|        |--(A)- authorisation Request ->|   Resource    |
+|        |                               |     Owner     |
+|        |<-(B)-- authorisation Grant ---|               |
+|        |                               +---------------+
+|        |
+|        |                               +---------------+
+|        |--(C)-- authorisation Grant -->| authorisation |
+| Client |                               |     Server    |
+|        |<-(D)----- Access Token -------|               |
+|        |                               +---------------+
+|        |
+|        |                               +---------------+
+|        |--(E)----- Access Token ------>|    Resource   |
+|        |                               |     Server    |
+|        |<-(F)--- Protected Resource ---|               |
++--------+                               +---------------+
+```
