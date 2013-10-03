@@ -14,15 +14,15 @@
 This call simply returns a product based on a given ID. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 
-#### Resource URL
+#### Resource URL   {#resource}
 GET [{{ url }}product/:id]({{ url }}product/:id)
 
 
-#### Paramaters
+#### Paramaters {#paramaters}
 N/A
 
 
-#### Example Successful Response
+#### Example Successful Response    {#success}
 ``` json
 {
     "status": true,
@@ -86,7 +86,8 @@ N/A
 }
 ```
 
-#### Example Invalid ID Response
+
+#### Example Invalid ID Response    {#error}
 ``` json
 {
     "status": false,

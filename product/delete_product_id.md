@@ -13,16 +13,15 @@
 -->
 This call deletes a product with a given ID or a set of products in a comma-seperated list of IDs.
 
-#### Resource URL
-DELETE [{{ url }}product/:id]({{ url }}product/:id)
-
-DELETE [{{ url }}product/:id,:id,...]({{ url }}product/:id,:id,...)
+#### Resource URL	{#resource}
+DELETE [{{ url }}product/:id[,:id]]({{ url }}product/:id[,:id])
 
 
-#### Paramaters
+#### Paramaters	{#paramaters}
 N/A
 
-#### Example Successful Response
+
+#### Example Successful Response	{#success}
 ``` json
 {
     "status": true,
@@ -30,7 +29,11 @@ N/A
 }
 ```
 
-#### Example Invalid ID Response
+
+#### Example Invalid ID Response	{#error}
 ``` json
-TBA
+{
+	"status": false,
+	"error": "Product does not exist"
+}
 ```
