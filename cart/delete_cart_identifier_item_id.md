@@ -11,3 +11,29 @@
 @http DELETE
 @version beta
 -->
+
+
+Deleting an item from a users cart is as simple as calling the item URL with a DELETE HTTP method.
+
+
+#### Resource URL	{#resource}
+DELETE [{{ url }}cart/:identifier/item/:id]({{ url }}cart/:identifier/item/:id])
+
+
+#### Paramaters	{#paramaters}
+None required
+
+
+#### Example Successful Response	{#success}
+``` json
+{
+    "status": true
+}
+```
+
+#### Example Failed Response	{#error}
+``` json
+{
+    "status": false
+}
+```
