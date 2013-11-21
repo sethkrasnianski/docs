@@ -30,11 +30,25 @@ description*optional* | String | The Description of the product
 
 #### Example Successful Response	{#success}
 ``` json
-TBA
+{
+  "status": true,
+  "result": {
+    "id": "60",
+    "parent": null,
+    "title": "I have just updated my title, isn't that great!",
+    "slug": "featured",
+    "status": {
+      "key": "1",
+      "value": "Live"
+    },
+    "description": "Featured products",
+    "images": []
+  }
+}
 ```
 
 
-### Example Empty Response	{#error}
+### Example Failed Response	{#error}
 ``` json
 {
     "status": false,
