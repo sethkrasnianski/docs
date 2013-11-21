@@ -27,7 +27,7 @@ To authorize with client credentials you simply need to post your client id and 
 https://api.molt.in/oauth/access_token. If all goes well then you will receive a response with your access
 token.
 
-```json
+``` json
 {
   "access_token": "7LKQe9urWbIGYf7WCjqiainYgy9KrL1aayJl2sQq",
   "token_type": "Bearer",
