@@ -1,7 +1,7 @@
 <!--
 @title GET cart/:identifier/item/:id
 @author Moltin Ltd
-@description Gets an item from the cart with a given ID
+@description Gets an item from the cart with a given identifier
 
 @sidebar 1
 @family Cart
