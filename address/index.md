@@ -8,7 +8,7 @@ Resource | Description
 ---------|------------
 {% Addresses %}
 
-# Customer
+# Address
 Resource | Description
 ---------|------------
 {% Address %}
