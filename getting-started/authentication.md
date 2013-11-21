@@ -24,7 +24,7 @@ Designed for apps which may integrate with numerous stores (i.e. accountancy app
 
 #### Authorising with Client Credentials
 To authorize with client credentials you simply need to post your client id and client secret to the
-```https://api.molt.in/oauth/access_token```. If all goes well then you will receive a response with your access
+https://api.molt.in/oauth/access_token. If all goes well then you will receive a response with your access
 token.
 
 ```json
