@@ -21,16 +21,16 @@ Returns a currency based on a given set of key-value properties. Any relational 
 #### Paramaters	{#paramaters}
 Key | Type | Description
 --- | ---- | -----------
-code*optional* | Integer | The currency code (i.e. GBP)
-title*optional* | Integer | The currency title
-enabled*optional* | Integer | Enabled or Disabled? 1 or 0 
-modifier*optional* | Integer | The currency modifier (i.e. +1) 
-exchange_rate*optional* | Integer | The exchange rate
-format*optional* | Integer | The currency format (i.e. £{price})
-decimal_point*optional* | Integer | The decimal point symbol
-thousand_point*optional* | Integer | The thousand separator symbol
-rounding*optional* | Integer | The currency rounding (i.e. 50, 99, full)
-default*optional* | Integer | Is this the default currency? 1 or 0
+code*optional* | String | The currency code (i.e. GBP)
+title*optional* | String | The currency title
+enabled*optional* | Boolean | Enabled or Disabled? 1 or 0 
+modifier*optional* | String | The currency modifier (i.e. +1) 
+exchange_rate*optional* | Float | The exchange rate
+format*optional* | String | The currency format (i.e. £{price})
+decimal_point*optional* | String | The decimal point symbol
+thousand_point*optional* | String | The thousand separator symbol
+rounding*optional* | Enumeration (50, 99, full) | The currency rounding (i.e. 50, 99, full)
+default*optional* | Bollean | Is this the default currency? 1 or 0
 
 
 #### Example Successful Response	{#success}
