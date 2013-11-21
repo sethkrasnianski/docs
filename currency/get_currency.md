@@ -1,10 +1,10 @@
 <!--
-@title GET category
+@title GET currency
 @author Moltin Ltd
-@description Gets a category based on the given criteria
+@description Gets a currency based on the given criteria
 
 @sidebar 1
-@family Category
+@family Currency
 @rate No
 @auth Yes
 @format JSON
