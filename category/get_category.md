@@ -25,7 +25,7 @@ id*optional* | Integer | Select by ID
 title*optional* | String | Select by Title
 slug*optional* | String | Select by Slug
 parent*optional* | Integer | Select by Parent ID
-status | Integer | Select by Status Key, 1 or 0
+status*optional* | Integer | Select by Status Key, 1 or 0
 
 
 #### Example Successful Response	{#success}
