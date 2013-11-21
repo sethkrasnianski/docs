@@ -27,9 +27,24 @@ parent | Integer | The Parent category ID of the category, can be null
 status | Choice (1 or 0) | Is the product Live or a Draft
 description | String | The Description of the product
 
+<!-- code -->
 #### Example Successful Response	{#success}
 ``` json
-TBA
+{
+  "status": true,
+  "result": {
+    "id": "137",
+    "parent": null,
+    "title": "My Awesome New Category",
+    "slug": "my-awesome-new-category",
+    "status": {
+      "key": "1",
+      "value": "Live"
+    },
+    "description": "Categories are awesome! But this one is the most awesome, because it is new!",
+    "images": []
+  }
+}
 ```
 
 
@@ -43,3 +58,4 @@ TBA
     ]
 }
 ```
+<!-- /code -->
