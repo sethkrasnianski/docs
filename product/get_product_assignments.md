@@ -21,6 +21,20 @@ This call returns the data required to build a dynamic flows form based on the p
 N/A
 
 
+#### PHP (SDK) Example - Direct  {#php}
+``` php
+    $result      = $moltin->get('product/assignments');
+    $assignments = $result['result'];
+```
+
+
+#### PHP (SDK) Example - Flows Builder
+Built in to the PHP SDK is a form builder that can automatically generate the HTML form elements for you as well as make the necissary calls.
+``` php
+    $assignments = $moltin->assignments('product');
+```
+
+
 #### Example Successful Response	{#success}
 ``` json
 {
