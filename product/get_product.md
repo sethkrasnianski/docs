@@ -35,6 +35,18 @@ stock_level*optional* | Integer | Select by Stock Level
 stock_status*optional* | Choice (0 to 6) | Select by Stock Status
 
 
+#### PHP (SDK) Example  {#php}
+``` php
+    $result = $moltin->get('product', ['slug' => 'test-product-1']);
+
+    if ( ! $result['status'] ) {
+        throw new Exception($result['error']);
+    }
+
+    $product = $result['result'];
+```
+
+
 #### Example Successful Response    {#success}
 ``` json
 {

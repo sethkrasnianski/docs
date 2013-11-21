@@ -20,6 +20,14 @@ DELETE [{{ url }}product/:id[,:id]]({{ url }}product/:id[,:id])
 #### Paramaters	{#paramaters}
 None required
 
+#### PHP (SDK) Example	{#php}
+``` php
+	$result = $moltin->delete('product/15');
+
+	if ( ! $result['status'] ) {
+		throw new Exception($result['error']);
+	}
+```
 
 #### Example Successful Response	{#success}
 ``` json
