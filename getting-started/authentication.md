@@ -23,8 +23,7 @@ The easiest grant type to get started with. Designed to grant access to your own
 Designed for apps which may integrate with numerous stores (i.e. accountancy app or price comparison website). This grant type is for developers of third party apps and requires the store owner to login to authorize the application before access is granted. This is the most common OAuth 2.0 grant type and will be familiar to those of you who have ever used Facebook to login to an app or website.
 
 #### Authorising with Client Credentials
-To authorize with client credentials you simply need to post your client id and client secret to the
-https://api.molt.in/oauth/access_token. If all goes well then you will receive a response with your access
+To authorize with client credentials you simply need to post your client id and client secret to the https://api.molt.in/oauth/access_token. If all goes well then you will receive a response with your access
 token.
 
 ``` json
