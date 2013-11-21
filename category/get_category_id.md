@@ -19,7 +19,7 @@ Returns a category based on a given ID. Any relational objects will also be retu
 
 
 #### Paramaters	{#paramaters}
-N/A
+None required
 
 
 #### Example Successful Response	{#success}
