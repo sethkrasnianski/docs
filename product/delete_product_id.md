@@ -18,7 +18,7 @@ DELETE [{{ url }}product/:id[,:id]]({{ url }}product/:id[,:id])
 
 
 #### Paramaters	{#paramaters}
-N/A
+None required
 
 
 #### Example Successful Response	{#success}

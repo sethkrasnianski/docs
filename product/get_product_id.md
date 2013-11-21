@@ -19,7 +19,7 @@ GET [{{ url }}product/:id]({{ url }}product/:id)
 
 
 #### Paramaters {#paramaters}
-N/A
+None required
 
 
 #### Example Successful Response    {#success}

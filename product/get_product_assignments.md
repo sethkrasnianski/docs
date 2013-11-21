@@ -18,7 +18,7 @@ This call returns the data required to build a dynamic flows form based on the p
 
 
 #### Paramaters	{#paramaters}
-N/A
+None required
 
 
 #### Example Successful Response	{#success}

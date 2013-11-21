@@ -20,7 +20,7 @@ Unlike /products/assignments this adds the current products data to the array to
 
 
 #### Paramaters	{#paramaters}
-N/A
+None required
 
 
 #### Example Successful Response	{#success}
