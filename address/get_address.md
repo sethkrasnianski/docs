@@ -32,6 +32,7 @@ address_1*optional* | String | Address line 1
 address_2*optional* | String | Address line 2
 city*optional* | String | Address city
 county*optional* | String | Address county
+postcode*optional* | String | Address postcode
 country*optional* | Enumeration (ISO 3166-1-alpha-2) | Address country
 
 <!--code-->
