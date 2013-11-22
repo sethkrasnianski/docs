@@ -14,6 +14,9 @@
 
 You can update the order and parents of categories in one go. This is useful if you have some sort of drag-n-drop system in place to reorder your categories.
 
+#### Resource URL   {#resource}
+PUT [{{ url }}categories/order]({{ url }}categories/order)
+
 #### Paramaters	{#paramaters}
 Key | Type | Description
 --- | ---- | -----------
