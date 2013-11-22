@@ -22,7 +22,7 @@ GET [{{ url }}cart/:identifier/has/:id]({{ url }}cart/:identifier/has/:id])
 #### Paramaters	{#paramaters}
 None required
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -36,3 +36,4 @@ None required
     "status": false
 }
 ```
+<!--/code-->

@@ -27,7 +27,7 @@ slug*optional* | String | Select by Slug
 parent*optional* | Integer | Select by Parent ID
 status*optional* | Integer | Select by Status Key, 1 or 0
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -67,3 +67,4 @@ status*optional* | Integer | Select by Status Key, 1 or 0
     "error": "No category found"
 }
 ```
+<!--/code-->

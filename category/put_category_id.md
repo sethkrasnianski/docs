@@ -27,7 +27,7 @@ parent*optional* | Integer | The Parent category ID of the category, can be null
 status*optional* | Choice (1 or 0) | Is the product Live or a Draft
 description*optional* | String | The Description of the product
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -58,3 +58,4 @@ description*optional* | String | The Description of the product
     ]
 }
 ```
+<!--/code-->

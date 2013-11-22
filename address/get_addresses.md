@@ -22,7 +22,7 @@ GET [{{ url }}customer/:id/addresses]({{ url }}customer/:id/addresses)
 #### Paramaters {#paramaters}
 None required
 
-
+<!--code-->
 #### Example Successful Response    {#success}
 ``` json
 {
@@ -104,3 +104,4 @@ None required
   }
 }
 ```
+<!--/code-->

@@ -21,7 +21,7 @@ Returns a category based on a given ID. Any relational objects will also be retu
 #### Paramaters	{#paramaters}
 None required
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -61,3 +61,4 @@ None required
     "error": "No category found"
 }
 ```
+<!--/code-->

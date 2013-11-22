@@ -34,7 +34,7 @@ category*optional* | Integer | Select by Category ID
 stock_level*optional* | Integer | Select by Stock Level
 stock_status*optional* | Choice (0 to 6) | Select by Stock Status
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -129,3 +129,4 @@ stock_status*optional* | Choice (0 to 6) | Select by Stock Status
     }
 }
 ```
+<!--/code-->

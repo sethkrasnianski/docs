@@ -22,7 +22,7 @@ Unlike /products/assignments this adds the current products data to the array to
 #### Paramaters	{#paramaters}
 None required
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -280,3 +280,4 @@ None required
   }
 }
 ```
+<!--/code-->

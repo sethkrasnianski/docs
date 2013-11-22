@@ -23,7 +23,7 @@ Key | Type | Description
 limit*optional* | Integer | The number of products to return
 offset*optional* | Integer | The first product to be shown, used for pagination
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -200,3 +200,4 @@ offset*optional* | Integer | The first product to be shown, used for pagination
     }
 }
 ```
+<!--/code-->

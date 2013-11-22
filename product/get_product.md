@@ -46,7 +46,7 @@ stock_status*optional* | Choice (0 to 6) | Select by Stock Status
     $product = $result['result'];
 ```
 
-
+<!--code-->
 #### Example Successful Response    {#success}
 ``` json
 {
@@ -116,3 +116,4 @@ stock_status*optional* | Choice (0 to 6) | Select by Stock Status
 ``` json
 TBA
 ```
+<!--/code-->

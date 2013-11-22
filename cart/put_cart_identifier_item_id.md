@@ -18,7 +18,7 @@ You can update an item in the cart by sending a PUT request to the item's endpoi
 #### Resource URL	{#resource}
 PUT [{{ url }}cart/:identifier/item/:id]({{ url }}cart/:identifier/item/:id])
 
-
+<!--code-->
 #### Paramaters	{#paramaters}
 Key | Type | Description
 --- | ---- | -----------
@@ -149,3 +149,4 @@ depth*optional* | Float | The new depth of this item
   "error": "Quantity can not be less than 1"
 }
 ```
+<!--/code-->

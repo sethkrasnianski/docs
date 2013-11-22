@@ -23,7 +23,7 @@ GET [{{ url }}cart/:identifier/item/:id]({{ url }}cart/:identifier/item/:id])
 #### Paramaters	{#paramaters}
 None required
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -141,3 +141,4 @@ None required
   "error": "Item does not exist"
 }
 ```
+<!--/code-->

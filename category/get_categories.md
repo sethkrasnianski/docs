@@ -24,7 +24,7 @@ Key | Type | Description
 limit*optional* | Integer | The number of categories to return, defaults to all
 offset*optional* | Integer | The first category to be shown, used for pagination
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -130,3 +130,4 @@ offset*optional* | Integer | The first category to be shown, used for pagination
   }
 }
 ```
+<!--/code-->

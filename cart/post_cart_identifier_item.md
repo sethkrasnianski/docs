@@ -31,7 +31,7 @@ height*optional* | Float | The height of the product. Automatically set if the p
 width*optional* | Float | The width of the product. Automatically set if the product is found in the database
 depth*optional* | Float | The depth of the product. Automatically set if the product is found in the database
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -150,3 +150,4 @@ depth*optional* | Float | The depth of the product. Automatically set if the pro
   "error": "The 'id' field is required"
 }
 ```
+<!--/code-->

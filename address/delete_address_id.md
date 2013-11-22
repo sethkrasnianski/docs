@@ -21,7 +21,7 @@ DELETE [{{ url }}customer/:id/address/:id]({{ url }}customer/:id/address/:id)
 #### Paramaters	{#paramaters}
 N/A
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -38,3 +38,4 @@ N/A
     "message": "Address not found"
 }
 ```
+<!--/code-->

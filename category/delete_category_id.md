@@ -20,7 +20,7 @@ DELETE [{{ url }}category/:id[,:id]]({{ url }}category/:id[,:id])
 #### Paramaters	{#paramaters}
 N/A
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -34,3 +34,4 @@ N/A
 ``` json
 TBA
 ```
+<!--/code-->

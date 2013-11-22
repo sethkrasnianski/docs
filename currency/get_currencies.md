@@ -21,7 +21,7 @@ GET [{{ url }}currencies]({{ url }}currencies)
 #### Paramaters	{#paramaters}
 None required
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -98,3 +98,4 @@ None required
   }
 }
 ```
+<!--/code-->

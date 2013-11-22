@@ -36,7 +36,7 @@ height*optional* | Float | The Height of the product, used in shipping calculati
 width*optional* | Float | The Width of the product, used in shipping calculations
 depth*optional* | Float | The Depth of the product, used in shipping calculations
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -96,3 +96,4 @@ depth*optional* | Float | The Depth of the product, used in shipping calculation
     ]
 }
 ```
+<!--/code-->

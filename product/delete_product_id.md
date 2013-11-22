@@ -29,6 +29,7 @@ None required
 	}
 ```
 
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -45,3 +46,4 @@ None required
 	"error": "Product does not exist"
 }
 ```
+<!--/code-->

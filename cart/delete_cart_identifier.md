@@ -22,7 +22,7 @@ DELETE [{{ url }}cart/:identifier]({{ url }}cart/:identifier])
 #### Paramaters	{#paramaters}
 None required
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -30,4 +30,4 @@ None required
     "message": "Cart destroyed"
 }
 ```
-
+<!--/code-->

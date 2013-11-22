@@ -21,7 +21,7 @@ GET [{{ url }}product/:id]({{ url }}product/:id)
 #### Paramaters {#paramaters}
 None required
 
-
+<!--code-->
 #### Example Successful Response    {#success}
 ``` json
 {
@@ -94,3 +94,4 @@ None required
     "error": "No product found"
 }
 ```
+<!--/code-->

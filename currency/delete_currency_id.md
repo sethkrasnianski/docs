@@ -20,7 +20,7 @@ DELETE [{{ url }}currency/:id]({{ url }}currency/:id)
 #### Paramaters	{#paramaters}
 None required
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -37,3 +37,4 @@ None required
   "error": "Currency not found"
 }
 ```
+<!--/code-->

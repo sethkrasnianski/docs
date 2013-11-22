@@ -34,7 +34,7 @@ Built in to the PHP SDK is a form builder that can automatically generate the HT
     $assignments = $moltin->assignments('product');
 ```
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -245,3 +245,4 @@ Built in to the PHP SDK is a form builder that can automatically generate the HT
     }
 }
 ```
+<!--/code-->

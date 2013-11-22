@@ -34,7 +34,7 @@ city*optional* | String | Address city
 county*optional* | String | Address county
 country*optional* | Enumeration (ISO 3166-1-alpha-2) | Address country
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -74,3 +74,4 @@ country*optional* | Enumeration (ISO 3166-1-alpha-2) | Address country
     "error": "No address found"
 }
 ```
+<!--/code-->

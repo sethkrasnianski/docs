@@ -21,7 +21,7 @@ Returns a currency based on a given ID. Any relational objects will also be retu
 #### Paramaters	{#paramaters}
 None required
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
@@ -50,3 +50,4 @@ None required
   "error": "Currency not found"
 }
 ```
+<!--/code-->
