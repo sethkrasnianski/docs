@@ -68,7 +68,7 @@ country | Enumeration (ISO 3166-1-alpha-2) | Address country
 ```
 
 
-### Example Empty Response	{#error}
+### Example Failed Response	{#error}
 ``` json
 {
   "status": false,
