@@ -15,10 +15,10 @@
 You can update the order and parents of categories in one go. This is useful if you have some sort of drag-n-drop system in place to reorder your categories.
 
 #### Paramaters	{#paramaters}
-Key | Type | Parent | Description
---- | ---- | ------ | -----------
-:id[parent] | Integer | <id> | The parent category
-:id[order] | Integer | <id> | The order in which this category appears
+Key | Type | Description
+--- | ---- | -----------
+:id[parent] | Integer | The parent category
+:id[order] | Integer | The order in which this category appears
 
 
 <!--code-->
