@@ -34,7 +34,7 @@ Key | Type | Description
 ``` json
 {
   "status": false,
-  "errors": {}
+  "errors": []
 }
 ```
 <!--/code-->
