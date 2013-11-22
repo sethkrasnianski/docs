@@ -12,7 +12,7 @@
 @version beta
 -->
 
-This endpoint creates a new address for a customer with the POST data provided. If there are any problems with the creation these will be returned in an errors array listing all validation problems, otherwise the new category will be returned.
+This endpoint creates a new address for a customer with the POST data provided. If there are any problems with the creation these will be returned in an errors array listing all validation problems, otherwise the new address will be returned.
 
 
 #### Resource URL	{#resource}
