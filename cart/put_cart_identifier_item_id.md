@@ -18,7 +18,6 @@ You can update an item in the cart by sending a PUT request to the item's endpoi
 #### Resource URL	{#resource}
 PUT [{{ url }}cart/:identifier/item/:id]({{ url }}cart/:identifier/item/:id])
 
-<!--code-->
 #### Paramaters	{#paramaters}
 Key | Type | Description
 --- | ---- | -----------
@@ -30,7 +29,7 @@ height*optional* | Float | The new height of this item
 width*optional* | Float | The new width of this item
 depth*optional* | Float | The new depth of this item
 
-
+<!--code-->
 #### Example Successful Response	{#success}
 ``` json
 {
