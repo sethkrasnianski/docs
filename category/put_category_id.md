@@ -15,7 +15,7 @@ This call edits a category with a given ID. There are no minumum required parama
 
 
 #### Resource URL	{#resource}
-POST [{{ url }}cateogry/:id]({{ url }}cateogry/:id)
+PUT [{{ url }}cateogry/:id]({{ url }}cateogry/:id)
 
 
 #### Paramaters	{#paramaters}

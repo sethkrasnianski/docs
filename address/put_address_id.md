@@ -15,7 +15,7 @@ This endpoint edits a customers address with a given ID. There are no minumum re
 
 
 #### Resource URL	{#resource}
-POST [{{ url }}cateogry/:id]({{ url }}cateogry/:id)
+PUT [{{ url }}cateogry/:id]({{ url }}cateogry/:id)
 
 
 #### Paramaters	{#paramaters}
