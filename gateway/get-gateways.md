@@ -4,7 +4,7 @@
 @description Gets an array of gateways
 
 @sidebar 1
-@family Gateways
+@family Gateway
 @rate No
 @auth Yes
 @format JSON

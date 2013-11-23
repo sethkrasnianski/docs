@@ -4,7 +4,7 @@
 @description Gets an array of categories
 
 @sidebar 1
-@family Categories
+@family Category
 @rate No
 @auth Yes
 @format JSON

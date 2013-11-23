@@ -1,5 +1,5 @@
 <!--
-@title Addresses
+@title Address
 @author Moltin Ltd
 @description Addresses endpoints
 -->

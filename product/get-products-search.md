@@ -4,7 +4,7 @@
 @description Searches for a set of products based on the given criteria
 
 @sidebar 1
-@family Products
+@family Product
 @rate No
 @auth Yes
 @format JSON

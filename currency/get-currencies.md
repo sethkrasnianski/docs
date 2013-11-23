@@ -4,7 +4,7 @@
 @description Gets an array of currencies
 
 @sidebar 1
-@family Currencies
+@family Currency
 @rate No
 @auth Yes
 @format JSON

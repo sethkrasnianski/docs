@@ -4,7 +4,7 @@
 @description Gets an array of customers
 
 @sidebar 1
-@family Customers
+@family Customer
 @rate No
 @auth Yes
 @format JSON
