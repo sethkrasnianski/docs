@@ -13,15 +13,15 @@
 -->
 This call deletes a currency with the specified id.
 
-#### Resource URL	{#resource}
+#### Resource URL
 DELETE [{{ url }}currency/:id]({{ url }}currency/:id)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -30,7 +30,7 @@ None required
 ```
 
 
-#### Example Invalid ID Response	{#error}
+#### Example Invalid ID Response
 ``` json
 {
   "status": false,

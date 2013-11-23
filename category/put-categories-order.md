@@ -17,7 +17,7 @@ You can update the order and parents of categories in one go. This is useful if 
 #### Resource URL   {#resource}
 PUT [{{ url }}categories/order]({{ url }}categories/order)
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 :id[parent] | Integer | The parent category
@@ -25,7 +25,7 @@ Key | Type | Description
 
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true
@@ -33,7 +33,7 @@ Key | Type | Description
 ```
 
 
-### Example Failed Response	{#error}
+### Example Failed Response
 ``` json
 {
   "status": false,

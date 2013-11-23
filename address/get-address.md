@@ -15,11 +15,11 @@
 Returns an address based on a given set of key-value properties. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 [{{ url }}customer/:id/address]({{ url }}customer/:id/address)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 save_as*optional* | String | The name the address is saved as
@@ -36,7 +36,7 @@ postcode*optional* | String | Address postcode
 country*optional* | Enumeration (ISO 3166-1-alpha-2) | Address country
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -68,7 +68,7 @@ country*optional* | Enumeration (ISO 3166-1-alpha-2) | Address country
 ```
 
 
-### Example Empty Response	{#error}
+### Example Empty Response
 ``` json
 {
     "status": false,

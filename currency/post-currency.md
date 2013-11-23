@@ -14,11 +14,11 @@
 This call creates a new currency with the POST data provided. If there are any problems with the creation these will be returned in an errors array listing all validation problems, otherwise the new currency will be returned.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 POST [{{ url }}cateogry]({{ url }}cateogry)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 code | String | The currency code (i.e. GBP)
@@ -33,7 +33,7 @@ rounding*optional* | Enumeration (50, 99, full) | The currency rounding (i.e. 50
 default*optional* | Bollean | Is this the default currency? 1 or 0
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -55,7 +55,7 @@ default*optional* | Bollean | Is this the default currency? 1 or 0
 ```
 
 
-### Example Empty Response	{#error}
+### Example Empty Response
 ``` json
 {
   "status": false,

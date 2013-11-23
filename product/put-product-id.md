@@ -13,11 +13,11 @@
 -->
 This call edits a product with a given ID. There are no minumum required paramaters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
-#### Resource URL	{#resource}
+#### Resource URL
 PUT [{{ url }}product/:id]({{ url }}product/:id)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 sku*optional* | String | The SKU of the product, must be unique
@@ -37,7 +37,7 @@ width*optional* | Float | The Width of the product, used in shipping calculation
 depth*optional* | Float | The Depth of the product, used in shipping calculations
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
     "status": true,
@@ -85,7 +85,7 @@ depth*optional* | Float | The Depth of the product, used in shipping calculation
 ```
 
 
-#### Example Invalid ID Response	{#error}
+#### Example Invalid ID Response
 ``` json
 {
     "status": false,

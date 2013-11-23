@@ -13,14 +13,14 @@
 -->
 This call deletes a product with a given ID or a set of products in a comma-seperated list of IDs.
 
-#### Resource URL	{#resource}
+#### Resource URL
 DELETE [{{ url }}product/:id[,:id]]({{ url }}product/:id[,:id])
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
-#### PHP (SDK) Example	{#php}
+#### PHP (SDK) Example
 ``` php
 	$result = $moltin->delete('product/15');
 
@@ -30,7 +30,7 @@ None required
 ```
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
     "status": true,
@@ -39,7 +39,7 @@ None required
 ```
 
 
-#### Example Invalid ID Response	{#error}
+#### Example Invalid ID Response
 ``` json
 {
 	"status": false,

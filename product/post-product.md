@@ -13,11 +13,11 @@
 -->
 This call creates a new product with the POST data provided. If there are any problems with the creation these will be returned in an errors array listing all validation problems, otherwise the new product will be returned.
 
-#### Resource URL	{#resource}
+#### Resource URL
 POST [{{ url }}product]({{ url }}product)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 sku | String | The SKU of the product, must be unique
@@ -37,7 +37,7 @@ width*optional* | Float | The Width of the product, used in shipping calculation
 depth*optional* | Float | The Depth of the product, used in shipping calculations
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
     "status": true,
@@ -85,7 +85,7 @@ depth*optional* | Float | The Depth of the product, used in shipping calculation
 ```
 
 
-#### Example Invalid ID Response	{#error}
+#### Example Invalid ID Response
 ``` json
 {
     "status": false,

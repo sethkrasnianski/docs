@@ -15,11 +15,11 @@
 This endpoint creates a new address for a customer with the POST data provided. If there are any problems with the creation these will be returned in an errors array listing all validation problems, otherwise the new address will be returned.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 POST [{{ url }}customer/:id/address]({{ url }}customer/:id/address)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 save_as*optional* | String | The name the address is saved as
@@ -36,7 +36,7 @@ postcode | String | Address postcode
 country | Enumeration (ISO 3166-1-alpha-2) | Address country
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -68,7 +68,7 @@ country | Enumeration (ISO 3166-1-alpha-2) | Address country
 ```
 
 
-### Example Failed Response	{#error}
+### Example Failed Response
 ``` json
 {
   "status": false,

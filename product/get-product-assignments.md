@@ -13,11 +13,11 @@
 -->
 This call returns the data required to build a dynamic flows form based on the product creation requirements. It provides all options available for the choice fields as well as those featured in relationships (eg, Categories). It also provides information of field requirements, default values, etc.
 
-#### Resource URL	{#resource}
+#### Resource URL
 [{{ url }}products/assignments]({{ url }}products/assignments)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 
@@ -35,7 +35,7 @@ Built in to the PHP SDK is a form builder that can automatically generate the HT
 ```
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
     "status": true,

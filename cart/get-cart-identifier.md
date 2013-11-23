@@ -15,15 +15,15 @@
 You can retrieve the shopping cart by calling the cart endpoint and pass the cart identifier as part of the URL.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 GET [{{ url }}cart/:identifier]({{ url }}cart/:identifier])
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,

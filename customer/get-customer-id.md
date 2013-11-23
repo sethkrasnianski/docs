@@ -14,11 +14,11 @@
 Returns a customer based on a given ID. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 [{{ url }}customer/:id]({{ url }}customer/:id)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 <!--code-->

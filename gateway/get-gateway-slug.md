@@ -14,15 +14,15 @@
 Returns a gateway based on a given slug. The gateway settings will also be returned as an array.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 [{{ url }}gateway/:slug]({{ url }}gateway/:slug)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -39,7 +39,7 @@ None required
 ```
 
 
-### Example Empty Response	{#error}
+### Example Empty Response
 ``` json
 {
   "status": false,

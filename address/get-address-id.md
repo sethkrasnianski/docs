@@ -15,15 +15,15 @@
 Returns a customers address based on a given ID. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 [{{ url }}customer/:id/address/:id]({{ url }}customer/:id/address/:id)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -55,7 +55,7 @@ None required
 ```
 
 
-### Example Empty Response	{#error}
+### Example Empty Response
 ``` json
 {
     "status": false,

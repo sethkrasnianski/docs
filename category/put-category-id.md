@@ -14,11 +14,11 @@
 This call edits a category with a given ID. There are no minumum required paramaters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 PUT [{{ url }}cateogry/:id]({{ url }}cateogry/:id)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 title*optional* | String | The Title of the category, must be unique
@@ -28,7 +28,7 @@ status*optional* | Choice (1 or 0) | Is the product Live or a Draft
 description*optional* | String | The Description of the product
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -48,7 +48,7 @@ description*optional* | String | The Description of the product
 ```
 
 
-### Example Failed Response	{#error}
+### Example Failed Response
 ``` json
 {
     "status": false,

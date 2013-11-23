@@ -15,22 +15,22 @@
 Checks if the cart contains the specified item identifier
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 GET [{{ url }}cart/:identifier/has/:id]({{ url }}cart/:identifier/has/:id])
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
     "status": true
 }
 ```
 
-#### Example Failed Response	{#error}
+#### Example Failed Response
 ``` json
 {
     "status": false

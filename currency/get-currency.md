@@ -14,11 +14,11 @@
 Returns a currency based on a given set of key-value properties. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 [{{ url }}currency]({{ url }}currency)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 code*optional* | String | The currency code (i.e. GBP)
@@ -33,7 +33,7 @@ rounding*optional* | Enumeration (50, 99, full) | The currency rounding (i.e. 50
 default*optional* | Boolean | Is this the default currency? 1 or 0
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -54,7 +54,7 @@ default*optional* | Boolean | Is this the default currency? 1 or 0
 ```
 
 
-### Example Failed Response	{#error}
+### Example Failed Response
 ``` json
 {
     "status": false,

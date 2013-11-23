@@ -14,18 +14,18 @@
 Returns a range of categories based on a given set of paramaters. All choices and relaionships will be converted to their appropriate data values to reduce the number of extra calls required.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 GET [{{ url }}categories]({{ url }}categories)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 limit*optional* | Integer | The number of categories to return, defaults to all
 offset*optional* | Integer | The first category to be shown, used for pagination
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -103,7 +103,7 @@ offset*optional* | Integer | The first category to be shown, used for pagination
 ```
 
 
-### Example Empty Response	{#error}
+### Example Empty Response
 ``` json
 {
   "status": true,

@@ -15,11 +15,11 @@
 You can insert an item into the cart by POSTing to the cart endpoint with a list of parameters.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 POST [{{ url }}cart/:identifier]({{ url }}cart/:identifier])
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 id | String | The ID of the product you want to add to the cart, can be a product id
@@ -32,7 +32,7 @@ width*optional* | Float | The width of the product. Automatically set if the pro
 depth*optional* | Float | The depth of the product. Automatically set if the product is found in the database
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -143,7 +143,7 @@ depth*optional* | Float | The depth of the product. Automatically set if the pro
 }
 ```
 
-#### Example Failed Response	{#error}
+#### Example Failed Response
 ``` json
 {
   "status": false,

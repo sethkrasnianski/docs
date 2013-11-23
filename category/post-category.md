@@ -14,11 +14,11 @@
 This call creates a new category with the POST data provided. If there are any problems with the creation these will be returned in an errors array listing all validation problems, otherwise the new category will be returned.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 POST [{{ url }}cateogry]({{ url }}cateogry)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 title | String | The Title of the category, must be unique
@@ -28,7 +28,7 @@ status | Choice (1 or 0) | Is the product Live or a Draft
 description | String | The Description of the product
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -48,7 +48,7 @@ description | String | The Description of the product
 ```
 
 
-### Example Empty Response	{#error}
+### Example Empty Response
 ``` json
 {
     "status": false,

@@ -14,11 +14,11 @@
 Returns a customer based on a given set of key-value properties. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 [{{ url }}customer]({{ url }}customer)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 id*optional* | Integer | Select by ID
@@ -27,7 +27,7 @@ last_name*optional* | String | Select by last name
 email*optional* | String | Select by email
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -45,7 +45,7 @@ email*optional* | String | Select by email
 ```
 
 
-### Example Empty Response	{#error}
+### Example Empty Response
 ``` json
 {
     "status": false,

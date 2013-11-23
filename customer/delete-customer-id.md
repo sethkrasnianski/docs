@@ -14,15 +14,15 @@
 
 This method deletes a customer with a given ID. Once a customer has been deleted all orders and addresses for that customer will become anonymous. Addresses which have not been used in an order will be permanently deleted.
 
-#### Resource URL	{#resource}
+#### Resource URL
 DELETE [{{ url }}customer/:id]({{ url }}customer/:id)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
     "status": true,
@@ -31,7 +31,7 @@ None required
 ```
 
 
-#### Example Invalid ID Response	{#error}
+#### Example Invalid ID Response
 ``` json
 {
     "status": false,

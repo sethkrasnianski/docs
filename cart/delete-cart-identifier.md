@@ -15,15 +15,15 @@
 This method is used to destroy an entire shopping cart, this can not be undone.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 DELETE [{{ url }}cart/:identifier]({{ url }}cart/:identifier])
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
     "status": true,

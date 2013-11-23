@@ -15,11 +15,11 @@
 This method edits a gateway with a given slug.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 PUT [{{ url }}gateway/:slug]({{ url }}gateway/:slug)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 name*optional* | String | The name of the gateway
@@ -27,7 +27,7 @@ description*optional* | String | The description of this gateway
 settings[] | Array | An array of gateway settings specific to the gateway you are updating
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -48,7 +48,7 @@ settings[] | Array | An array of gateway settings specific to the gateway you ar
 ```
 
 
-### Example Failed Response	{#error}
+### Example Failed Response
 ``` json
 {
   "status": false,

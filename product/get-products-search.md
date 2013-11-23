@@ -14,11 +14,11 @@
 This call returns a range of products based on the various provided search criteria. Using limit and offset you can also paginate the results.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 GET [{{ url }}products/search]({{ url }}products/search)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 limit*optional* | Integer | The number of products to return
@@ -35,7 +35,7 @@ stock_level*optional* | Integer | Select by Stock Level
 stock_status*optional* | Choice (0 to 6) | Select by Stock Status
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
     "status": true,
@@ -100,7 +100,7 @@ stock_status*optional* | Choice (0 to 6) | Select by Stock Status
 ```
 
 
-#### Example Invalid Response	{#error}
+#### Example Invalid Response
 ``` json
 {
     "status": true,

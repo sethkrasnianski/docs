@@ -14,15 +14,15 @@
 Returns a list of currencies that have been setup. All choices and relaionships will be converted to their appropriate data values to reduce the number of extra calls required.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 GET [{{ url }}currencies]({{ url }}currencies)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -71,7 +71,7 @@ None required
 ```
 
 
-### Example Empty Response	{#error}
+### Example Empty Response
 ``` json
 {
   "status": true,

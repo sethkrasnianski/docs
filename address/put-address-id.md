@@ -14,11 +14,11 @@
 This endpoint edits a customers address with a given ID. There are no minumum required paramaters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 PUT [{{ url }}cateogry/:id]({{ url }}cateogry/:id)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 save_as*optional* | String | The name the address is saved as

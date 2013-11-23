@@ -15,10 +15,10 @@
 You can update an item in the cart by sending a PUT request to the item's endpoint with a list of parameters.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 PUT [{{ url }}cart/:identifier/item/:id]({{ url }}cart/:identifier/item/:id])
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 name*optional* | String | The new name of this item
@@ -30,7 +30,7 @@ width*optional* | Float | The new width of this item
 depth*optional* | Float | The new depth of this item
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -141,7 +141,7 @@ depth*optional* | Float | The new depth of this item
 }
 ```
 
-#### Example Failed Response	{#error}
+#### Example Failed Response
 ``` json
 {
   "status": false,

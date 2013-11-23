@@ -16,11 +16,11 @@ Returns a product based on a given set of key-value properties. One or more para
 While this call is similar to search it will only return a single product.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 GET [{{ url }}product]({{ url }}product)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 id*optional* | Integer | Select by ID
@@ -112,7 +112,7 @@ stock_status*optional* | Choice (0 to 6) | Select by Stock Status
 ```
 
 
-#### Example Invalid Response	{#error}
+#### Example Invalid Response
 ``` json
 TBA
 ```

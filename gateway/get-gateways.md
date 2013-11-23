@@ -14,15 +14,15 @@
 Returns all gateways, both enabled and disabled.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 GET [{{ url }}gateways]({{ url }}gateways)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,

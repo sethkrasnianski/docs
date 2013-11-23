@@ -15,15 +15,15 @@ This call returns the data required to build a dynamic flows form based on the p
 
 Unlike /products/assignments this adds the current products data to the array to allow for prepopulation of fields.
 
-#### Resource URL	{#resource}
+#### Resource URL
 [{{ url }}product/:id/assignments]({{ url }}product/:id/assignments)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,

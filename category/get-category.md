@@ -14,11 +14,11 @@
 Returns a category based on a given set of key-value properties. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 [{{ url }}category]({{ url }}category)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 id*optional* | Integer | Select by ID
@@ -28,7 +28,7 @@ parent*optional* | Integer | Select by Parent ID
 status*optional* | Integer | Select by Status Key, 1 or 0
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
     "status": true,
@@ -60,7 +60,7 @@ status*optional* | Integer | Select by Status Key, 1 or 0
 ```
 
 
-### Example Empty Response	{#error}
+### Example Empty Response
 ``` json
 {
     "status": false,

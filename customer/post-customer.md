@@ -14,11 +14,11 @@
 This endpoint creates a new customer with the POST data provided. If there are any problems with the creation these will be returned in an errors array listing all validation problems, otherwise the new customer will be returned.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 POST [{{ url }}customer]({{ url }}customer)
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 Key | Type | Description
 --- | ---- | -----------
 first_name | String | The customer's first name
@@ -26,7 +26,7 @@ last_name | String | The customer's last name
 email | String | The customer's email
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -44,7 +44,7 @@ email | String | The customer's email
 ```
 
 
-### Example Failed Response	{#error}
+### Example Failed Response
 ``` json
 {
   "status": false,

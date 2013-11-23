@@ -16,15 +16,15 @@
 You can retrieve a specific item from the cart by calling this endpoint with the cart identifier and item identifier.
 
 
-#### Resource URL	{#resource}
+#### Resource URL
 GET [{{ url }}cart/:identifier/item/:id]({{ url }}cart/:identifier/item/:id])
 
 
-#### Paramaters	{#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response	{#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -134,7 +134,7 @@ None required
 }
 ```
 
-#### Example Failed Response	{#error}
+#### Example Failed Response
 ``` json
 {
   "status": false,
