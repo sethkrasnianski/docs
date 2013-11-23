@@ -6,9 +6,4 @@
 
 Resource | Description
 ---------|------------
-{% Addresses %}
-
-# Address
-Resource | Description
----------|------------
 {% Address %}

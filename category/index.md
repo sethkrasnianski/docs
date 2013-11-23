@@ -4,7 +4,6 @@
 @description Category end-points
 -->
 
-# Category
 Resource | Description
 ---------|------------
 {% Category %}

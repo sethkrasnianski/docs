@@ -4,7 +4,6 @@
 @description Customers endpoints
 -->
 
-# Customer
 Resource | Description
 ---------|------------
 {% Customer %}

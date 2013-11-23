@@ -4,7 +4,6 @@
 @description Product end-points
 -->
 
-# Product
 Resource | Description
 ---------|------------
 {% Product %}
