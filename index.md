@@ -29,7 +29,7 @@ Resource | Description
 ---------|------------
 {% Product %}
 
-### Cart {#cart}
+### Cart
 Add to basket and cart manipulation.
 
 Resource | Description
