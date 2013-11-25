@@ -15,7 +15,7 @@ This call creates a new category with the POST data provided. If there are any p
 
 
 #### Resource URL
-POST [{{ url }}cateogry]({{ url }}cateogry)
+POST [{{ url }}category]({{ url }}category)
 
 
 #### Paramaters
