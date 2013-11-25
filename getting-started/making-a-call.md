@@ -3,6 +3,7 @@
 @author Moltin Ltd
 @description A helping hand to get started making API calls
 @family Getting Started
+@order 1.2
 -->
 Once you have your [Access Token](/getting-started/authentication) you can then start to make calls to the API. Throughout our documentation you will see different URLs (or End-Points) that when called in different ways will return information and in some cases perform a specific action.
 

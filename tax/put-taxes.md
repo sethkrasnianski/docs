@@ -2,6 +2,7 @@
 @title PUT taxes
 @author Moltin Ltd
 @description Mass updates currency tax rates
+@order 11.2
 
 @sidebar 1
 @family Tax

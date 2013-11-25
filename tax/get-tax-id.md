@@ -2,6 +2,7 @@
 @title GET tax/:id
 @author Moltin Ltd
 @description Returns a tax band of the given ID
+@order 11.7
 
 @sidebar 1
 @family Tax

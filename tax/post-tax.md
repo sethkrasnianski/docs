@@ -2,6 +2,7 @@
 @title POST tax
 @author Moltin Ltd
 @description Creates a new tax band
+@order 11.3
 
 @sidebar 1
 @family Tax

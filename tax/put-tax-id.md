@@ -2,6 +2,7 @@
 @title PUT tax/:id
 @author Moltin Ltd
 @description Updates a tax band with the given ID
+@order 11.1
 
 @sidebar 1
 @family Tax

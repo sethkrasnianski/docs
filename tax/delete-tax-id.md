@@ -2,6 +2,7 @@
 @title DELETE tax/:id
 @author Moltin Ltd
 @description Deletes a tax band with a given ID
+@order 11.5
 
 @sidebar 1
 @family Tax

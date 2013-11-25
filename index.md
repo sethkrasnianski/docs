@@ -2,6 +2,7 @@
 @title Documentation
 @author Moltin Ltd
 @description Moltin beta API documentation
+@order 0.0
 -->
 
 Welcome to the Moltin documentation, we're working as fast as we can to give you complete coverage of the API, as well as response data, helpful guides and SDK examples.

@@ -4,7 +4,6 @@
 @description Currency endpoints
 -->
 
-# Currency
 Resource | Description
 ---------|------------
 {% Currency %}

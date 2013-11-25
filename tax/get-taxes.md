@@ -2,6 +2,7 @@
 @title GET taxes
 @author Moltin Ltd
 @description Gets an array of tax bands
+@order 11.6
 
 @sidebar 1
 @family Tax
