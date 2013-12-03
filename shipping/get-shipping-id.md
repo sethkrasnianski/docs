@@ -28,22 +28,22 @@ None required
   "status": true,
   "result": {
     "id": "154",
-    "title": "Testing",
-    "slug": "testing",
+    "title": "Free Shipping",
+    "slug": "free",
     "company": "FedEx",
     "status": {
       "key": "1",
       "value": "Live"
     },
-    "price": "1000.00",
+    "price": "0",
     "price_min": "10.00",
-    "price_max": "20.00",
+    "price_max": "100.00",
     "weight_min": "10.00",
-    "weight_max": "20.00",
-    "description": "sfsfsfsdfsdf",
+    "weight_max": "100.00",
+    "description": "Free shipping on orders between £10 and £100",
     "tax_band": {
       "id": 1,
-      "title": "DefaultNew",
+      "title": "Default",
       "description": null,
       "rate": "20.00"
     }
