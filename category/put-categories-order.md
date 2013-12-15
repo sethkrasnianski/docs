@@ -2,6 +2,7 @@
 @title PUT categories/order
 @author Moltin Ltd
 @description Orders and sets the parents of a set of given cateories
+@order 2.6
 
 @sidebar 1
 @family Category

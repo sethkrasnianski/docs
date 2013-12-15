@@ -2,6 +2,7 @@
 @title GET categories
 @author Moltin Ltd
 @description Gets an array of categories
+@order 2.5
 
 @sidebar 1
 @family Category

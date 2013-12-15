@@ -2,6 +2,7 @@
 @title GET product/:id
 @author Moltin Ltd
 @description Returns a product of the given ID
+@order 3.3
 
 @sidebar 1
 @family Product

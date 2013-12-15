@@ -2,6 +2,7 @@
 @title GET category/:id
 @author Moltin Ltd
 @description Returns a category of the given ID
+@order 2.3
 
 @sidebar 1
 @family Category

@@ -2,6 +2,7 @@
 @title DELETE category/:id
 @author Moltin Ltd
 @description Deletes a category with a given ID or in a comma-seperated list of IDs
+@order 2.7
 
 @sidebar 1
 @family Category

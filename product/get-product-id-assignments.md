@@ -2,6 +2,7 @@
 @title GET product/:id/assignments
 @author Moltin Ltd
 @description Gets the given products flow data and field assignments
+@order 3.8
 
 @sidebar 1
 @family Product

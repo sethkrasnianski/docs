@@ -2,6 +2,7 @@
 @title GET cart/:identifier/has/:id
 @author Moltin Ltd
 @description Checks if the cart contains an item of a given identifier
+@order 4.5
 
 @sidebar 1
 @family Cart

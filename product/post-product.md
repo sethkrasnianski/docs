@@ -2,6 +2,7 @@
 @title POST product
 @author Moltin Ltd
 @description Creates a new product
+@order 3.1
 
 @sidebar 1
 @family Product
