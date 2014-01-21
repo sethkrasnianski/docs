@@ -122,26 +122,29 @@ TBA
 #### Get by ID
 ``` php
 try {
-    $product = $moltin->getProduct(array('id' => 15));
+    $product = $moltin->getProduct(['id' => 15]);
 } catch(\Exception $e) {
     exit($e->getMessage());
 }
+```
 
 
 #### Get by Slug
 ``` php
 try {
-    $product = $moltin->getProduct(array('slug' => 'test-product-1'));
+    $product = $moltin->getProduct(['slug' => 'test-product-1']);
 } catch(\Exception $e) {
     exit($e->getMessage());
 }
+```
 
 
 #### Get by SKU
 ``` php
 try {
-    $product = $moltin->getProduct(array('sku' => 'TEST01'));
+    $product = $moltin->getProduct(['sku' => 'TEST01']);
 } catch(\Exception $e) {
     exit($e->getMessage());
 }
+```
 <!--/code-->
