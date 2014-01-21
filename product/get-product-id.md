@@ -96,6 +96,7 @@ None required
 }
 ```
 
+
 #### Usage Example
 ``` php
 try {
