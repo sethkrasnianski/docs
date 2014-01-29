@@ -77,6 +77,25 @@ depth*optional* | Float | The Depth of the product, used in shipping calculation
         "width": "10.00",
         "height": "10.00",
         "depth": "10.00",
+        "tax_band": null,
+        "pricing":
+        {
+           "formatted":
+           {
+               "with_tax": "£35.00",
+               "without_tax": "£35.00"
+           },
+           "rounded":
+           {
+               "with_tax": 35,
+               "without_tax": 35
+           },
+           "raw":
+           {
+               "with_tax": 35,
+               "without_tax": 35
+           }
+        },
         "images": [
 
         ]

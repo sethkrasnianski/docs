@@ -55,6 +55,25 @@ offset*optional* | Integer | The first product to be shown, used for pagination
             "width": "100.00",
             "height": "100.00",
             "depth": "100.00",
+            "tax_band": null,
+            "pricing":
+            {
+               "formatted":
+               {
+                   "with_tax": "£35.00",
+                   "without_tax": "£35.00"
+               },
+               "rounded":
+               {
+                   "with_tax": 35,
+                   "without_tax": 35
+               },
+               "raw":
+               {
+                   "with_tax": 35,
+                   "without_tax": 35
+               }
+            },
             "images": [
 
             ]
@@ -105,6 +124,25 @@ offset*optional* | Integer | The first product to be shown, used for pagination
             "width": "100.00",
             "height": "100.00",
             "depth": "100.00",
+            "tax_band": null,
+            "pricing":
+            {
+               "formatted":
+               {
+                   "with_tax": "£35.00",
+                   "without_tax": "£35.00"
+               },
+               "rounded":
+               {
+                   "with_tax": 35,
+                   "without_tax": 35
+               },
+               "raw":
+               {
+                   "with_tax": 35,
+                   "without_tax": 35
+               }
+            },
             "images": {
                 "26": {
                     "id": 26,
@@ -142,6 +180,25 @@ offset*optional* | Integer | The first product to be shown, used for pagination
             "width": "3.00",
             "height": "4.00",
             "depth": "2.00",
+            "tax_band": null,
+            "pricing":
+            {
+               "formatted":
+               {
+                   "with_tax": "£35.00",
+                   "without_tax": "£35.00"
+               },
+               "rounded":
+               {
+                   "with_tax": 35,
+                   "without_tax": 35
+               },
+               "raw":
+               {
+                   "with_tax": 35,
+                   "without_tax": 35
+               }
+            },
             "images": [
 
             ]

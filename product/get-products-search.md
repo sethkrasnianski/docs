@@ -85,6 +85,25 @@ stock_status*optional* | Choice (0 to 6) | Select by Stock Status
         "width": "200.00",
         "height": "200.00",
         "depth": "200.00",
+        "tax_band": null,
+        "pricing":
+        {
+           "formatted":
+           {
+               "with_tax": "£35.00",
+               "without_tax": "£35.00"
+           },
+           "rounded":
+           {
+               "with_tax": 35,
+               "without_tax": 35
+           },
+           "raw":
+           {
+               "with_tax": 35,
+               "without_tax": 35
+           }
+        },
         "images": {
             "26": {
                 "id": 26,
