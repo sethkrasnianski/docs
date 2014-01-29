@@ -78,18 +78,18 @@ None required
         {
            "formatted":
            {
-               "with_tax": "£35.00",
-               "without_tax": "£35.00"
+               "with_tax": "£235.00",
+               "without_tax": "£235.00"
            },
            "rounded":
            {
-               "with_tax": 35,
-               "without_tax": 35
+               "with_tax": 235,
+               "without_tax": 235
            },
            "raw":
            {
-               "with_tax": 35,
-               "without_tax": 35
+               "with_tax": 235,
+               "without_tax": 235
            }
         },
         "images": {

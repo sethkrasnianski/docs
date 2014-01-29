@@ -61,18 +61,18 @@ offset*optional* | Integer | The first product to be shown, used for pagination
             {
                "formatted":
                {
-                   "with_tax": "£35.00",
-                   "without_tax": "£35.00"
+                   "with_tax": "£250.00",
+                   "without_tax": "£250.00"
                },
                "rounded":
                {
-                   "with_tax": 35,
-                   "without_tax": 35
+                   "with_tax": 250,
+                   "without_tax": 250
                },
                "raw":
                {
-                   "with_tax": 35,
-                   "without_tax": 35
+                   "with_tax": 250,
+                   "without_tax": 250
                }
             },
             "images": [
