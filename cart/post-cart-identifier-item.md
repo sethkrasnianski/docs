@@ -2,6 +2,7 @@
 @title POST cart/:identifier
 @author Moltin Ltd
 @description Insert an item into the cart
+@order 4.1
 
 @sidebar 1
 @family Cart
@@ -16,7 +17,7 @@ You can insert an item into the cart by POSTing to the cart endpoint with a list
 
 
 #### Resource URL
-POST [{{ url }}cart/:identifier]({{ url }}cart/:identifier])
+POST [{{ url }}cart/[:identifier]]({{ url }}cart/[:identifier])
 
 
 #### Paramaters

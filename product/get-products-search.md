@@ -2,6 +2,7 @@
 @title GET products/search
 @author Moltin Ltd
 @description Searches for a set of products based on the given criteria
+@order 3.6
 
 @sidebar 1
 @family Product

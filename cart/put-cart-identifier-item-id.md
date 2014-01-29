@@ -2,6 +2,7 @@
 @title GET cart/:identifier/item/:id
 @author Moltin Ltd
 @description Updates a cart item by identifier
+@order 4.2
 
 @sidebar 1
 @family Cart

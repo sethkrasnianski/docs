@@ -2,6 +2,7 @@
 @title PUT product/:id
 @author Moltin Ltd
 @description Updates a product with the given ID
+@order 3.2
 
 @sidebar 1
 @family Product

@@ -2,6 +2,7 @@
 @title GET product/:id
 @author Moltin Ltd
 @description Returns a product of the given ID
+@order 3.3
 
 @sidebar 1
 @family Product
@@ -14,15 +15,15 @@
 This call simply returns a product based on a given ID. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 
-#### Resource URL   {#resource}
+#### Resource URL
 GET [{{ url }}product/:id]({{ url }}product/:id)
 
 
-#### Paramaters {#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response    {#success}
+#### Example Successful Response
 ``` json
 {
     "status": true,
@@ -106,11 +107,21 @@ None required
 ```
 
 
-#### Example Invalid ID Response    {#error}
+#### Example Invalid ID Response
 ``` json
 {
     "status": false,
     "error": "No product found"
+}
+```
+
+
+#### Usage Example
+``` php
+try {
+    $product = $moltin->getProductById(15);
+} catch(\Exception $e) {
+    exit($e->getMessage());
 }
 ```
 <!--/code-->

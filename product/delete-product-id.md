@@ -2,6 +2,7 @@
 @title DELETE product/:id
 @author Moltin Ltd
 @description Deletes a product with a given ID or in a comma-seperated list of IDs
+@order 3.9
 
 @sidebar 1
 @family Product

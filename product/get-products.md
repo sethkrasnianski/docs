@@ -2,6 +2,7 @@
 @title GET products
 @author Moltin Ltd
 @description Gets a list product based on the given criteria
+@order 3.5
 
 @sidebar 1
 @family Product

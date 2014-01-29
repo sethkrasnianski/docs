@@ -2,6 +2,7 @@
 @title GET category
 @author Moltin Ltd
 @description Gets a category based on the given criteria
+@order 2.4
 
 @sidebar 1
 @family Category

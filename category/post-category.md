@@ -2,6 +2,7 @@
 @title POST category
 @author Moltin Ltd
 @description Creates a new category
+@order 2.1
 
 @sidebar 1
 @family Category

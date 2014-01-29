@@ -2,6 +2,7 @@
 @title DELETE cart/:identifier/item/:id
 @author Moltin Ltd
 @description Removes an item from the cart
+@order 4.6
 
 @sidebar 1
 @family Cart

@@ -2,6 +2,7 @@
 @title GET product
 @author Moltin Ltd
 @description Gets a product based on the given criteria
+@order 3.4
 
 @sidebar 1
 @family Product 
@@ -134,5 +135,35 @@ stock_status*optional* | Choice (0 to 6) | Select by Stock Status
 #### Example Invalid Response
 ``` json
 TBA
+```
+
+
+#### Get by ID
+``` php
+try {
+    $product = $moltin->getProduct(['id' => 15]);
+} catch(\Exception $e) {
+    exit($e->getMessage());
+}
+```
+
+
+#### Get by Slug
+``` php
+try {
+    $product = $moltin->getProduct(['slug' => 'test-product-1']);
+} catch(\Exception $e) {
+    exit($e->getMessage());
+}
+```
+
+
+#### Get by SKU
+``` php
+try {
+    $product = $moltin->getProduct(['sku' => 'TEST01']);
+} catch(\Exception $e) {
+    exit($e->getMessage());
+}
 ```
 <!--/code-->

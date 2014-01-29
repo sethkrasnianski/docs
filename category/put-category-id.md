@@ -2,6 +2,7 @@
 @title PUT category/:id
 @author Moltin Ltd
 @description Updates a category with the given ID
+@order 2.2
 
 @sidebar 1
 @family Category

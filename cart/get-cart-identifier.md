@@ -2,6 +2,7 @@
 @title GET cart/:identifier
 @author Moltin Ltd
 @description Retrieve the cart contents
+@order 4.3
 
 @sidebar 1
 @family Cart
