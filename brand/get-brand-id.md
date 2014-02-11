@@ -1,7 +1,7 @@
 <!--
-@title GET brand
+@title GET brand/:id
 @author Moltin Ltd
-@description Gets a brand based on the given criteria
+@description Returns a brand of the given ID
 
 @sidebar 1
 @family Brand
@@ -12,20 +12,15 @@
 @version beta
 -->
 
-Returns a brand based on a given set of key-value properties. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
+Returns a brand based on a given ID. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 
 #### Resource URL
-[{{ url }}brand]({{ url }}brand)
+[{{ url }}brand/:id]({{ url }}brand/:id)
 
 
 #### Paramaters
-Key | Type | Description
---- | ---- | -----------
-id*optional* | Integer | Select by ID
-title*optional* | String | Select by Title
-slug*optional* | String | Select by Slug
-status*optional* | Choice (1 or 0) | Select by Status
+None required
 
 <!--code-->
 #### Example Successful Response
