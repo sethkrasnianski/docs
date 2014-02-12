@@ -15,15 +15,15 @@
 Returns a list of brands based on the given criteria. All choices and relaionships will be converted to their appropriate data values to reduce the number of extra calls required.
 
 
-#### Resource URL   {#resource}
+#### Resource URL
 GET [{{ url }}brands]({{ url }}brands)
 
 
-#### Paramaters {#paramaters}
+#### Paramaters
 None required
 
 <!--code-->
-#### Example Successful Response    {#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -64,7 +64,7 @@ None required
 ```
 
 
-### Example Empty Response  {#error}
+### Example Empty Response
 ``` json
 {
   "status": true,

@@ -35,7 +35,7 @@ postcode*optional* | String | Address postcode
 country*optional* | Enumeration (ISO 3166-1-alpha-2) | Address country
 
 <!--code-->
-#### Example Successful Response  {#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -67,7 +67,7 @@ country*optional* | Enumeration (ISO 3166-1-alpha-2) | Address country
 ```
 
 
-### Example Failed Response {#error}
+### Example Failed Response
 ``` json
 {
   "status": false,

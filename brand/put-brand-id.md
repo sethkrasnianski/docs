@@ -27,7 +27,7 @@ status*optional* | Choice (1 or 0) | Is the brand Live or a Draft
 description*optional* | String | The Description of the brand
 
 <!--code-->
-#### Example Successful Response  {#success}
+#### Example Successful Response
 ``` json
 {
   "status": true,
@@ -46,7 +46,7 @@ description*optional* | String | The Description of the brand
 ```
 
 
-### Example Failed Response {#error}
+### Example Failed Response
 ``` json
 {
   "status": false,

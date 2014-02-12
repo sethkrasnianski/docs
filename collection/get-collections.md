@@ -1,10 +1,10 @@
 <!--
-@title GET customer/:id/addresses
+@title GET collections
 @author Moltin Ltd
-@description Gets an array of addresses for a specified customer
+@description Gets an array of collections based on the given criteria
 
 @sidebar 1
-@family Address
+@family Collection
 @rate No
 @auth Yes
 @format JSON
@@ -12,11 +12,11 @@
 @version beta
 -->
 
-Returns a list of addresses for a particular customer. All choices and relaionships will be converted to their appropriate data values to reduce the number of extra calls required.
+Returns a list of collections based on the given criteria. All choices and relaionships will be converted to their appropriate data values to reduce the number of extra calls required.
 
 
 #### Resource URL
-GET [{{ url }}customer/:id/addresses]({{ url }}customer/:id/addresses)
+GET [{{ url }}collections]({{ url }}collections)
 
 
 #### Paramaters
@@ -29,28 +29,15 @@ None required
   "status": true,
   "result": [
     {
-      "id": "54",
-      "save_as": "Home",
-      "company": "",
-      "first_name": "Cameron",
-      "last_name": "Diaz",
-      "email": "cameron.diaz@hotmail.com",
-      "phone": "22637663429",
-      "address_1": "23 Moltin Road",
-      "address_2": "",
-      "city": "Moltinland",
-      "county": "Moltin ",
-      "postcode": "M01T 1N",
-      "country": {
-        "code": "GB",
-        "name": "United Kingdom"
+      "id": "100",
+      "title": "Example Collection",
+      "slug": "example-collection",
+      "status":
+      {
+        "key": "1",
+        "value": "Live"
       },
-      "customer": {
-        "id": "53",
-        "first_name": "Chris",
-        "last_name": "Harvey",
-        "email": "chris@molt.in"
-      }
+      "description": "Example collection description"
     }
   ],
   "pagination": {
