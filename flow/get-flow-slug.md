@@ -35,7 +35,7 @@ None required
 }
 ```
 
-#### Example Invalid ID Response
+#### Example Invalid Slug Response
 ``` json
 {
     "status": false,
