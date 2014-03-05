@@ -41,7 +41,7 @@ info*optional* | String | A short description about the flow
 ```
 
 
-### Example Empty Response
+### Example Failed Response
 ``` json
 {
     "status": false,
