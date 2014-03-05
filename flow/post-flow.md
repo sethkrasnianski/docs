@@ -2,6 +2,7 @@
 @title POST flow
 @author Moltin Ltd
 @description Creates a new flow
+@order 15.4
 
 @sidebar 1
 @family Flow

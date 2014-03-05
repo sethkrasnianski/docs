@@ -2,6 +2,7 @@
 @title GET flows
 @author Moltin Ltd
 @description Gets a list of flows
+@order 15.1
 
 @sidebar 1
 @family Flow

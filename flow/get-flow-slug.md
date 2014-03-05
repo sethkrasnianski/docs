@@ -1,7 +1,8 @@
 <!--
 @title GET flow/:slug
 @author Moltin Ltd
-@description Get a single flow based on the specified slug 
+@description Get a single flow based on the specified slug
+@order 15.2
 
 @sidebar 1
 @family Flow

@@ -2,6 +2,7 @@
 @title DELETE flow/:slug
 @author Moltin Ltd
 @description Deletes a flow with a given slug
+@order 15.5
 
 @sidebar 1
 @family Flow

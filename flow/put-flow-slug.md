@@ -2,6 +2,7 @@
 @title PUT flow/:slug
 @author Moltin Ltd
 @description Creates a new flow
+@order 15.3
 
 @sidebar 1
 @family Flow
