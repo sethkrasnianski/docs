@@ -14,7 +14,7 @@
 This call deletes an order with a given ID.
 
 #### Resource URL
-DELETE [{{ url }}order/:id({{ url }}order/:id)
+DELETE [{{ url }}order/:id]({{ url }}order/:id)
 
 
 #### Paramaters
