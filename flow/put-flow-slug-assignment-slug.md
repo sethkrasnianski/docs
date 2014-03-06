@@ -1,7 +1,7 @@
 <!--
 @title PUT flow/:slug/assignment/:assignmentSlug
 @author Moltin Ltd
-@description Get a single assignment from a flow
+@description Update an assignment that already exists
 @order 15.8
 
 @sidebar 1
