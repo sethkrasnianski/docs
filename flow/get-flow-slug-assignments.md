@@ -1,7 +1,7 @@
 <!--
 @title GET flow/:slug/assignments
 @author Moltin Ltd
-@description Deletes a flow with a given slug
+@description Returns all the assignments for a given flow
 @order 15.6
 
 @sidebar 1
