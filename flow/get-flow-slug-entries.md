@@ -35,12 +35,12 @@ offset*optional* | Integer | The first flow to be shown, used for pagination
        [
            {
                "id": "100",
-               "title": "Hello world"
+               "title": "Hello world",
                "description": ""
            },
            {
                "id": "101",
-               "title": "Hello universe"
+               "title": "Hello universe",
                "description": "Hello universe, how are you today?"
            }
        ],
