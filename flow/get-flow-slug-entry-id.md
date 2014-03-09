@@ -29,7 +29,8 @@ None required
     "result":
     {
         "id": "102",
-        "description": "Hello universe"
+        "title": "Hello universe",
+        "description": "Hello universe, how are you today?"
     }
 }
 
