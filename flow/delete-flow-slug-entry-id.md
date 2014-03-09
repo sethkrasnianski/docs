@@ -2,7 +2,7 @@
 @title DELETE flow/:slug/entry/:id
 @author Moltin Ltd
 @description Deletes the specified entry from the flow
-@order 15.14
+@order 15.15
 
 @sidebar 1
 @family Flow
