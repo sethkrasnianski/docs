@@ -1,7 +1,7 @@
 <!--
-@title GET flow/:slug/assignments
+@title GET flow/:slug/fields
 @author Moltin Ltd
-@description Returns all the assignments for a given flow
+@description Returns all the fields for a given flow
 @order 15.6
 
 @sidebar 1
@@ -12,10 +12,10 @@
 @http GET
 @version beta
 -->
-This endpoint displays all the assignments for a specified slug.
+This endpoint displays all the fields for a specified slug.
 
 #### Resource URL
-GET [{{ url }}flow/:slug/assignments]({{ url }}flow/:slug/assignments)
+GET [{{ url }}flow/:slug/fields]({{ url }}flow/:slug/fields)
 
 
 #### Paramaters

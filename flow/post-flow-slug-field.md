@@ -1,28 +1,28 @@
 <!--
-@title PUT flow/:slug/assignment/:assignmentSlug
+@title POST flow/:slug/field
 @author Moltin Ltd
-@description Update an assignment that already exists
-@order 15.8
+@description Assign a new field to a flow
+@order 15.9
 
 @sidebar 1
 @family Flow
 @rate No
 @auth Yes
 @format JSON
-@http PUT
+@http POST
 @version beta
 -->
-You can update assignments for any field, including the default Moltin assignments. However, you are restricted to updating only the assignment title on the default assignments.
+You can add new fields to any flow, including the default Moltin flows.
 
 #### Resource URL
-PUT [{{ url }}flow/:slug/assignment/:assignmentSlug]({{ url }}flow/:slug/assignment/:assignmentSlug)
+POST [{{ url }}flow/:slug/field]({{ url }}flow/:slug/field)
 
 #### Paramaters
 Key | Type | Description
 --- | ---- | -----------
-name*optional* | String | The name of the field
-slug*optional* | String | The field slug
-type*optional* | String | The type of field
+name | String | The name of the field
+slug | String | The field slug
+type | String | The type of field
 options*optional* | Array | The options for this field type
 required*optional* | Choice (1 or 0) | Is this field required?
 unique*optional* | Choice (1 or 0) | Should this field be unique?
@@ -33,9 +33,9 @@ unique*optional* | Choice (1 or 0) | Should this field be unique?
 {
     "status": true,
     "result": {
-        "slug": "title",
-        "name": "My updated title",
-        "type": "string",
+        "slug": "description",
+        "name": "Description",
+        "type": "text",
         "options": [],
         "required": false,
         "unique": false,

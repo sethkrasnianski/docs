@@ -1,7 +1,7 @@
 <!--
-@title GET flow/:slug/assignment/:assignmentSlug
+@title GET flow/:slug/field/:fieldSlug
 @author Moltin Ltd
-@description Get a single assignment from a flow
+@description Get a single field from a flow
 @order 15.7
 
 @sidebar 1
@@ -12,10 +12,10 @@
 @http GET
 @version beta
 -->
-Returns a single assignment from the specified flow and with the specified assignment slug.
+Returns a single field from the specified flow and with the specified field slug.
 
 #### Resource URL
-GET [{{ url }}flow/:slug/assignment/:assignmentSlug]({{ url }}flow/:slug/assignment/:assignmentSlug)
+GET [{{ url }}flow/:slug/field/:fieldSlug]({{ url }}flow/:slug/field/:fieldSlug)
 
 
 #### Paramaters

@@ -1,7 +1,7 @@
 <!--
-@title GET product/:id/assignments
+@title GET product/:id/fields
 @author Moltin Ltd
-@description Gets the given products flow data and field assignments
+@description Gets the given products flow data and field fields
 @order 3.8
 
 @sidebar 1
@@ -14,10 +14,10 @@
 -->
 This call returns the data required to build a dynamic flows form based on the product edit requirements. It provides all options available for the choice fields as well as those featured in relationships (eg, Categories). It also provides information of field requirements, default values, etc.
 
-Unlike /products/assignments this adds the current products data to the array to allow for prepopulation of fields.
+Unlike /products/fields this adds the current products data to the array to allow for prepopulation of fields.
 
 #### Resource URL
-[{{ url }}product/:id/assignments]({{ url }}product/:id/assignments)
+[{{ url }}product/:id/fields]({{ url }}product/:id/fields)
 
 
 #### Paramaters
