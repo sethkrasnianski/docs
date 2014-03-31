@@ -1,5 +1,5 @@
 <!--
-@title Update category order & set parents
+@title Update category order & parents
 @author Moltin Ltd
 @description Orders and sets the parents of a set of given cateories
 @order 2.6
