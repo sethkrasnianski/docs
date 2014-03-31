@@ -1,5 +1,5 @@
 <!--
-@title GET product/:id/fields
+@title Get a specific products fields
 @author Moltin Ltd
 @description Gets the given products flow data and field fields
 @order 3.8

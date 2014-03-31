@@ -1,5 +1,5 @@
 <!--
-@title DELETE customer/:id
+@title Delte customer by ID
 @author Moltin Ltd
 @description Deletes a customer with a given ID
 

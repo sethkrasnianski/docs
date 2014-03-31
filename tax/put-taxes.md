@@ -1,5 +1,5 @@
 <!--
-@title PUT taxes
+@title Update multiple tax bands
 @author Moltin Ltd
 @description Mass updates currency tax rates
 @order 11.2

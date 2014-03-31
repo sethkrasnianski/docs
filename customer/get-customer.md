@@ -1,5 +1,5 @@
 <!--
-@title GET customer
+@title Get single customer by criteria
 @author Moltin Ltd
 @description Gets a customer based on the given criteria
 

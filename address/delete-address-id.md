@@ -1,5 +1,5 @@
 <!--
-@title DELETE customer/:id/address/:id
+@title Delete address by ID
 @author Moltin Ltd
 @description Deletes an address with the specified ID
 

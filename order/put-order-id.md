@@ -1,5 +1,5 @@
 <!--
-@title PUT order/:id
+@title Update an order
 @author Moltin Ltd
 @description Updates an order with the given ID
 

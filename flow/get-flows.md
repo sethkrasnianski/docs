@@ -1,5 +1,5 @@
 <!--
-@title GET flows
+@title Get all flows
 @author Moltin Ltd
 @description Gets a list of flows
 @order 15.1

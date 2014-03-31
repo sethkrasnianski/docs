@@ -1,5 +1,5 @@
 <!--
-@title DELETE tax/:id
+@title Delete tax band by ID
 @author Moltin Ltd
 @description Deletes a tax band with a given ID
 @order 11.5

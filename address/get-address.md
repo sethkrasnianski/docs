@@ -1,5 +1,5 @@
 <!--
-@title GET customer/:id/address
+@title Get address by criteria
 @author Moltin Ltd
 @description Gets an address based on the given criteria
 

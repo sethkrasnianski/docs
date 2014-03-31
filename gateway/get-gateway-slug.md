@@ -1,5 +1,5 @@
 <!--
-@title GET gateway/:slug
+@title Get gateway by slug
 @author Moltin Ltd
 @description Returns a gateway of the given slug
 

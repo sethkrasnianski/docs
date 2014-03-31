@@ -1,8 +1,8 @@
 <!--
-@title POST flow
+@title Create new flow
 @author Moltin Ltd
 @description Creates a new flow
-@order 15.4
+@order 15.3
 
 @sidebar 1
 @family Flow

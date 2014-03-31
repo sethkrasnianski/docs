@@ -1,5 +1,5 @@
 <!--
-@title POST order
+@title Create new order
 @author Moltin Ltd
 @description Creates a new order
 

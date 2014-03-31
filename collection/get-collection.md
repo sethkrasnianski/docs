@@ -1,5 +1,5 @@
 <!--
-@title GET collection
+@title Get single collection by criteria
 @author Moltin Ltd
 @description Gets a collection based on the given criteria
 

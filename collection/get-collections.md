@@ -1,5 +1,5 @@
 <!--
-@title GET collections
+@title Get multiple collections by criteria
 @author Moltin Ltd
 @description Gets an array of collections based on the given criteria
 

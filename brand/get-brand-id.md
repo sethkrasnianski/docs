@@ -1,5 +1,5 @@
 <!--
-@title GET brand/:id
+@title Get brand by ID
 @author Moltin Ltd
 @description Returns a brand of the given ID
 

@@ -1,5 +1,5 @@
 <!--
-@title GET order
+@title Get single order by criteria
 @author Moltin Ltd
 @description Gets an order based on the given criteria
 

@@ -1,5 +1,5 @@
 <!--
-@title PUT shipping/:id
+@title Update a shipping method
 @author Moltin Ltd
 @description Updates a shipping method with the given ID
 

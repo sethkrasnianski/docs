@@ -1,5 +1,5 @@
 <!--
-@title GET gateways
+@title Get all gateways
 @author Moltin Ltd
 @description Gets an array of gateways
 

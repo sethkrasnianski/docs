@@ -1,5 +1,5 @@
 <!--
-@title POST category
+@title Create new category
 @author Moltin Ltd
 @description Creates a new category
 @order 2.1

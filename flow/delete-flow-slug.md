@@ -1,5 +1,5 @@
 <!--
-@title DELETE flow/:slug
+@title Delete flow by slug
 @author Moltin Ltd
 @description Deletes a flow with a given slug
 @order 15.5

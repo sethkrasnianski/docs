@@ -1,5 +1,5 @@
 <!--
-@title GET currencies
+@title Get multiple currencies by criteria
 @author Moltin Ltd
 @description Gets an array of currencies
 

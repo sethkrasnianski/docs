@@ -1,5 +1,5 @@
 <!--
-@title GET cart/:identifier/item/:id
+@title Get item from cart by identifier
 @author Moltin Ltd
 @description Gets an item from the cart with a given identifier
 @order 4.4

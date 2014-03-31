@@ -1,5 +1,5 @@
 <!--
-@title GET brands
+@title Get multiple brands by criteria
 @author Moltin Ltd
 @description Gets an array of brands based on the given criteria
 

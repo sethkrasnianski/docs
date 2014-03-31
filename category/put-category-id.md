@@ -1,5 +1,5 @@
 <!--
-@title PUT category/:id
+@title Update a category
 @author Moltin Ltd
 @description Updates a category with the given ID
 @order 2.2

@@ -1,5 +1,5 @@
 <!--
-@title GET currency
+@title Get single currency by criteria
 @author Moltin Ltd
 @description Gets a currency based on the given criteria
 

@@ -1,5 +1,5 @@
 <!--
-@title GET taxes
+@title get multiple tax bands by criteria
 @author Moltin Ltd
 @description Gets an array of tax bands
 @order 11.6

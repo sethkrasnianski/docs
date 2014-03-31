@@ -1,5 +1,5 @@
 <!--
-@title GET currency/:id
+@title Get currency by ID
 @author Moltin Ltd
 @description Returns a currency of the given ID
 

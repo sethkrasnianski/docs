@@ -1,5 +1,5 @@
 <!--
-@title POST cart/:identifier
+@title Add item to cart
 @author Moltin Ltd
 @description Insert an item into the cart
 @order 4.1

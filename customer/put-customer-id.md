@@ -1,5 +1,5 @@
 <!--
-@title PUT customer/:id
+@title Update a customer
 @author Moltin Ltd
 @description Updates a customer with the given ID
 

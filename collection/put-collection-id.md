@@ -1,5 +1,5 @@
 <!--
-@title PUT collection/:id
+@title Update existing collection
 @author Moltin Ltd
 @description Updates a collection with the given ID
 

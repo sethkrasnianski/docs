@@ -1,5 +1,5 @@
 <!--
-@title POST customer/:id/address
+@title Create new customer address
 @author Moltin Ltd
 @description Creates a new address for a specified customer
 
