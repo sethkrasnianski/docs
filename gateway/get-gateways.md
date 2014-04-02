@@ -69,8 +69,8 @@ None required
       "description": null,
       "enabled": false,
       "settings": {
-        "merchantId": "",
-        "secret": "",
+        "websiteKey": "",
+        "secretKey": "",
         "testMode": false
       }
     },
@@ -179,8 +179,7 @@ None required
       "description": null,
       "enabled": false,
       "settings": {
-        "partnerId": "",
-        "testMode": ""
+        "apiKey": ""
       }
     },
     {
@@ -216,7 +215,7 @@ None required
       }
     },
     {
-      "name": "NetBanx Gateway",
+      "name": "NetBanx",
       "slug": "netbanx",
       "description": null,
       "enabled": false,
