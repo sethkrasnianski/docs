@@ -1,5 +1,5 @@
 <!--
-@title GET customer/:id/address/:id
+@title Get address by ID
 @author Moltin Ltd
 @description Returns a customers address of the given ID
 

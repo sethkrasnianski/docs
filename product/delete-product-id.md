@@ -1,7 +1,7 @@
 <!--
-@title DELETE product/:id
+@title Delete product by ID
 @author Moltin Ltd
-@description Deletes a product with a given ID or in a comma-seperated list of IDs
+@description Deletes a product with a given ID
 @order 3.9
 
 @sidebar 1

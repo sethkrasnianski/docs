@@ -1,5 +1,5 @@
 <!--
-@title DELETE collection/:id
+@title Delete collection by ID
 @author Moltin Ltd
 @description Deletes a collection with the specified ID
 

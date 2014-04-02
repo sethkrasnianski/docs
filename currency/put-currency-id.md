@@ -1,5 +1,5 @@
 <!--
-@title PUT currency/:id
+@title Update a currency
 @author Moltin Ltd
 @description Updates a currency with the given ID
 

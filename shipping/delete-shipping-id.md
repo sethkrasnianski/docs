@@ -1,5 +1,5 @@
 <!--
-@title DELETE shipping/:id
+@title Delete shipping method by ID
 @author Moltin Ltd
 @description Deletes a shipping method with a given ID
 

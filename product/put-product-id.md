@@ -1,5 +1,5 @@
 <!--
-@title PUT product/:id
+@title Update a product
 @author Moltin Ltd
 @description Updates a product with the given ID
 @order 3.2

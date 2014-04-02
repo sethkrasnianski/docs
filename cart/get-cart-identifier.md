@@ -1,5 +1,5 @@
 <!--
-@title GET cart/:identifier
+@title Get cart contents
 @author Moltin Ltd
 @description Retrieve the cart contents
 @order 4.3

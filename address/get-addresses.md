@@ -1,5 +1,5 @@
 <!--
-@title GET customer/:id/addresses
+@title Get addresses by criteria
 @author Moltin Ltd
 @description Gets an array of addresses for a specified customer
 

@@ -1,5 +1,5 @@
 <!--
-@title GET shipping/:id
+@title Get shipping method by ID
 @author Moltin Ltd
 @description Returns a shipping method of the given ID
 

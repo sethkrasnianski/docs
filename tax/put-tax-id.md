@@ -1,5 +1,5 @@
 <!--
-@title PUT tax/:id
+@title Update single tax band
 @author Moltin Ltd
 @description Updates a tax band with the given ID
 @order 11.1

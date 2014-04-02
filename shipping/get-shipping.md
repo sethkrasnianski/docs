@@ -1,5 +1,5 @@
 <!--
-@title GET shipping
+@title Get shipping methods by criteria
 @author Moltin Ltd
 @description Gets a list of shipping methods based on the given criteria
 

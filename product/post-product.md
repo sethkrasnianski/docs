@@ -1,5 +1,5 @@
 <!--
-@title POST product
+@title Create new product
 @author Moltin Ltd
 @description Creates a new product
 @order 3.1

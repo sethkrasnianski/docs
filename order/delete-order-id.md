@@ -1,5 +1,5 @@
 <!--
-@title DELETE order/:id
+@title Delete order by ID
 @author Moltin Ltd
 @description Deletes an order with a given ID
 

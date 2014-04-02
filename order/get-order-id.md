@@ -1,5 +1,5 @@
 <!--
-@title GET order/:id
+@title Get order by ID
 @author Moltin Ltd
 @description Returns an order of the given ID
 

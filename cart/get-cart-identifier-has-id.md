@@ -1,5 +1,5 @@
 <!--
-@title GET cart/:identifier/has/:id
+@title Check if item is in a cart
 @author Moltin Ltd
 @description Checks if the cart contains an item of a given identifier
 @order 4.5

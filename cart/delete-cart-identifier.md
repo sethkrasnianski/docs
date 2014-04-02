@@ -1,5 +1,5 @@
 <!--
-@title DELETE cart/:identifier
+@title Delete cart and contents
 @author Moltin Ltd
 @description Destroys a cart and its' item contents
 @order 4.7

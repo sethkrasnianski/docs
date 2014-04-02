@@ -1,5 +1,5 @@
 <!--
-@title GET collection/:id
+@title Get collection by ID
 @author Moltin Ltd
 @description Returns a collection of the given ID
 

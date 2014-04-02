@@ -1,5 +1,5 @@
 <!--
-@title GET product/:id
+@title Get product by ID
 @author Moltin Ltd
 @description Returns a product of the given ID
 @order 3.3

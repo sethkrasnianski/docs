@@ -1,5 +1,5 @@
 <!--
-@title POST currency
+@title Create new currency
 @author Moltin Ltd
 @description Creates a new currency
 

@@ -1,5 +1,5 @@
 <!--
-@title GET tax/:id
+@title Get tax band by ID
 @author Moltin Ltd
 @description Returns a tax band of the given ID
 @order 11.7

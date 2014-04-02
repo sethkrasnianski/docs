@@ -1,5 +1,5 @@
 <!--
-@title POST collection
+@title Create new collection
 @author Moltin Ltd
 @description Creates a new collection
 

@@ -1,5 +1,5 @@
 <!--
-@title POST customer
+@title Create new customer
 @author Moltin Ltd
 @description Creates a new customer
 

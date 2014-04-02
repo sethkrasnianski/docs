@@ -1,5 +1,5 @@
 <!--
-@title POST tax
+@title Create new tax band
 @author Moltin Ltd
 @description Creates a new tax band
 @order 11.3

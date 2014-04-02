@@ -1,5 +1,5 @@
 <!--
-@title PUT brand/:id
+@title Update a brand
 @author Moltin Ltd
 @description Updates a brand with the given ID
 

@@ -1,5 +1,5 @@
 <!--
-@title GET category
+@title Get single category by criteria
 @author Moltin Ltd
 @description Gets a category based on the given criteria
 @order 2.4
