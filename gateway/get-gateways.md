@@ -39,7 +39,32 @@ None required
       }
     },
     {
-      "name": "Buckaroo",
+      "name": "Authorize.Net AIM",
+      "slug": "authorize-net-aim",
+      "description": null,
+      "enabled": false,
+      "settings": {
+        "apiLoginId": "",
+        "transactionKey": "",
+        "testMode": false,
+        "developerMode": false
+      }
+    },
+    {
+      "name": "Authorize.Net SIM",
+      "slug": "authorize-net-sim",
+      "description": null,
+      "enabled": false,
+      "settings": {
+        "apiLoginId": "",
+        "transactionKey": "",
+        "testMode": false,
+        "developerMode": false,
+        "hashSecret": ""
+      }
+    },
+    {
+      "name": "Buckaroo Credit Card",
       "slug": "buckaroo",
       "description": null,
       "enabled": false,
@@ -83,6 +108,17 @@ None required
       "settings": {
         "apiKey": "",
         "password": "",
+        "testMode": false
+      }
+    },
+    {
+      "name": "First Data Connect",
+      "slug": "firstdata",
+      "description": null,
+      "enabled": false,
+      "settings": {
+        "storeId": "",
+        "sharedSecret": "",
         "testMode": false
       }
     },
