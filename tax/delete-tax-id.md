@@ -15,7 +15,7 @@
 This call deletes a tax band with a given ID.
 
 #### Resource URL
-DELETE [{{ url }}tax/:id({{ url }}tax/:id)
+DELETE [{{ url }}tax/:id]({{ url }}tax/:id)
 
 
 #### Paramaters
