@@ -1,7 +1,7 @@
 <!--
 @title Product Modifiers
 @author Moltin Ltd
-@description Product modifier end-points
+@description Modifiers allow you to create options for products, such as size, colour, etc.
 @order 3.1.0
 -->
 

@@ -5,7 +5,7 @@
 @order 3.1.1.1
 
 @sidebar 1
-@family Product/Modifier
+@family Product/Modifier/Variation
 @rate No
 @auth Yes
 @format JSON
