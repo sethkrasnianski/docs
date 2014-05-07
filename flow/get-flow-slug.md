@@ -2,7 +2,7 @@
 @title Get flow by slug
 @author Moltin Ltd
 @description Get a single flow based on the specified slug
-@order 15.2
+@order 15.6
 
 @sidebar 1
 @family Flow

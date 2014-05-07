@@ -2,10 +2,10 @@
 @title Get multiple entries for a flow
 @author Moltin Ltd
 @description Returns all the entries for a given flow
-@order 16.1
+@order 15.3.2
 
 @sidebar 1
-@family Flow Entry
+@family Flow/Entry
 @rate No
 @auth Yes
 @format JSON

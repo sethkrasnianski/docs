@@ -1,21 +1,21 @@
 <!--
-@title Get all field types
+@title Get single field type by slug
 @author Moltin Ltd
-@description Get a list of the available field types
-@order 18.1
+@description Get a single field type
+@order 15.2.2
 
 @sidebar 1
-@family Flow Field Type
+@family Flow/Field Type
 @rate No
 @auth Yes
 @format JSON
 @http GET
 @version beta
 -->
-Returns a list of the available field types and their options.
+Returns a single field type with its available options.
 
 #### Resource URL
-GET [{{ url }}flows/types]({{ url }}flows/types)
+GET [{{ url }}flows/type/:slug]({{ url }}flows/type/:slug)
 
 
 #### Paramaters

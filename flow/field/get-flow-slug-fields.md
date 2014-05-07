@@ -2,10 +2,10 @@
 @title Get all fields for a flow
 @author Moltin Ltd
 @description Returns all the fields for a given flow
-@order 17.1
+@order 15.2.1
 
 @sidebar 1
-@family Flow Field
+@family Flow/Field
 @rate No
 @auth Yes
 @format JSON

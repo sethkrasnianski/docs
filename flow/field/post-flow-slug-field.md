@@ -2,10 +2,10 @@
 @title Assign new field to a flow
 @author Moltin Ltd
 @description Assign a new field to a flow
-@order 17.3
+@order 15.2.3
 
 @sidebar 1
-@family Flow Field
+@family Flow/Field
 @rate No
 @auth Yes
 @format JSON

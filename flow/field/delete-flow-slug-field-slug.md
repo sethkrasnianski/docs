@@ -2,10 +2,10 @@
 @title Delete flow field by slug
 @author Moltin Ltd
 @description Delete a field from a flow
-@order 17.5
+@order 15.2.5
 
 @sidebar 1
-@family Flow Field
+@family Flow/Field
 @rate No
 @auth Yes
 @format JSON

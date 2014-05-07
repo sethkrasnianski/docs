@@ -2,10 +2,10 @@
 @title Create new entry in a flow
 @author Moltin Ltd
 @description Inserts a new entry into the flow
-@order 16.3
+@order 15.3.3
 
 @sidebar 1
-@family Flow Entry
+@family Flow/Entry
 @rate No
 @auth Yes
 @format JSON

@@ -2,7 +2,7 @@
 @title Update a flow
 @author Moltin Ltd
 @description Updates a flow
-@order 15.4
+@order 15.8
 
 @sidebar 1
 @family Flow

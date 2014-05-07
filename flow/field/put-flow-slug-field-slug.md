@@ -2,10 +2,10 @@
 @title Update a field in a flow by slug
 @author Moltin Ltd
 @description Update a field that already exists
-@order 17.4
+@order 15.2.4
 
 @sidebar 1
-@family Flow Field
+@family Flow/Field
 @rate No
 @auth Yes
 @format JSON

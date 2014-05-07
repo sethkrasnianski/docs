@@ -2,10 +2,10 @@
 @title Delete flow entry by ID
 @author Moltin Ltd
 @description Deletes the specified entry from the flow
-@order 16.5
+@order 15.3.5
 
 @sidebar 1
-@family Flow Entry
+@family Flow/Entry
 @rate No
 @auth Yes
 @format JSON

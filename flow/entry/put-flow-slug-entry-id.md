@@ -2,10 +2,10 @@
 @title Update an entry in a flow
 @author Moltin Ltd
 @description Updates an entry in the specified flow
-@order 16.4
+@order 15.3.4
 
 @sidebar 1
-@family Flow Entry
+@family Flow/Entry
 @rate No
 @auth Yes
 @format JSON

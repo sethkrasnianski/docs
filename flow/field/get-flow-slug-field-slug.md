@@ -2,10 +2,10 @@
 @title Get single field for a flow by slug
 @author Moltin Ltd
 @description Get a single field from a flow
-@order 17.2
+@order 15.2.2
 
 @sidebar 1
-@family Flow Field
+@family Flow/Field
 @rate No
 @auth Yes
 @format JSON

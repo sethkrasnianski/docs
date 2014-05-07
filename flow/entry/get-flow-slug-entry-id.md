@@ -2,10 +2,10 @@
 @title Get single entry for a flow
 @author Moltin Ltd
 @description Returns a single entry based on the specified ID
-@order 16.2
+@order 15.3.1
 
 @sidebar 1
-@family Flow Entry
+@family Flow/Entry
 @rate No
 @auth Yes
 @format JSON

@@ -2,11 +2,11 @@
 @title Flow Entries
 @author Moltin Ltd
 @description Flow Entry endpoints
-@order 16.0
+@order 15.3.0
 -->
 
 Flows entries are records.
 
 Resource | Description
 ---------|------------
-{% Flow Entry %}
+{% Flow/Entry %}
