@@ -1,5 +1,5 @@
 <!--
-@title PUT gateway/:slug
+@title Update a gateway
 @author Moltin Ltd
 @description Updates a gateway with the given slug
 

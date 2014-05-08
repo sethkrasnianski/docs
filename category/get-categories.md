@@ -1,5 +1,5 @@
 <!--
-@title GET categories
+@title Get multiple categories by criteria
 @author Moltin Ltd
 @description Gets an array of categories
 @order 2.5

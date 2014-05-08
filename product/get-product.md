@@ -1,5 +1,5 @@
 <!--
-@title GET product
+@title Get single product by criteria
 @author Moltin Ltd
 @description Gets a product based on the given criteria
 @order 3.4

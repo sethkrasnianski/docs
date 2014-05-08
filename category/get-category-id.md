@@ -1,5 +1,5 @@
 <!--
-@title GET category/:id
+@title Get category by ID
 @author Moltin Ltd
 @description Returns a category of the given ID
 @order 2.3

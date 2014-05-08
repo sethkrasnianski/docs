@@ -1,5 +1,5 @@
 <!--
-@title DELETE cart/:identifier/item/:id
+@title Delete item from cart
 @author Moltin Ltd
 @description Removes an item from the cart
 @order 4.6

@@ -1,5 +1,5 @@
 <!--
-@title POST shipping
+@title Create new shipping method
 @author Moltin Ltd
 @description Creates a new shipping method
 

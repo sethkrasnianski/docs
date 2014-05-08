@@ -1,5 +1,5 @@
 <!--
-@title POST brand
+@title Create new brand
 @author Moltin Ltd
 @description Creates a new brand
 

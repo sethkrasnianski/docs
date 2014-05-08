@@ -1,5 +1,5 @@
 <!--
-@title DELETE brand/:id
+@title Delete brand by ID
 @author Moltin Ltd
 @description Deletes a brand with the specified ID
 

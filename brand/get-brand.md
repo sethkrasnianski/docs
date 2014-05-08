@@ -1,5 +1,5 @@
 <!--
-@title GET brand
+@title Get single brand by criteria
 @author Moltin Ltd
 @description Gets a brand based on the given criteria
 

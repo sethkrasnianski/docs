@@ -1,5 +1,5 @@
 <!--
-@title GET cart/:identifier/item/:id
+@title Update item in a cart
 @author Moltin Ltd
 @description Updates a cart item by identifier
 @order 4.2

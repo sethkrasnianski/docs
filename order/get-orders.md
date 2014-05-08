@@ -1,5 +1,5 @@
 <!--
-@title GET orders
+@title Get multiple orders by criteria
 @author Moltin Ltd
 @description Gets an array of orders
 

@@ -1,5 +1,5 @@
 <!--
-@title DELETE currency/:id
+@title Delete currency by ID
 @author Moltin Ltd
 @description Deletes a currency with a given ID
 

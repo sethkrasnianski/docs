@@ -1,5 +1,5 @@
 <!--
-@title GET products
+@title Get multiple products by criteria
 @author Moltin Ltd
 @description Gets a list of products based on the given criteria
 @order 3.5
@@ -12,7 +12,7 @@
 @http GET
 @version beta
 -->
-Returns a range of products based on a given set of paramaters. All choices and relaionships will be converted to their appropriate data values to reduce the number of extra calls required.
+Returns a range of products based on a given set of paramaters. All choices and relationships will be converted to their appropriate data values to reduce the number of extra calls required.
 
 #### Resource URL
 GET [{{ url }}products]({{ url }}products)

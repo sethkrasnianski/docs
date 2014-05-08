@@ -1,5 +1,5 @@
 <!--
-@title GET products/assignments
+@title Get product fields
 @author Moltin Ltd
 @description Gets the flow field data assigned to products
 @order 3.7
@@ -15,7 +15,7 @@
 This call returns the data required to build a dynamic flows form based on the product creation requirements. It provides all options available for the choice fields as well as those featured in relationships (eg, Categories). It also provides information of field requirements, default values, etc.
 
 #### Resource URL
-[{{ url }}products/assignments]({{ url }}products/assignments)
+[{{ url }}products/fields]({{ url }}products/fields)
 
 
 #### Paramaters
@@ -24,15 +24,15 @@ None required
 
 #### PHP (SDK) Example - Direct  {#php}
 ``` php
-    $result      = $moltin->get('product/assignments');
-    $assignments = $result['result'];
+    $result      = $moltin->get('product/fields');
+    $fields = $result['result'];
 ```
 
 
 #### PHP (SDK) Example - Flows Builder
 Built in to the PHP SDK is a form builder that can automatically generate the HTML form elements for you as well as make the necissary calls.
 ``` php
-    $assignments = $moltin->assignments('product');
+    $fields = $moltin->fields('product');
 ```
 
 <!--code-->

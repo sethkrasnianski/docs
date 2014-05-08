@@ -1,5 +1,5 @@
 <!--
-@title PUT taxes
+@title Update multiple tax bands
 @author Moltin Ltd
 @description Mass updates currency tax rates
 @order 11.2
@@ -23,7 +23,7 @@ PUT [{{ url }}taxes]({{ url }}taxes)
 #### Paramaters
 Key | Type | Description
 --- | ---- | -----------
-assignments[:currencyId][:taxId] | Decimal | The tax rate (percentage) for this tax band in this currency
+fields[:currencyId][:taxId] | Decimal | The tax rate (percentage) for this tax band in this currency
 
 <!--code-->
 #### Example Successful Response

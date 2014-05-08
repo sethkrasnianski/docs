@@ -1,5 +1,5 @@
 <!--
-@title GET tax
+@title Get single tax band by criteria
 @author Moltin Ltd
 @description Gets a tax band based on the given criteria
 @order 11.4

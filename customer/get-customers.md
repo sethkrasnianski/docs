@@ -1,5 +1,5 @@
 <!--
-@title GET customers
+@title Get multiple customers by criteria
 @author Moltin Ltd
 @description Gets an array of customers
 

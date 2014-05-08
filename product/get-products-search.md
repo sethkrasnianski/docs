@@ -1,5 +1,5 @@
 <!--
-@title GET products/search
+@title Search products
 @author Moltin Ltd
 @description Searches for a set of products based on the given criteria
 @order 3.6
