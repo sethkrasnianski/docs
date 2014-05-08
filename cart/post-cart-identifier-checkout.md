@@ -1,5 +1,5 @@
 <!--
-@title POST cart/:identifier/checkout
+@title Pass a cart to checkout
 @author Moltin Ltd
 @description Process the checkout data into an order.
 @order 4.9

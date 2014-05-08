@@ -1,5 +1,5 @@
 <!--
-@title GET cart/:identifier/checkout
+@title Get the available checkout options
 @author Moltin Ltd
 @description Retrieve available checkout options for a cart
 @order 4.8
