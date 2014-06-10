@@ -15,7 +15,7 @@ Disables a gateway based on a given slug.
 
 
 #### Resource URL
-[{{ url }}gateway/:slug/disable]({{ url }}gateway/:slug/disable)
+GET [{{ url }}gateway/:slug/disable]({{ url }}gateway/:slug/disable)
 
 
 #### Paramaters
