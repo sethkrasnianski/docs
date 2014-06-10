@@ -266,4 +266,12 @@ Laser | laser
     }
 }
 ```
+
+### Example Failed Response
+``` json
+{
+   "status": false,
+   "error": "The number parameter is required"
+}
+```
 <!--/code-->
