@@ -1,7 +1,7 @@
 <!--
-@title Get all gateways
+@title Get disabled gateways
 @author Moltin Ltd
-@description Gets an array of gateways
+@description Gets an array of disabled gateways
 
 @sidebar 1
 @family Gateway
@@ -11,11 +11,11 @@
 @http GET
 @version beta
 -->
-Returns all gateways, both enabled and disabled.
+Returns all disabled gateways
 
 
 #### Resource URL
-GET [{{ url }}gateways]({{ url }}gateways)
+GET [{{ url }}gateways/disabled]({{ url }}gateways/disabled)
 
 
 #### Paramaters
@@ -224,15 +224,6 @@ None required
       }
    },
    {
-      "name": "Manual",
-      "slug": "manual",
-      "description": null,
-      "enabled": true,
-      "settings": [
-
-      ]
-   },
-   {
       "name": "MIGS 2-Party",
       "slug": "migs-2party",
       "description": null,
@@ -424,14 +415,6 @@ None required
       }
    },
    {
-      "name": "Stripe",
-      "slug": "stripe",
-      "description": "This is my desc",
-      "enabled": enabled,
-      "settings": {
-         "apiKey": "hello"
-      }
-   },
    {
       "name": "WorldPay",
       "slug": "worldpay",
@@ -446,5 +429,6 @@ None required
    }
   ]
 }
+
 ```
 <!--/code-->
