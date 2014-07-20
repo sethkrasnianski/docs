@@ -23,7 +23,7 @@ POST [{{ url }}cart/:identifier/checkout]({{ url }}cart/:identifier/checkout])
 #### Paramaters
 Key | Type | Description
 --- | ---- | -----------
-customer | Integer or String | The ID or email address of the customer who is checking out
+customer*optional* | Integer or String | The ID or email address of the customer who is checking out
 shipping*optional* | Integer | The ID of the shipping method to use.
 gateway | String | The slug of the payment gateway to use.
 bill_to | Integer, Array or String | The ID of an existing address, or an array of fields to create a new address. You can also set this to "ship_to" to make the billing address the same as the shipping address.
