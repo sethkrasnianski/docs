@@ -134,17 +134,20 @@ quantity | Integer | How many of this product you want to add to the cart
             "formatted":
             {
                 "with_tax": "£8.49",
-                "without_tax": "£8.49"
+                "without_tax": "£8.49",
+                "tax": "£0.00"
             },
             "rounded":
             {
                 "with_tax": 8.49,
-                "without_tax": 8.49
+                "without_tax": 8.49,
+                "tax": 0
             },
             "raw":
             {
                 "with_tax": 8.49,
-                "without_tax": 8.49
+                "without_tax": 8.49,
+                "tax": 0
             }
         },
         "images":
@@ -178,17 +181,20 @@ quantity | Integer | How many of this product you want to add to the cart
             "formatted":
             {
                 "with_tax": "£25.47",
-                "without_tax": "£25.47"
+                "without_tax": "£25.47",
+                "tax": "£0.00"
             },
             "rounded":
             {
                 "with_tax": 25.47,
-                "without_tax": 25.47
+                "without_tax": 25.47,
+                "tax": 0
             },
             "raw":
             {
                 "with_tax": 25.47,
-                "without_tax": 25.47
+                "without_tax": 25.47,
+                "tax": 0
             }
         }
     }

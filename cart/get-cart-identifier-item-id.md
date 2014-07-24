@@ -32,7 +32,6 @@ None required
   "item": {
     "id": "14",
     "quantity": "1",
-    "/beta/cart/123": "",
     "sku": "PRD_H0001",
     "title": "Choc Fondue Pot",
     "slug": "choc-fondue-pot",
@@ -77,14 +76,17 @@ None required
       "formatted": {
         "with_tax": "£22.00",
         "without_tax": "£18.33"
+        "tax": "£3.67"
       },
       "rounded": {
         "with_tax": 22,
         "without_tax": 18.33
+        "tax": 3.67
       },
       "raw": {
         "with_tax": 21.588,
         "without_tax": 17.99
+        "tax": 3.598
       }
     },
     "images": {
@@ -121,14 +123,17 @@ None required
       "formatted": {
         "with_tax": "£22.00",
         "without_tax": "£18.33"
+        "tax": "£3.67"
       },
       "rounded": {
         "with_tax": 22,
         "without_tax": 18.33
+        "tax": 3.67
       },
       "raw": {
         "with_tax": 21.588,
         "without_tax": 17.99
+        "tax": 3.598
       }
     }
   }

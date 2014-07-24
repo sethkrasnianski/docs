@@ -76,15 +76,18 @@ None required
       "pricing": {
         "formatted": {
           "with_tax": "£22.00",
-          "without_tax": "£18.33"
+          "without_tax": "£18.33",
+          "tax": "£3.67"
         },
         "rounded": {
           "with_tax": 22,
-          "without_tax": 18.33
+          "without_tax": 18.33,
+          "tax": 3.67
         },
         "raw": {
           "with_tax": 21.588,
-          "without_tax": 17.99
+          "without_tax": 17.99,
+          "tax": 3.598
         }
       },
       "images": {
@@ -120,15 +123,18 @@ None required
       "totals": {
         "formatted": {
           "with_tax": "£44.00",
-          "without_tax": "£36.66"
+          "without_tax": "£36.66",
+          "tax": "£7.34"
         },
         "rounded": {
           "with_tax": 44,
-          "without_tax": 36.66
+          "without_tax": 36.66,
+          "tax": 7.34
         },
         "raw": {
           "with_tax": 43.176,
-          "without_tax": 35.98
+          "without_tax": 35.98,
+          "tax": 7.196
         }
       }
     }
@@ -141,14 +147,17 @@ None required
     "formatted": {
       "with_tax": "£44.00",
       "without_tax": "£36.66"
+      "tax": "£7.34"
     },
     "rounded": {
       "with_tax": 44,
       "without_tax": 36.66
+      "tax": 7.34
     },
     "raw": {
       "with_tax": 43.176,
       "without_tax": 35.98
+      "tax": 7.196
     }
   },
   "currency": {

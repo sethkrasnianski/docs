@@ -67,14 +67,17 @@ customer*optional* | Integer or String | The ID or email address of the customer
             "formatted": {
               "with_tax": "£35.00",
               "without_tax": "£35.00"
+              "tax": "£0.00"
             },
             "rounded": {
               "with_tax": 35,
-              "without_tax": 35
+              "without_tax": 35,
+              "tax": 0
             },
             "raw": {
               "with_tax": 35,
-              "without_tax": 35
+              "without_tax": 35,
+              "tax": 0
             }
           },
           "images": [],
@@ -84,15 +87,18 @@ customer*optional* | Integer or String | The ID or email address of the customer
           "totals": {
             "formatted": {
               "with_tax": "£35.00",
-              "without_tax": "£35.00"
+              "without_tax": "£35.00",
+              "tax": "£0.00"
             },
             "rounded": {
               "with_tax": 35,
-              "without_tax": 35
+              "without_tax": 35,
+              "tax": 0
             },
             "raw": {
               "with_tax": 35,
-              "without_tax": 35
+              "without_tax": 35,
+              "tax": 0
             }
           }
         }
@@ -100,15 +106,18 @@ customer*optional* | Integer or String | The ID or email address of the customer
       "totals": {
         "formatted": {
           "with_tax": "£35.00",
-          "without_tax": "£35.00"
+          "without_tax": "£35.00",
+          "tax": "£0.00"
         },
         "rounded": {
           "with_tax": 35,
-          "without_tax": 35
+          "without_tax": 35,
+          "tax": 0
         },
         "raw": {
           "with_tax": 35,
-          "without_tax": 35
+          "without_tax": 35,
+          "tax": 0
         }
       }
     },
