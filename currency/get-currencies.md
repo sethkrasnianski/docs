@@ -11,7 +11,7 @@
 @http GET
 @version beta
 -->
-Returns a list of currencies that have been setup. All choices and relaionships will be converted to their appropriate data values to reduce the number of extra calls required.
+Returns a list of currencies that have been setup. All choices and relationships will be converted to their appropriate data values to reduce the number of extra calls required.
 
 
 #### Resource URL

@@ -12,7 +12,7 @@
 @version beta
 -->
 
-Returns a list of collections based on the given criteria. All choices and relaionships will be converted to their appropriate data values to reduce the number of extra calls required.
+Returns a list of collections based on the given criteria. All choices and relationships will be converted to their appropriate data values to reduce the number of extra calls required.
 
 
 #### Resource URL
