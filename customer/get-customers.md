@@ -12,14 +12,14 @@
 @version beta
 -->
 
-Returns a range of customers based on a given set of paramaters. All choices and relaionships will be converted to their appropriate data values to reduce the number of extra calls required.
+Returns a range of customers based on a given set of parameters. All choices and relaionships will be converted to their appropriate data values to reduce the number of extra calls required.
 
 
 #### Resource URL   {#resource}
 GET [{{ url }}customers]({{ url }}customers)
 
 
-#### Paramaters {#paramaters}
+#### parameters {#parameters}
 Key | Type | Description
 --- | ---- | -----------
 limit*optional* | Integer | The number of customers to return, defaults to all

@@ -30,7 +30,7 @@ complete_purchase | Handle return from off-site gateways after purchase
 refund | Refund an already processed transaction
 void | Generally can only be called up to 24 hours after submitting a transaction
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 data | Array | An array of data required by the payment gateway

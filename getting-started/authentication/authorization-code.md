@@ -18,7 +18,7 @@ First you need to redirect to Moltin with some information so your user can logi
 #### URL
 GET [https://auth.molt.in/oauth](https://auth.molt.in/oauth)
 
-#### Paramaters
+#### parameters
 Key | Type | Description | Value
 --- | ---- | ----------- | -----
 client_id | String | Your client id
@@ -34,7 +34,7 @@ After the user has authorized your app, the user will be redirected back to the 
 #### Resource URL
 POST [https://api.molt.in/oauth/access_token](https://api.molt.in/oauth/access_token)
 
-#### Paramaters
+#### parameters
 Key | Type | Description | Value
 --- | ---- | ----------- | -----
 grant_type | String | The grant type to use | authorization_code

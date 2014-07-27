@@ -19,7 +19,7 @@ Returns a category based on a given ID. Any relational objects will also be retu
 [{{ url }}category/:id]({{ url }}category/:id)
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

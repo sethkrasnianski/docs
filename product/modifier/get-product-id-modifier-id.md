@@ -17,7 +17,7 @@ This call simply returns a product modifier based on a given ID. Any relational 
 #### Resource URL
 GET [{{ url }}product/:productId/modifer/:id]({{ url }}product/:productId/modifer/:id)
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

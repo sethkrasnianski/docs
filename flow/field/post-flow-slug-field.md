@@ -17,7 +17,7 @@ You can add new fields to any flow, including the default Moltin flows.
 #### Resource URL
 POST [{{ url }}flow/:slug/field]({{ url }}flow/:slug/field)
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 name | String | The name of the field

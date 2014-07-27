@@ -20,7 +20,7 @@ When you have collected the data required to process the checkout, you can post 
 POST [{{ url }}cart/:identifier/checkout]({{ url }}cart/:identifier/checkout])
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 customer*optional* | Integer or String | The ID or email address of the customer who is checking out

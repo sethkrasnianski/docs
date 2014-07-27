@@ -19,7 +19,7 @@ Returns a list of collections based on the given criteria. All choices and relai
 GET [{{ url }}collections]({{ url }}collections)
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

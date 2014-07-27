@@ -18,7 +18,7 @@ This call deletes a customer's address with a given IDs. Once a customer has bee
 DELETE [{{ url }}customer/:id/address/:id]({{ url }}customer/:id/address/:id)
 
 
-#### Paramaters
+#### parameters
 N/A
 
 <!--code-->

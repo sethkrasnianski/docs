@@ -17,7 +17,7 @@ Returns a range of child-product variations for a product. All choices and relat
 #### Resource URL
 GET [{{ url }}product/:id/variations]({{ url }}product/:id/variations)
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

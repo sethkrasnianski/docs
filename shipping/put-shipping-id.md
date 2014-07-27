@@ -11,14 +11,14 @@
 @http PUT
 @version beta
 -->
-This endpoint edits a shipping method with a given ID. There are no minumum required paramaters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
+This endpoint edits a shipping method with a given ID. There are no minumum required parameters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
 
 #### Resource URL
 PUT [{{ url }}shipping/:id]({{ url }}shipping/:id)
 
 
-#### Paramaters {#paramaters}
+#### parameters {#parameters}
 Key | Type | Description
 --- | ---- | -----------
 title*optional* | String | The shipping method's title

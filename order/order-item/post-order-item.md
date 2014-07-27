@@ -18,7 +18,7 @@ This endpoint allows you to add items to an order.
 POST [{{ url }}order/:id/item]({{ url }}order/:id/item)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 Product*optional* | Integer | Link this item to a product

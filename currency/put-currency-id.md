@@ -11,14 +11,14 @@
 @http PUT
 @version beta
 -->
-This call edits a currency with a given ID. There are no minumum required paramaters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
+This call edits a currency with a given ID. There are no minumum required parameters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
 
 #### Resource URL {#resource}
 PUT [{{ url }}cateogry]({{ url }}cateogry)
 
 
-#### Paramaters {#paramaters}
+#### parameters {#parameters}
 Key | Type | Description
 --- | ---- | -----------
 code*optional* | String | The currency code (i.e. GBP)

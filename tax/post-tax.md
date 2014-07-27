@@ -19,7 +19,7 @@ This call creates a new tax band with the POST data provided. If there are any p
 POST [{{ url }}tax]({{ url }}tax)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 title | String | The title of this tax band

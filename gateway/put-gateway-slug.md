@@ -19,7 +19,7 @@ This method edits a gateway with a given slug.
 PUT [{{ url }}gateway/:slug]({{ url }}gateway/:slug)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 name*optional* | String | The name of the gateway

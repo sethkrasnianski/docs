@@ -17,7 +17,7 @@ With this endpoint you can delete a field from a flow. You can delete any field 
 #### Resource URL
 DELETE [{{ url }}flow/:slug/field/:fieldSlug]({{ url }}flow/:slug/field/:fieldSlug)
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

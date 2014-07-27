@@ -12,14 +12,14 @@
 @http GET
 @version beta
 -->
-Returns a full structured categories based on a given set of paramaters. All choices and relaionships will be converted to their appropriate data values to reduce the number of extra calls required.
+Returns a full structured categories based on a given set of parameters. All choices and relaionships will be converted to their appropriate data values to reduce the number of extra calls required.
 
 
 #### Resource URL
 GET [{{ url }}categories/tree]({{ url }}categories/tree)
 
 
-#### Paramaters
+#### parameters
 N/A
 
 <!--code-->

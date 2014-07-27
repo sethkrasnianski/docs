@@ -18,7 +18,7 @@ This call creates a new order with the POST data provided. If there are any prob
 POST [{{ url }}order]({{ url }}order)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 customer*optional* | Integer | Customer ID

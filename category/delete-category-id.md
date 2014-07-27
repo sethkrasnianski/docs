@@ -18,7 +18,7 @@ This call deletes a category with a given ID or a set of categories in a comma-s
 DELETE [{{ url }}category/:id[,:id]]({{ url }}category/:id[,:id])
 
 
-#### Paramaters
+#### parameters
 N/A
 
 <!--code-->

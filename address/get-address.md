@@ -19,7 +19,7 @@ Returns an address based on a given set of key-value properties. Any relational 
 [{{ url }}customer/:id/address]({{ url }}customer/:id/address)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 save_as*optional* | String | The name the address is saved as

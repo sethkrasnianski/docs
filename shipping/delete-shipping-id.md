@@ -18,7 +18,7 @@ This method deletes a shipping method with a given ID. Once a shipping method ha
 DELETE [{{ url }}shipping/:id]({{ url }}shipping/:id)
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

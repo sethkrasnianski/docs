@@ -18,7 +18,7 @@ This endpoint displays all the fields for a specified slug.
 GET [{{ url }}flow/:slug/fields]({{ url }}flow/:slug/fields)
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

@@ -15,7 +15,7 @@ Authorizing with a refresh token is very similar to using client credentials, ex
 #### Resource URL
 POST [https://api.molt.in/oauth/access_token](https://api.molt.in/oauth/access_token)
 
-#### Paramaters
+#### parameters
 Key | Type | Description | Value
 --- | ---- | ----------- | -----
 grant_type | String | The grant type to use | refresh_token

@@ -18,7 +18,7 @@ Returns all enabled gateways
 GET [{{ url }}gateways/enabled]({{ url }}gateways/enabled)
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

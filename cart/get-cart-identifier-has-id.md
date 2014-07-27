@@ -20,7 +20,7 @@ Checks if the cart contains the specified item identifier
 GET [{{ url }}cart/:identifier/has/:id]({{ url }}cart/:identifier/has/:id])
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

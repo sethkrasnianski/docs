@@ -19,7 +19,7 @@ Returns a collection based on a given set of key-value properties. Any relationa
 [{{ url }}collection]({{ url }}collection)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 id*optional* | Integer | Select by ID

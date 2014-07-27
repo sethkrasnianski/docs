@@ -11,14 +11,14 @@
 @http PUT
 @version beta
 -->
-This call edits a customer with a given ID. There are no minumum required paramaters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
+This call edits a customer with a given ID. There are no minumum required parameters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
 
 #### Resource URL
 PUT [{{ url }}customer/:id]({{ url }}customer/:id)
 
 
-#### Paramaters {#paramaters}
+#### parameters {#parameters}
 Key | Type | Description
 --- | ---- | -----------
 first_name*optional* | String | The customer's first name
