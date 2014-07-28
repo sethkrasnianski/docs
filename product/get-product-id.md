@@ -19,7 +19,7 @@ This call simply returns a product based on a given ID. Any relational objects w
 GET [{{ url }}product/:id]({{ url }}product/:id)
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

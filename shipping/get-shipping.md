@@ -18,7 +18,7 @@ Returns a paginated list of shipping methods based on a given set of key-value p
 [{{ url }}shipping]({{ url }}shipping)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 id*optional* | Integer | Select by ID

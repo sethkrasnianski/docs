@@ -21,7 +21,7 @@ You can retrieve a specific item from the cart by calling this endpoint with the
 GET [{{ url }}cart/:identifier/item/:id]({{ url }}cart/:identifier/item/:id])
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

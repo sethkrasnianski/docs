@@ -18,7 +18,7 @@ Returns an order based on a given ID. Any relational objects will also be return
 [{{ url }}order/:id]({{ url }}order/:id)
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

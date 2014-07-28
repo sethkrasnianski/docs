@@ -12,12 +12,12 @@
 @http PUT
 @version beta
 -->
-This call edits a product variation with a given ID. There are no minumum required paramaters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
+This call edits a product variation with a given ID. There are no minumum required parameters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
 #### Resource URL
 PUT [{{ url }}product/:productId/modifier/:modifierId/variation/:id]({{ url }}product/:productId/modifier/:modifierId/variation/:id)
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 title | String | The Title of the variation, must be unique per modifier

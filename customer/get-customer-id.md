@@ -18,7 +18,7 @@ Returns a customer based on a given ID. Any relational objects will also be retu
 [{{ url }}customer/:id]({{ url }}customer/:id)
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

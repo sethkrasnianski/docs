@@ -11,14 +11,14 @@
 @http PUT
 @version beta
 -->
-This endpoint edits a customers address with a given ID. There are no minumum required paramaters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
+This endpoint edits a customers address with a given ID. There are no minumum required parameters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
 
 #### Resource URL
 PUT [{{ url }}customer/:id/address/:id]({{ url }}customer/:id/address/:id)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 save_as*optional* | String | The name the address is saved as

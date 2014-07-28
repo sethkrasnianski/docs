@@ -12,14 +12,14 @@
 @http PUT
 @version beta
 -->
-This call edits a tax band with a given ID. There are no minumum required paramaters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
+This call edits a tax band with a given ID. There are no minumum required parameters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
 
 #### Resource URL
 PUT [{{ url }}tax/:id]({{ url }}tax/:id)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 title*optional* | String | The title of this tax band

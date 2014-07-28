@@ -12,7 +12,7 @@
 @http GET
 @version beta
 -->
-Returns a product based on a given set of key-value properties. One or more paramaters can be passed to the method but they must all match exactly and the best match will be returned.
+Returns a product based on a given set of key-value properties. One or more parameters can be passed to the method but they must all match exactly and the best match will be returned.
 
 While this call is similar to search it will only return a single product.
 
@@ -21,7 +21,7 @@ While this call is similar to search it will only return a single product.
 GET [{{ url }}product]({{ url }}product)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 id*optional* | Integer | Select by ID

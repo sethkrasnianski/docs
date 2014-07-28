@@ -19,7 +19,7 @@ Returns a category based on a given set of key-value properties. Any relational 
 [{{ url }}category]({{ url }}category)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 id*optional* | Integer | Select by ID

@@ -19,7 +19,7 @@ Returns a customers address based on a given ID. Any relational objects will als
 [{{ url }}customer/:id/address/:id]({{ url }}customer/:id/address/:id)
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

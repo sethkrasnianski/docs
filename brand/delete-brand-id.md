@@ -18,7 +18,7 @@ This call deletes a brand with a given ID. Once a brand has been deleted all pro
 DELETE [{{ url }}brand/:id]({{ url }}brand/:id)
 
 
-#### Paramaters
+#### parameters
 N/A
 
 <!--code-->

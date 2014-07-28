@@ -18,10 +18,10 @@ You can insert a product variation into the cart by POSTing to the cart endpoint
 #### Resource URL
 POST [{{ url }}cart/[:identifier]]({{ url }}cart/[:identifier])
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
-modifier | String | Modifier key pairs, modifier[:modifierId]=:variationId, eg modifier[401]=402
+modifier | Array | Modifier key pairs, modifier[:modifierId]=:variationId, eg modifier[401]=402
 quantity | Integer | How many of this product you want to add to the cart
 
 <!--code-->

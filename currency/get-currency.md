@@ -18,7 +18,7 @@ Returns a currency based on a given set of key-value properties. Any relational 
 [{{ url }}currency]({{ url }}currency)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 code*optional* | String | The currency code (i.e. GBP)

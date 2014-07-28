@@ -18,7 +18,7 @@ This endpoint will return a single entry for the ID you specified.
 GET [{{ url }}flow/:slug/entry/:id]({{ url }}flow/:slug/entry/:id)
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

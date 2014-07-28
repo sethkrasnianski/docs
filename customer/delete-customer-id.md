@@ -18,7 +18,7 @@ This method deletes a customer with a given ID. Once a customer has been deleted
 DELETE [{{ url }}customer/:id]({{ url }}customer/:id)
 
 
-#### Paramaters
+#### parameters
 None required
 
 <!--code-->

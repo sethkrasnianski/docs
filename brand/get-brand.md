@@ -19,7 +19,7 @@ Returns a brand based on a given set of key-value properties. Any relational obj
 [{{ url }}brand]({{ url }}brand)
 
 
-#### Paramaters
+#### parameters
 Key | Type | Description
 --- | ---- | -----------
 id*optional* | Integer | Select by ID

@@ -18,7 +18,7 @@ This call deletes a collection with a given ID. Once a collection has been delet
 DELETE [{{ url }}collection/:id]({{ url }}collection/:id)
 
 
-#### Paramaters
+#### parameters
 N/A
 
 <!--code-->
