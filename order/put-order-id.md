@@ -23,7 +23,7 @@ Key | Type | Description
 --- | ---- | -----------
 customer*optional* | Integer | Customer ID
 gateway*optional* | String | The gateway slug
-status*optional* | String | The order status, 1 or 0
+status*optional* | String | The order status, paid, unpaid, dispatched, processing, cancelled, failed, declined, mismatch, refunded, partial_refund
 subtotal*optional* | Decimal | The order subtotal (before shipping and tax)
 shipping_price*optional* | Decimal | Select by shipping price
 total*optional* | Decimal | The order total (after tax and shipping)
