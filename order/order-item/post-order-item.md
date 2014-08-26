@@ -21,13 +21,13 @@ POST [{{ url }}order/:id/item]({{ url }}order/:id/item)
 #### parameters
 Key | Type | Description
 --- | ---- | -----------
-Product*optional* | Integer | Link this item to a product
-SKU*required* | String | The item SKU
-Title*required* | String | The item title
-Price*required* | Float | The item price
-Quantity*required* | Integer | The quantity of this item
-Tax Rate*required* | Float | The current tax rate for this item
-Tax Band*required* | Integer | The tax band for this item
+product*optional* | Integer | Link this item to a product
+sku*required* | String | The item SKU
+title*required* | String | The item title
+price*required* | Float | The item price
+quantity*required* | Integer | The quantity of this item
+tax_rate*required* | Float | The current tax rate for this item
+tax_band*required* | Integer | The tax band for this item
 
 <!--code-->
 #### Example Successful Response
