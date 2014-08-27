@@ -19,7 +19,7 @@ Returns a range of tax bands based on a given set of parameters. All choices and
 GET [{{ url }}taxes]({{ url }}taxes)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 limit*optional* | Integer | The number of tax bands to return, defaults to all

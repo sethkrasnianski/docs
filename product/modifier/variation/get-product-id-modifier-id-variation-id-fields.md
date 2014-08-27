@@ -19,7 +19,7 @@ Unlike /product/:id/modifier/fields this adds the current variation data to the 
 #### Resource URL
 [{{ url }}product/:productId/modifier/:id/fields]({{ url }}product/:productId/modifier/:id/fields)
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

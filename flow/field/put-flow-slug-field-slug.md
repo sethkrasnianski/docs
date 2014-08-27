@@ -17,7 +17,7 @@ You can update fields for any field, including the default Moltin fields. Howeve
 #### Resource URL
 PUT [{{ url }}flow/:slug/field/:fieldSlug]({{ url }}flow/:slug/field/:fieldSlug)
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 name*optional* | String | The name of the field

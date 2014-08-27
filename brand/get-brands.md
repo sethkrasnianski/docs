@@ -19,7 +19,7 @@ Returns a list of brands based on the given criteria. All choices and relationsh
 GET [{{ url }}brands]({{ url }}brands)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

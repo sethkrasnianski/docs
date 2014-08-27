@@ -19,7 +19,7 @@ This endpoint creates a new address for a customer with the POST data provided. 
 POST [{{ url }}customer/:id/address]({{ url }}customer/:id/address)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 save_as*optional* | String | The name the address is saved as

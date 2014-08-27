@@ -21,7 +21,7 @@ Deleting an item from a users cart is as simple as calling the item URL with a D
 DELETE [{{ url }}cart/:identifier/item/:id]({{ url }}cart/:identifier/item/:id])
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

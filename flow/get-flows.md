@@ -18,7 +18,7 @@ Returns all the flows you have created, including the default flows like product
 GET [{{ url }}flows]({{ url }}flows)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 limit*optional* | Integer | The number of flows to return

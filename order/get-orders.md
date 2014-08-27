@@ -18,7 +18,7 @@ Returns a range of orders based on a given set of parameters. All choices and re
 GET [{{ url }}orders]({{ url }}orders)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 limit*optional* | Integer | The number of orders to return, defaults to all

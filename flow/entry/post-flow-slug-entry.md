@@ -18,7 +18,7 @@ This endpoint allows you to insert an entry into the flow.
 POST [{{ url }}flow/:slug/entry]({{ url }}flow/:slug/entry)
 
 
-#### parameters
+#### Parameters
 Available fields vary based on the fields in this flow
 
 <!--code-->

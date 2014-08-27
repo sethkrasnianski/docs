@@ -18,7 +18,7 @@ Returns a customer based on a given set of key-value properties. Any relational 
 [{{ url }}customer]({{ url }}customer)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 id*optional* | Integer | Select by ID

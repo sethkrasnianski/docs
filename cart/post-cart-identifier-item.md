@@ -20,7 +20,7 @@ You can insert an item into the cart by POSTing to the cart endpoint with a list
 POST [{{ url }}cart/[:identifier]]({{ url }}cart/[:identifier])
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 id | String | The ID of the product you want to add to the cart, can be a product id

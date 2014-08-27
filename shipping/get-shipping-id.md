@@ -18,7 +18,7 @@ Returns a shipping method based on a given ID. Any relational objects will also 
 [{{ url }}shipping/:id]({{ url }}shipping/:id)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

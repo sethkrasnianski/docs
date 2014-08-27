@@ -19,7 +19,7 @@ Returns a range of categories based on a given set of parameters. All choices an
 GET [{{ url }}categories]({{ url }}categories)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 limit*optional* | Integer | The number of categories to return, defaults to all

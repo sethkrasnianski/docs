@@ -19,7 +19,7 @@ Returns a list of addresses for a particular customer. All choices and relations
 GET [{{ url }}customer/:id/addresses]({{ url }}customer/:id/addresses)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

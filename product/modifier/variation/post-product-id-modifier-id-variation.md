@@ -17,7 +17,7 @@ This call creates a new product variation with the POST data provided. If there 
 #### Resource URL
 POST [{{ url }}product/:productId/modifier/:modifierId/variation]({{ url }}product/:productId/modifier/:modifierId/variation)
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title | String | The Title of the variation, must be unique per modifier

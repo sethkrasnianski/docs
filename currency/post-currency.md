@@ -18,7 +18,7 @@ This call creates a new currency with the POST data provided. If there are any p
 POST [{{ url }}cateogry]({{ url }}cateogry)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 code | String | The currency code (i.e. GBP)

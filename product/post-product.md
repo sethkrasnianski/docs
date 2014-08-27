@@ -18,7 +18,7 @@ This call creates a new product with the POST data provided. If there are any pr
 POST [{{ url }}product]({{ url }}product)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 sku | String | The SKU of the product, must be unique

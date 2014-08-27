@@ -19,7 +19,7 @@ Returns a brand based on a given ID. Any relational objects will also be returne
 [{{ url }}brand/:id]({{ url }}brand/:id)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

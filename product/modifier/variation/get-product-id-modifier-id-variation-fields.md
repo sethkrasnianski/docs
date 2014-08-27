@@ -17,7 +17,7 @@ This call returns the data required to build a dynamic flows form based on the p
 #### Resource URL
 [{{ url }}product/:productId/modifier/:modifierId/variation/fields]({{ url }}product/:productId/modifier/:modifierId/variation/fields)
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

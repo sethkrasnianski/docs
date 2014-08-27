@@ -19,7 +19,7 @@ Returns a tax band based on a given set of key-value properties. Any relational 
 [{{ url }}tax]({{ url }}tax)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 id*optional* | Integer | Select by ID

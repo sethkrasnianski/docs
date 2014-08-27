@@ -18,7 +18,7 @@ This endpoint edits a brand with a given ID. There are no minumum required param
 PUT [{{ url }}brand/:id]({{ url }}brand/:id)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title*optional* | String | The Title of the brand, must be unique

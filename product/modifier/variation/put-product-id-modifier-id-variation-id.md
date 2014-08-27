@@ -17,7 +17,7 @@ This call edits a product variation with a given ID. There are no minumum requir
 #### Resource URL
 PUT [{{ url }}product/:productId/modifier/:modifierId/variation/:id]({{ url }}product/:productId/modifier/:modifierId/variation/:id)
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title | String | The Title of the variation, must be unique per modifier

@@ -18,7 +18,7 @@ This call edits a currency with a given ID. There are no minumum required parame
 PUT [{{ url }}cateogry]({{ url }}cateogry)
 
 
-#### parameters {#parameters}
+#### Parameters {#parameters}
 Key | Type | Description
 --- | ---- | -----------
 code*optional* | String | The currency code (i.e. GBP)

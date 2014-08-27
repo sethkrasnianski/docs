@@ -18,7 +18,7 @@ This endpoint edits a collection with a given ID. There are no minumum required 
 PUT [{{ url }}collection/:id]({{ url }}collection/:id)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title*optional* | String | The Title of the collection, must be unique

@@ -18,7 +18,7 @@ Returns a collection based on a given ID. Any relational objects will also be re
 #### Resource URL
 [{{ url }}collection/:id]({{ url }}collection/:id)
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

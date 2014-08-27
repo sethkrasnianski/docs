@@ -18,7 +18,7 @@ Returns an array of order items for a specified order.
 GET [{{ url }}order/:id/items]({{ url }}order/:id/items)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 limit*optional* | Integer | The number of order items to return, defaults to all

@@ -18,7 +18,7 @@ Returns a single field type with its available options.
 GET [{{ url }}flows/type/:slug]({{ url }}flows/type/:slug)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

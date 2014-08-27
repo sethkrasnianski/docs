@@ -19,7 +19,7 @@ Returns a range of customers based on a given set of parameters. All choices and
 GET [{{ url }}customers]({{ url }}customers)
 
 
-#### parameters {#parameters}
+#### Parameters {#parameters}
 Key | Type | Description
 --- | ---- | -----------
 limit*optional* | Integer | The number of customers to return, defaults to all

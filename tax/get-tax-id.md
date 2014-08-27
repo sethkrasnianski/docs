@@ -19,7 +19,7 @@ Returns a tax band based on a given ID. Any relational objects will also be retu
 [{{ url }}tax/:id]({{ url }}tax/:id)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

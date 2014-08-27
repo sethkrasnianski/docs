@@ -19,7 +19,7 @@ This endpoint creates a new collection with the POST data provided. If there are
 POST [{{ url }}collection]({{ url }}collection)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title | String | The Title of the collection, must be unique

@@ -20,7 +20,7 @@ This method is used to destroy an entire shopping cart, this can not be undone.
 DELETE [{{ url }}cart/:identifier]({{ url }}cart/:identifier])
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

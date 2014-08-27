@@ -18,7 +18,7 @@ Returns a currency based on a given ID. Any relational objects will also be retu
 [{{ url }}currency/:id]({{ url }}currency/:id)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

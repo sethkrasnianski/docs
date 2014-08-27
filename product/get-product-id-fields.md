@@ -20,7 +20,7 @@ Unlike /products/fields this adds the current products data to the array to allo
 [{{ url }}product/:id/fields]({{ url }}product/:id/fields)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

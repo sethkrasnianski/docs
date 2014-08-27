@@ -20,7 +20,7 @@ When you are ready to take a cart to checkout, you can make a call to the checko
 GET [{{ url }}cart/:identifier/checkout]({{ url }}cart/:identifier/checkout])
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 customer*optional* | Integer or String | The ID or email address of the customer who is checking out

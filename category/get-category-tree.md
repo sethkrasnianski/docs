@@ -19,7 +19,7 @@ Returns a full structured categories based on a given set of parameters. All cho
 GET [{{ url }}categories/tree]({{ url }}categories/tree)
 
 
-#### parameters
+#### Parameters
 N/A
 
 <!--code-->

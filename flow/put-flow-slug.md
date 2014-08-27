@@ -19,7 +19,7 @@ This endpoint allows you to update one of your flows. You can only update custom
 PUT [{{ url }}flow/:slug]({{ url }}flow/:slug)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 name*optional* | String | The name of the flow

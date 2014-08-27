@@ -20,7 +20,7 @@ You can retrieve the shopping cart by calling the cart endpoint and pass the car
 GET [{{ url }}cart/:identifier]({{ url }}cart/:identifier])
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

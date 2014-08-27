@@ -19,7 +19,7 @@ This call returns a range of products based on the various provided search crite
 GET [{{ url }}products/search]({{ url }}products/search)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 limit*optional* | Integer | The number of products to return

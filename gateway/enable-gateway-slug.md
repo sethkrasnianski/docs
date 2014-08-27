@@ -18,7 +18,7 @@ Enables a gateway based on a given slug.
 GET [{{ url }}gateway/:slug/enable]({{ url }}gateway/:slug/enable)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

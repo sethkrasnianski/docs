@@ -20,7 +20,7 @@ This endpoint mass updates the currency tax rates.
 PUT [{{ url }}taxes]({{ url }}taxes)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 fields[:currencyId][:taxId] | Decimal | The tax rate (percentage) for this tax band in this currency

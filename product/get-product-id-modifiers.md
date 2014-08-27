@@ -17,7 +17,7 @@ Returns a range of modifiers and variations for a product. All choices and relat
 #### Resource URL
 GET [{{ url }}product/:id/modifiers]({{ url }}product/:id/modifiers)
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

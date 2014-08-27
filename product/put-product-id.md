@@ -18,7 +18,7 @@ This call edits a product with a given ID. There are no minumum required paramet
 PUT [{{ url }}product/:id]({{ url }}product/:id)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 sku*optional* | String | The SKU of the product, must be unique

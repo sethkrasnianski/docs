@@ -18,7 +18,7 @@ Returns a gateway based on a given slug. The gateway settings will also be retur
 [{{ url }}gateway/:slug]({{ url }}gateway/:slug)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

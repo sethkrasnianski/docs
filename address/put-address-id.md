@@ -18,7 +18,7 @@ This endpoint edits a customers address with a given ID. There are no minumum re
 PUT [{{ url }}customer/:id/address/:id]({{ url }}customer/:id/address/:id)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 save_as*optional* | String | The name the address is saved as

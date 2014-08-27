@@ -18,7 +18,7 @@ This endpoint creates a new shipping method with the POST data provided. If ther
 POST [{{ url }}shipping]({{ url }}shipping)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title | String | The shipping method's title

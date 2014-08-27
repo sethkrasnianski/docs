@@ -17,7 +17,7 @@ This call deletes a product modifier with a given ID or a set of modifiers in a 
 #### Resource URL
 DELETE [{{ url }}product/:productId/modifier/:id[,:id]]({{ url }}product/:productId/modifier/:id[,:id])
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

@@ -18,7 +18,7 @@ Returns a list of currencies that have been setup. All choices and relationships
 GET [{{ url }}currencies]({{ url }}currencies)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

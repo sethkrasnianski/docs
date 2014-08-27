@@ -17,7 +17,7 @@ This call creates a new product modifier with the POST data provided. If there a
 #### Resource URL
 POST [{{ url }}product/:productId/modifier]({{ url }}product/:productId/modifier)
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title | String | The Title of the modifier, must be unique per product

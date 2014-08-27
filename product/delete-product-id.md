@@ -18,7 +18,7 @@ This call deletes a product with a given ID or a set of products in a comma-sepe
 DELETE [{{ url }}product/:id[,:id]]({{ url }}product/:id[,:id])
 
 
-#### parameters
+#### Parameters
 None required
 
 #### PHP (SDK) Example

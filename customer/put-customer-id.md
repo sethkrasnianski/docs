@@ -18,7 +18,7 @@ This call edits a customer with a given ID. There are no minumum required parame
 PUT [{{ url }}customer/:id]({{ url }}customer/:id)
 
 
-#### parameters {#parameters}
+#### Parameters {#parameters}
 Key | Type | Description
 --- | ---- | -----------
 first_name*optional* | String | The customer's first name

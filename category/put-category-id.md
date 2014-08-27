@@ -19,7 +19,7 @@ This call edits a category with a given ID. There are no minumum required parame
 PUT [{{ url }}category/:id]({{ url }}category/:id)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title*optional* | String | The Title of the category, must be unique

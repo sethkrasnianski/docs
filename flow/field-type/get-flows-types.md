@@ -18,7 +18,7 @@ Returns a list of the available field types and their options.
 GET [{{ url }}flows/types]({{ url }}flows/types)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

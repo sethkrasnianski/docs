@@ -17,7 +17,7 @@ This call deletes a currency with the specified id.
 DELETE [{{ url }}currency/:id]({{ url }}currency/:id)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

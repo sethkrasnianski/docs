@@ -19,7 +19,7 @@ This endpoint allows you to create a new flow.
 POST [{{ url }}flow]({{ url }}flow)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 name | String | The name of the flow

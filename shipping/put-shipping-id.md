@@ -18,7 +18,7 @@ This endpoint edits a shipping method with a given ID. There are no minumum requ
 PUT [{{ url }}shipping/:id]({{ url }}shipping/:id)
 
 
-#### parameters {#parameters}
+#### Parameters {#parameters}
 Key | Type | Description
 --- | ---- | -----------
 title*optional* | String | The shipping method's title

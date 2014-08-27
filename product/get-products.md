@@ -18,7 +18,7 @@ Returns a range of products based on a given set of parameters. All choices and 
 GET [{{ url }}products]({{ url }}products)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 limit*optional* | Integer | The number of products to return

@@ -15,7 +15,7 @@ To authorize with client credentials you simply need to post your client id and 
 #### Resource URL
 POST [https://api.molt.in/oauth/access_token](https://api.molt.in/oauth/access_token)
 
-#### parameters
+#### Parameters
 Key | Type | Description | Value
 --- | ---- | ----------- | -----
 grant_type | String | The grant type to use | client_credentials

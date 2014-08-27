@@ -18,7 +18,7 @@ Returns a single flow with the specified slug.
 GET [{{ url }}flow/:slug]({{ url }}flow/:slug)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

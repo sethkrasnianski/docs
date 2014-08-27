@@ -18,7 +18,7 @@ This endpoint creates a new customer with the POST data provided. If there are a
 POST [{{ url }}customer]({{ url }}customer)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 first_name | String | The customer's first name

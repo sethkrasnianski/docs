@@ -17,7 +17,7 @@ This call edits a product modifier with a given ID. There are no minumum require
 #### Resource URL
 PUT [{{ url }}product/:productId/modifier/:id]({{ url }}product/:productId/modifier/:id)
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title | String | The Title of the modifier, must be unique per product

@@ -19,7 +19,7 @@ This endpoint creates a new brand with the POST data provided. If there are any 
 POST [{{ url }}brand]({{ url }}brand)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title | String | The Title of the brand, must be unique

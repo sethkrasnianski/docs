@@ -19,7 +19,7 @@ This call edits a tax band with a given ID. There are no minumum required parame
 PUT [{{ url }}tax/:id]({{ url }}tax/:id)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title*optional* | String | The title of this tax band

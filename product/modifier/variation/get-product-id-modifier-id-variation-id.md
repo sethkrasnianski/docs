@@ -17,7 +17,7 @@ This call simply returns a product variation based on a given ID. Any relational
 #### Resource URL
 GET [{{ url }}product/:productId/modifer/:modifierId/variation/:id]({{ url }}product/:productId/modifer/:modifierId/variation/:id)
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

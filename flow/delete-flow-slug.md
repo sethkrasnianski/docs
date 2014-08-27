@@ -18,7 +18,7 @@ This endpoint deletes a flow with the specified slug. Only flows you created can
 DELETE [{{ url }}flow/:id]({{ url }}flow/:id)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

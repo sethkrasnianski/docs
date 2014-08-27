@@ -17,7 +17,7 @@ This call deletes an order with a given ID.
 DELETE [{{ url }}order/:id]({{ url }}order/:id)
 
 
-#### parameters
+#### Parameters
 None required
 
 <!--code-->

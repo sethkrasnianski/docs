@@ -18,7 +18,7 @@ This endpoint displays all the entries for a specified slug.
 GET [{{ url }}flow/:slug/entries]({{ url }}flow/:slug/entries)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 limit*optional* | Integer | The number of flows to return

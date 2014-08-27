@@ -18,7 +18,7 @@ This call edits an order with a given ID. There are no minumum required paramete
 PUT [{{ url }}order/:id]({{ url }}order/:id)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 customer*optional* | Integer | Customer ID

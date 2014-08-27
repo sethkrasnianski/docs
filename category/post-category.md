@@ -19,7 +19,7 @@ This call creates a new category with the POST data provided. If there are any p
 POST [{{ url }}category]({{ url }}category)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title | String | The Title of the category, must be unique

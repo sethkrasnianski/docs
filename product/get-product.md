@@ -21,7 +21,7 @@ While this call is similar to search it will only return a single product.
 GET [{{ url }}product]({{ url }}product)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 id*optional* | Integer | Select by ID

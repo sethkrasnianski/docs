@@ -18,7 +18,7 @@ Returns an order based on a given set of key-value properties. Any relational ob
 [{{ url }}order]({{ url }}order)
 
 
-#### parameters
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 id*optional* | Integer | Select by ID
