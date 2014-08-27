@@ -25,20 +25,35 @@ None required
 #### Example Successful Response
 ``` json
 {
-  "status": true,
-  "result": {
-    "id": 7,
-    "code": "GBP",
-    "title": "British Pound",
-    "enabled": true,
-    "modifier": "*3",
-    "exchange_rate": "1.00",
-    "format": "£{price}",
-    "decimal_point": ".",
-    "thousand_point": ",",
-    "rounding": "full",
-    "default": false
-  }
+    "status": true,
+    "result": {
+        "name": "Order Paid",
+        "subject": "Your payment has been processed",
+        "slug": "order_paid",
+        "url": "http://molt.in/templates/order_paid.html",
+        "content_type": {
+            "value": "application/x-www-form-urlencoded",
+            "data": {
+                "key": "form",
+                "value": "application/x-www-form-urlencoded"
+            }
+        },
+        "secret": null,
+        "enabled": {
+            "value": "No",
+            "data": {
+                "key": 0,
+                "value": "No"
+            }
+        },
+        "locked": {
+            "value": "Yes",
+            "data": {
+                "key": 1,
+                "value": "Yes"
+            }
+        }
+    }
 }
 ```
 
@@ -47,7 +62,7 @@ None required
 ``` json
 {
   "status": false,
-  "error": "Currency not found"
+  "error": "Email template not found"
 }
 ```
 <!--/code-->
