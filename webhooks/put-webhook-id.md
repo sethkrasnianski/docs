@@ -26,10 +26,10 @@ subject*optional* | String | The subject of the email
 url*optional* | String | The URL to the webhook
 secret*optional* | String | A secret key that you can match against when your URL is called
 content_type*optional* | String | JSON or x-form-urlencoded? json or form
-create*optional* | Integer | Enable on create events? 1 or 0 
-update*optional* | Integer | Enable on update events? 1 or 0 
-delete*optional* | Integer | Enable on delete events? 1 or 0 
-enabled*optional* | Integer | Enabled or Disabled? 1 or 0 
+create*optional* | Boolean | Enable on create events? 1 or 0 
+update*optional* | Boolean | Enable on update events? 1 or 0 
+delete*optional* | Boolean | Enable on delete events? 1 or 0 
+enabled*optional* | Boolean | Enabled or Disabled? 1 or 0 
 
 <!--code-->
 #### Example Successful Response  {#success}
