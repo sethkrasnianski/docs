@@ -15,7 +15,7 @@ This call edits a currency with a given ID. There are no minumum required parame
 
 
 #### Resource URL {#resource}
-PUT [{{ url }}cateogry]({{ url }}cateogry)
+PUT [{{ url }}cateogry/:id]({{ url }}cateogry/:id)
 
 
 #### parameters {#parameters}
