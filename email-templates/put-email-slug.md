@@ -27,7 +27,7 @@ subject*optional* | String | The subject of the email
 url*optional* | String | The URL to the email template
 secret*optional* | String | A secret key that you can match against when your URL is called
 content_type*optional* | String | JSON or x-form-urlencoded? json or form
-enabled*optional* | String | Enabled or Disabled? 1 or 0 
+enabled*optional* | Boolean | Enabled or Disabled? 1 or 0 
 
 <!--code-->
 #### Example Successful Response  {#success}
