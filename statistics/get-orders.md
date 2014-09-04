@@ -1,7 +1,7 @@
 <!--
-@title Get revenue metrics by timeframe
+@title Get some revenue breakdowns for a time period
 @author Moltin Ltd
-@description Gets some helpful statistical data for store revenue based on a time frame
+@description Gets a customer based on the given criteria
 
 @sidebar 1
 @family Statistics
