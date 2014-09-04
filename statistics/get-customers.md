@@ -1,7 +1,7 @@
 <!--
-@title Get some revenue breakdowns for a time period
+@title Get customer metrics by timeframe
 @author Moltin Ltd
-@description Gets a customer based on the given criteria
+@description Gets some helpful statistical data for store customers based on a time frame
 
 @sidebar 1
 @family Statistics
@@ -11,11 +11,11 @@
 @http GET
 @version beta
 -->
-Returns a set of revenue statistics for the store. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
+Returns a set of customer statistics for the store. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 
 #### Resource URL
-[{{ url }}statistics/revenue]({{ url }}statistics/revenue)
+[{{ url }}statistics/customers]({{ url }}statistics/customers)
 
 
 #### Parameters
@@ -29,17 +29,27 @@ to*optional* | Datetime | (YYYY-MM-DD HH:MM:SS) Set the date to end at
 #### Example Successful Response
 ``` json
 {
-  "status": true,
-  "result": {
-    "id": "63",
-    "first_name": "Adam",
-    "last_name": "Sturrock",
-    "email": "adam@molt.in",
-    "history": {
-      "orders": 94,
-      "value": "264.00"
+    "status": true,
+    "result": {
+        "customers": {
+            "total_to_date": 3,
+            "frame_total": 1,
+            "frame_previous_total": 0,
+            "frame_change": 1,
+            "frame_change_percent": 0,
+            "items": [
+                {
+                    "id": 373,
+                    "flow_id": 57,
+                    "store_id": 1,
+                    "data": "\"email\"=>\"chris@molt.in2\", \"group\"=>\"372\", \"last_name\"=>\"Harvey\", \"first_name\"=>\"Chris\"",
+                    "order": null,
+                    "created_at": "2014-07-09 10:50:45",
+                    "updated_at": "2014-07-09 10:50:45"
+                }
+            ]
+        }
     }
-  }
 }
 ```
 <!--/code-->

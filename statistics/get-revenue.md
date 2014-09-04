@@ -29,17 +29,16 @@ to*optional* | Datetime | (YYYY-MM-DD HH:MM:SS) Set the date to end at
 #### Example Successful Response
 ``` json
 {
-  "status": true,
-  "result": {
-    "id": "63",
-    "first_name": "Adam",
-    "last_name": "Sturrock",
-    "email": "adam@molt.in",
-    "history": {
-      "orders": 94,
-      "value": "264.00"
+    "status": true,
+    "result": {
+        "revenue": {
+            "total_to_date": "8700.00",
+            "frame_total": "1100.00",
+            "frame_previous_total": 0,
+            "frame_change": 1100,
+            "frame_change_percent": 0
+        }
     }
-  }
 }
 ```
 <!--/code-->
