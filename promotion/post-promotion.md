@@ -31,6 +31,9 @@ action | Choice (buy_x_get_y_free, discount_by_fixed, discount_by_percent, disco
 amount | Integer | The amount to discount
 apply_to_shipping | Boolean | Whether the discount will apply to shipping
 persistent | Boolean | *******
+max_quantity*optional* | Integer | Maximum discount quantity
+trigger_quantity*optional* | Integer | Discount trigger quantity
+priority*optional* | Integer | Priority over other deals
 
 <!--code-->
 #### Example Successful Response
