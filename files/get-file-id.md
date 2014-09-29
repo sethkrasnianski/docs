@@ -4,7 +4,7 @@
 @description Returns a file of the given ID
 
 @sidebar 1
-@family File
+@family Files
 @rate No
 @auth Yes
 @format JSON

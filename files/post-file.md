@@ -4,7 +4,7 @@
 @description Creates a new file
 
 @sidebar 1
-@family File
+@family Files
 @rate No
 @auth Yes
 @format JSON
