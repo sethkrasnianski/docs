@@ -1,0 +1,3 @@
+# Categories
+
+Something about categories here...

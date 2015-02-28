@@ -1,0 +1,3 @@
+# Checkout
+
+Something about checkout here...

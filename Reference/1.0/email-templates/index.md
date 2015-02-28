@@ -1,0 +1,3 @@
+# Email Templates
+
+Something about email templates here...
