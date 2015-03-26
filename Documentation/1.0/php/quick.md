@@ -94,10 +94,12 @@ This call will return an object containing data for the new order created.
 Once we've converted a cart into an order we're now ready to process a payment. In this example we've used the dummy gateway so we just need to provide some card details. The data you need to provide in this step depends on your chosen gateway.
 
 	$checkout = \Checkout::Payment('purchase', $order['id'], [
-	  'number'       => '4242424242424242',
-	  'expiry_month' => '02',
-	  'expiry_year'  => '2017',
-	  'cvv'          => '123'
+	  'data' => [ 
+	    'number'       => '4242424242424242',
+	    'expiry_month' => '02',
+	    'expiry_year'  => '2017',
+	    'cvv'          => '123'
+	  ]
 	]);
 
 Congratulations, if you made it this far you've implemented a simple step by step PHP checkout!
