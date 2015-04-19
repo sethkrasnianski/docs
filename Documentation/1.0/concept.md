@@ -2,7 +2,7 @@
 
 - [REST](#rest)
 - [OAuth](#oauth)
-- [Authorisation](#auth)
+- [Authorization](#auth)
 - [Credentials](#credentials)
 - [Flows](#flows)
 - [Headers](#headers)
@@ -20,9 +20,9 @@ RESTful applications use HTTP requests to post data (create and/or update), read
 OAuth is an open standard for authorization. OAuth provides client applications a 'secure delegated access' to server resources on behalf of a resource owner. It specifies a process for resource owners to authorize third-party access to their server resources without sharing their credentials.
 
 <a name="auth"></a>
-## Authorisation
+## Authorization
 
-Before making any requests to the API you must obtain an access_token. The access token lets us know you are and you are allowd to request a resource. To recieve an access token you utilise one of the available grant types. A grant type is a method of authentication intended for different purposes, which are as follows:
+Before making any requests to the API you must obtain an access_token. The access token lets us know who you are and you are allowed to request a resource. To receive an access token you utilise one of the available grant types. A grant type is a method of authentication intended for different purposes, which are as follows:
 
 - Authorization Code for apps running on a web server
 - Implicit for browser-based or mobile apps
