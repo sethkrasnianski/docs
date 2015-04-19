@@ -15,9 +15,9 @@
 <a name="introduction"></a>
 ## Introduction
 
-Categories are [flows](flows) based data structures that can be organised into parent and child relationships to create a tree structure. This allows categories to not only group [products](product) but to also act as a navigation source.
+Categories are [flows](flow) based data structures that can be organised into parent and child relationships to create a tree structure. This allows categories to not only group [products](product) but to also act as a navigation source.
 
-Categories have a basic data structure containing only the most necissary information; however this can be extended via [flows](flows). This additional data allows you to customise the category to meet the needs of your project, and will automatically be added to your [forge](forge) instance for ease of use.
+Categories have a basic data structure containing only the most necessary information; however this can be extended via [flows](flow). This additional data allows you to customise the category to meet the needs of your project, and will automatically be added to your [forge](forge) instance for ease of use.
 
 <a name="params"></a>
 ## Parameters
@@ -26,7 +26,7 @@ The parameters are the fields associated with this flow, as well as these there 
 
 Name | Key | Type | Required | Unique | Details
 ---- | --- | ---- | -------- | -------
-Parent Category | parent | Relationship | No | No | Relates to flow '**4**'.
+Parent Category | parent | Relationship | No | No | Relates to [Categories](category).
 Title | title | String | Yes | No | -
 Slug | slug | Slug | Yes | Yes | A unique identifier generally used as part of a URL.
 Status | status | Choice | Yes | No | Choices available are 0 (Draft), 1 (Live).
@@ -163,6 +163,23 @@ if ( category.status === true ) {
 
 ``` php
 $tree = Category::Tree();
+```
+#### Simple Two Tier Menu
+``` php
+$tree = Category::Tree();
+
+echo "<ul>";
+foreach ($tree['result'] as $cat) {
+ echo "<li><a href='/category/".$cat['slug']."'>".$cat['title']."</a></li>";
+ if (! empty($cat['children'])) {
+  echo "<ul>";
+   foreach ($cat['children'] as $sub) {
+    echo "<li><a href='/category/".$sub['slug']."'>".$sub['title']."</a></li>";
+   }
+  echo "</ul>";
+ }
+}
+echo "</ul>";
 ```
 
 #### Asynchronous

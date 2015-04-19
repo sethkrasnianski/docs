@@ -8,7 +8,7 @@
 <a name="introduction"></a>
 ## Introduction
 
-OMG YOU FOUND IT!!!!111 Here's the deal, want to send you a free tshirt and some small extras to say thanks for being awesome. All you have to do is call the endpoint below with your email, shipping address and shirt style and we'll take care of the rest!
+OMG YOU FOUND IT!!!!111 Here's the deal, we would love to send you a free tshirt and some small extras to say thanks for being awesome. All you have to do is call the endpoint below with your email, shipping address and shirt style and we'll take care of the rest!
 
 > **Note:** This endpoint is only available in v1 of the API, please make sure to use the correct version otherwise your order will not be recieved.
 

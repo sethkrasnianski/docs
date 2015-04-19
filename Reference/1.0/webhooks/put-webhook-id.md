@@ -1,11 +1,11 @@
 This call edits a webhook with a given id. There are no minumum required parameters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
 
-#### Resource URL {#resource}
+#### Resource URL
 PUT [{{ api_url }}webhook/:id]({{ api_url }}webhook/:id)
 
 
-#### Parameters {#parameters}
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 name*optional* | String | The name of the webhook
@@ -19,7 +19,7 @@ delete*optional* | Boolean | Enable on delete events? 1 or 0
 enabled*optional* | Boolean | Enabled or Disabled? 1 or 0 
 
 <!--code-->
-#### Example Successful Response  {#success}
+#### Example Successful Response 
 ``` json
 {
     "status": true,
@@ -67,7 +67,7 @@ enabled*optional* | Boolean | Enabled or Disabled? 1 or 0
 ```
 
 
-#### Example Error Response  {#error}
+#### Example Error Response 
 ``` json
 {
     "status": false,

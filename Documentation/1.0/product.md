@@ -14,11 +14,11 @@
 <a name="introduction"></a>
 ## Introduction
 
-Products are [flows](flows) based data structures that store information relating to your inventory. These items can be added to your [cart](cart) and then sold using the [checkout](checkout) endpoints, specific items can also be set to catalog only to be used for display purposes only.
+Products are [flows](flow) based data structures that store information relating to your inventory. These items can be added to your [cart](cart) and then sold using the [checkout](checkout) endpoints, specific items can also be set to catalog only to be used for display purposes only.
 
 Products are able to support sizes, colours, etc. using the modifier and variation system, which turns the parent product into a container and only allows the children to be sold. These child products can be totally customised using sku, title, price, stock levels, description and images.
 
-<a name="params"></a>
+<a name="params" id="product-params"></a>
 ## Parameters
 
 Name | Key | Type | Required | Unique | Details
@@ -41,7 +41,7 @@ Depth | depth | Decimal | No | No | Decimal limited to 2 places.
 Brand | brand | Relationship | No | No | Relates to [Brands](brand).
 Tax Band | tax_band | Tax Band | Yes | No | The tax band to use, choices available are 26 (None), 1 (Default).
 Catalog Only | catalog_only | Choice | Yes | No | Choices available are 0 (No), 1 (Yes).
-Collection | collection | Relationship | No | No | Relates to flow [Collections](collection).
+Collection | collection | Relationship | No | No | Relates to [Collections](collection).
 
 > **Note:** Due to products being flows-based this may not be an accurate representation of your stores parameters. If you have added any additional fields that are required and you only pass in what is shown here you may get errors.
 
@@ -259,6 +259,8 @@ if ( product.status === true ) {
 <a name="multiple"></a>
 ## Multiple Products
 
+Return a filtered list of products by passing through one or multiple parameters such as status, category ID, stock_status and other product fields and values. These parameters will use <span style="color: #d14;">exact match</span> when querying the database.
+
 ``` php
 $products = Product::Listing(['status' => '1']);
 ```
@@ -285,6 +287,8 @@ if ( product.status === true ) {
 
 <a name="search"></a>
 ## Search
+
+Return a filtered list of products by passing through one or multiple parameters such as status, category ID, stock_status and other product fields and values. These parameters will use <span style="color: #d14;">like</span> when querying the database.
 
 ``` php
 $products = Product::Search(['category' => '6']);
@@ -315,22 +319,34 @@ if ( products.status === true ) {
 
 ``` php
 $product = Product::Create([
-    'title'       => 'Featured',
-    'slug'        => 'featured',
-    'parent'      => null,
-    'status'      => 1,
-    'description' => 'A selection of featured products'
+    'title'             => 'My First Product',
+    'slug'              => 'my-first-product',
+    'sku'               => 'my-sku',
+    'price'             => 10.00,
+    'status'            => 1,
+    'category'          => 6,
+    'stock_level'       => 1000,
+    'stock_status'      => 1,
+    'requires_shipping' => 1,
+    'catalog_only'      => 0,
+    'description'       => 'My very first amazing product!'
 ]);
 ```
 
 #### Asynchronous
 ``` js
 moltin.Product.Create({
-    title:       'Featured',
-    slug:        'featured',
-    parent:      60,
-    status:      1
-    description: 'A selection of featured products'
+    title:             'My First Product',
+    slug:              'my-first-product',
+    sku:               'my-sku',
+    price:             10.00,
+    status:            1,
+    category:          6,
+    stock_level:       1000,
+    stock_status:      1,
+    requires_shipping: 1,
+    catalog_only:      0,
+    description:       'My very first amazing product!'
 }, function(product) {
     console.log(product);
 }, function(error) {
@@ -341,11 +357,17 @@ moltin.Product.Create({
 #### Synchronous
 ``` js
 var product = moltin.Product.Create({
-    title:       'Featured',
-    slug:        'featured',
-    parent:      null,
-    status:      1
-    description: 'A selection of featured products'
+    title:             'My First Product',
+    slug:              'my-first-product',
+    sku:               'my-sku',
+    price:             10.00,
+    status:            1,
+    category:          6,
+    stock_level:       1000,
+    stock_status:      1,
+    requires_shipping: 1,
+    catalog_only:      0,
+    description:       'My very first amazing product!'
 });
 
 if ( product.status === true ) {
@@ -358,10 +380,12 @@ if ( product.status === true ) {
 <a name="update"></a>
 ## Update
 
+When updating a product you only need to pass in the data that you want to change.
+
 ``` php
 $product = Product::Edit(<ID>, [
-    'title'  => 'Featured - Updated',
-    'slug'   => 'featured-updated',
+    'title'  => 'My First Product - Updated',
+    'slug'   => 'my-first-product-updated',
     'status' => 0
 ]);
 ```
@@ -426,12 +450,17 @@ if ( result.status === true ) {
 
 ### Create
 
+Return a list of fields used to create a product with this call. Data returned includes field title, slug, type and a pre-built form element with <span style="color: #d14;">$field['input']</span>.
+
 #### Field Data
 ``` php
 $fields = Product::Fields();
 ```
 
 #### Pre-built Form
+
+To display a product creation form, return the fields and the PHP SDK will generate the form elements with <span style="color: #d14;">$field['input']</span>. On submission simply pass the <span style="color: #d14;">$_POST</span> data from the form to [Create Product](#create).
+
 ``` php
 $fields = Product::Fields(null, true);
 
@@ -467,11 +496,15 @@ if ( fields.status === true ) {
 ### Update
 
 #### Field Data
+Return a list of pre-populated fields used to update a product with this call. Data returned includes field title, slug, type, current value and a pre-built form element with <span style="color: #d14;">$field['input']</span>.
 ``` php
 $fields = Product::Fields(<ID>);
 ```
 
 #### Pre-built Form
+
+To display a product update form, return the fields and the PHP SDK will generate pre-populated form elements with <span style="color: #d14;">$field['input']</span>. On submission pass the <span style="color: #d14;">$_POST</span> data from the form to [Update Product](#update).
+
 ``` php
 $fields = Product::Fields(<ID>, true);
 

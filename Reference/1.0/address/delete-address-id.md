@@ -1,7 +1,7 @@
-This call deletes a customer's address with a given IDs. Once a customer has been deleted all orders with that address will become anonymous.
+This call deletes an address with a given ID. Once an address has been deleted all orders with that address will become unknown.
 
 #### Resource URL
-DELETE [{{ api_url }}customer/:id/address/:id]({{ api_url }}customer/:id/address/:id)
+DELETE [{{ api_url }}addresses/:id/address/:id]({{ api_url }}addresses/:id/address/:id)
 
 
 #### Parameters

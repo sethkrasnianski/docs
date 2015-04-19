@@ -1,4 +1,4 @@
-This call returns a range of products based on the various provided search criteria. Using limit and offset you can also paginate the results.
+This call returns a range of products based on the provided search criteria. Using limit and offset you can also paginate the results.
 
 
 #### Resource URL

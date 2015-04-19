@@ -76,8 +76,24 @@ $result = File::Order([
 ]);
 ```
 
+<a name="looping"></a>
+## Looping
+
+Flow entries that allow images to be stored will return an images array. We'll use [GET single product](product) in this example.
+
+``` php
+$product = Products::Get('<ID>');
+
+foreach ($product['result']['images'] as $image) {
+    echo "<img src='".$image['url']['http']."'/>";
+}
+
+```
+
 <a name="resize"></a>
 ## Resize
+
+You can use this to resize an images width, height and fill type. By combining this function with [looping](#looping) over an array of images you can resize multiple images.
 
 ``` php
 function imageResize($image, $w = null, $h = null, $type = null)

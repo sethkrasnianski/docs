@@ -1,9 +1,9 @@
-This call returns the data required to build a dynamic flows form based on the product edit requirements. It provides all options available for the choice fields as well as those featured in relationships (eg, Categories). It also provides information of field requirements, default values, etc.
+This call returns the data required to build a dynamic flows form based on the address edit requirements. It provides all options available for the choice fields as well as those featured in relationships (eg, Customer). It also provides information of field requirements, default values, etc.
 
-Unlike /products/fields this adds the current products data to the array to allow for prepopulation of fields.
+Unlike /addresses/fields this adds the current address data to the array to allow for prepopulation of fields.
 
 #### Resource URL
-[{{ api_url }}product/:id/fields]({{ api_url }}product/:id/fields)
+[{{ api_url }}addresses/:id/fields]({{ api_url }}addresses/:id/fields)
 
 
 #### Parameters

@@ -196,11 +196,7 @@ if ( tax.status === true ) {
 ## Delete
 
 ``` php
-$tax = Tax::Edit('<ID>', [
-    'title' => 'Tax Band 1',
-    'description' => 'Tax Band specific to area 1',
-    'rate' => 30
-]);
+$tax = Tax::Delete('<ID>');
 ```
 
 #### Asynchronous

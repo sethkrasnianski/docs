@@ -1,12 +1,12 @@
 # Authentication
 
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Client Credentials](#client-credentials)
 - [Password](#password)
 - [Refresh](#refresh)
 
-<a name="overview"></a>
-## Overview
+<a name="introduction"></a>
+## Introduction
 
 Moltin leverages the industry standard OAuth2 system giving you safe and secure use of the API in any scenario. Each of these different methods are called a grant type and are designed to fit around different use cases.
 

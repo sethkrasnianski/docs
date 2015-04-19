@@ -12,9 +12,9 @@
 <a name="introduction"></a>
 ## Introduction
 
-Orders are [flows](flows) based data structures.
+Orders are [flows](flow) based data structures.
 
-Orders has a basic data structure containing only the most necessary information; however this can be extended via [flows](flows). This additional data allows you to customise order to meet the needs of your project, and will automatically be added to your [forge](forge) instance for ease of use.
+Orders has a basic data structure containing only the most necessary information; however this can be extended via [flows](flow). This additional data allows you to customise order to meet the needs of your project, and will automatically be added to your [forge](forge) instance for ease of use.
 
 <a name="params"></a>
 ## Parameters

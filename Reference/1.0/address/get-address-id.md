@@ -1,4 +1,4 @@
-Returns a customers address based on a given ID. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
+Returns an address based on a given ID. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 
 #### Resource URL
@@ -19,7 +19,6 @@ None required
     "company": "",
     "first_name": "Cameron",
     "last_name": "Diaz",
-    "email": "cameron.diaz@hotmail.com",
     "phone": "22637663429",
     "address_1": "23 Moltin Road",
     "address_2": "",

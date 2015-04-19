@@ -14,11 +14,11 @@
 This call edits an email template with a given slug. There are no minumum required parameters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
 
-#### Resource URL {#resource}
+#### Resource URL
 PUT [{{ api_url }}email/:slug]({{ api_url }}email/:slug)
 
 
-#### Parameters {#parameters}
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 slug*optional* | String | The Slug/URI of the email template, must be unique
@@ -30,7 +30,7 @@ content_type*optional* | String | JSON or x-form-urlencoded? json or form
 enabled*optional* | Boolean | Enabled or Disabled? 1 or 0 
 
 <!--code-->
-#### Example Successful Response  {#success}
+#### Example Successful Response 
 ``` json
 {
     "status": true,
@@ -66,7 +66,7 @@ enabled*optional* | Boolean | Enabled or Disabled? 1 or 0
 ```
 
 
-#### Example Error Response  {#error}
+#### Example Error Response 
 ``` json
 {
     "status": false,

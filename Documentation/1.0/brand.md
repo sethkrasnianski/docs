@@ -13,7 +13,7 @@
 <a name="introduction"></a>
 ## Introduction
 
-Brands are [flows](flows) based data structures that can be used as a descriptor for [products](product).
+Brands are [flows](flow) based data structures that can be used as a descriptor for [products](product).
 
 <a name="params"></a>
 ## Parameters

@@ -1,3 +1,3 @@
 # Collections
 
-Something about collections here...
+Collections are [flows](../flow) based data structures that can be used as a descriptor for [products](../product).

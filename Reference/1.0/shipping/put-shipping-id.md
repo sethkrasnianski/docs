@@ -18,7 +18,7 @@ This endpoint edits a shipping method with a given ID. There are no minumum requ
 PUT [{{ api_url }}shipping/:id]({{ api_url }}shipping/:id)
 
 
-#### Parameters {#parameters}
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 title*optional* | String | The shipping method's title
@@ -34,7 +34,7 @@ description*optional* | String | The shipping method's description
 tax_band*optional* | Integer | The shipping method's tax band id
 
 <!--code-->
-#### Example Successful Response  {#success}
+#### Example Successful Response 
 ``` json
 {
   "status": true,
@@ -64,7 +64,7 @@ tax_band*optional* | Integer | The shipping method's tax band id
 ```
 
 
-#### Example Failed Response {#error}
+#### Example Failed Response
 ``` json
 {
   "status": false,

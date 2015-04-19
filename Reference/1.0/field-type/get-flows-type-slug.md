@@ -15,7 +15,7 @@
 Returns a single field type with its available options.
 
 #### Resource URL
-GET [{{ api_url }}flows/type/:slug]({{ api_url }}flows/type/:slug)
+GET [{{ api_url }}flows/types/:slug]({{ api_url }}flows/type/:slug)
 
 
 #### Parameters

@@ -22,7 +22,7 @@ Returns a customer based on a given ID. Any relational objects will also be retu
 None required
 
 <!--code-->
-#### Example Successful Response    {#success}
+#### Example Successful Response   
 ``` json
 {
   "status": true,
@@ -40,7 +40,7 @@ None required
 ```
 
 
-#### Example Empty Response  {#error}
+#### Example Empty Response 
 ``` json
 {
     "status": false,

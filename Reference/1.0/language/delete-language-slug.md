@@ -1,7 +1,7 @@
-This call deletes a currency with the specified id.
+This call deletes a language with the specified slug.
 
 #### Resource URL
-DELETE [{{ api_url }}currency/:id]({{ api_url }}currency/:id)
+DELETE [{{ api_url }}language/:slug]({{ api_url }}language/:slug)
 
 
 #### Parameters
@@ -12,16 +12,16 @@ None required
 ``` json
 {
   "status": true,
-  "message": "Currency deleted successfully"
+  "message": "Language deleted successfully"
 }
 ```
 
 
-#### Example Invalid ID Response
+#### Example Invalid Slug Response
 ``` json
 {
   "status": false,
-  "error": "Currency not found"
+  "error": "Language not found"
 }
 ```
 <!--/code-->

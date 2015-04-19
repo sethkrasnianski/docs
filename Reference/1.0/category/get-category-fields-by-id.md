@@ -1,7 +1,9 @@
-This call returns the data required to build a dynamic flows form based on the product creation requirements. It provides all options available for the choice fields as well as those featured in relationships (eg, Categories). It also provides information of field requirements, default values, etc.
+This call returns the data required to build a dynamic flows form based on the category edit requirements. It provides all options available for the choice fields as well as those featured in relationships (eg, Parent). It also provides information of field requirements, default values, etc.
+
+Unlike /categories/fields this adds the current products data to the array to allow for prepopulation of fields.
 
 #### Resource URL
-GET [{{ api_url }}categories/fields]({{ api_url }}categories/fields)
+GET [{{ api_url }}categories/:id/fields]({{ api_url }}categories/:id/fields)
 
 <!--code-->
 ``` json
@@ -21,7 +23,8 @@ GET [{{ api_url }}categories/fields]({{ api_url }}categories/fields)
             "order": null,
             "instructions": null,
             "available": {
-                "959732764679078722": "Uncategorized"
+                "959732764679078722": "Uncategorized",
+                "959873227918672743": "Test Category"
             },
             "value": null
         },
@@ -37,7 +40,7 @@ GET [{{ api_url }}categories/fields]({{ api_url }}categories/fields)
             "locked": true,
             "order": null,
             "instructions": null,
-            "value": null
+            "value": "test-category"
         },
         "status": {
             "slug": "status",
@@ -55,7 +58,13 @@ GET [{{ api_url }}categories/fields]({{ api_url }}categories/fields)
             "locked": true,
             "order": null,
             "instructions": null,
-            "value": null
+            "value": {
+                "value": "Live",
+                "data": {
+                    "key": "1",
+                    "value": "Live"
+                }
+            }
         },
         "title": {
             "slug": "title",
@@ -69,7 +78,7 @@ GET [{{ api_url }}categories/fields]({{ api_url }}categories/fields)
             "locked": true,
             "order": null,
             "instructions": null,
-            "value": null
+            "value": "Test Category"
         },
         "description": {
             "slug": "description",
@@ -84,7 +93,7 @@ GET [{{ api_url }}categories/fields]({{ api_url }}categories/fields)
             "locked": true,
             "order": null,
             "instructions": null,
-            "value": null
+            "value": "My first category"
         }
     }
 }

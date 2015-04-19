@@ -12,7 +12,6 @@ save_as*optional* | String | The name the address is saved as
 company*optional* | String | The name of the company this address belongs to
 first_name*optional* | String | First name of the person this address belongs to
 last_name*optional* | String | Last name of the person this address belongs to
-email*optional* | String | The email address of the person this address belongs to
 phone*optional* | String | The telephone number of the person this address belongs to
 address_1*optional* | String | Address line 1
 address_2*optional* | String | Address line 2
@@ -32,7 +31,6 @@ country*optional* | Enumeration (ISO 3166-1-alpha-2) | Address country
     "company": "",
     "first_name": "John",
     "last_name": "Moltin",
-    "email": "john@molt.in",
     "phone": "1234567890",
     "address_1": "24 Moltin Road",
     "address_2": "",

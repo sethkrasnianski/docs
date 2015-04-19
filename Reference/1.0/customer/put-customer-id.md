@@ -18,7 +18,7 @@ This call edits a customer with a given ID. There are no minumum required parame
 PUT [{{ api_url }}customer/:id]({{ api_url }}customer/:id)
 
 
-#### Parameters {#parameters}
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 first_name*optional* | String | The customer's first name
@@ -26,7 +26,7 @@ last_name*optional* | String | The customer's last name
 email*optional* | String | The customer's email
 
 <!--code-->
-#### Example Successful Response  {#success}
+#### Example Successful Response 
 ``` json
 {
   "status": true,
@@ -44,7 +44,7 @@ email*optional* | String | The customer's email
 ```
 
 
-#### Example Failed Response {#error}
+#### Example Failed Response
 ``` json
 {
   "status": false,

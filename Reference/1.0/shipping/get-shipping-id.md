@@ -22,7 +22,7 @@ Returns a shipping method based on a given ID. Any relational objects will also 
 None required
 
 <!--code-->
-#### Example Successful Response    {#success}
+#### Example Successful Response   
 ``` json
 {
   "status": true,
@@ -52,7 +52,7 @@ None required
 ```
 
 
-#### Example Failed Response  {#error}
+#### Example Failed Response 
 ``` json
 {
     "status": false,

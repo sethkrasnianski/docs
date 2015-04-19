@@ -13,7 +13,7 @@
 <a name="introduction"></a>
 ## Introduction
 
-Addresses are [flows](flows) based data structures that are tied to [customers](customers) and consumed by [orders](orders).
+Addresses are [flows](flow) based data structures that are tied to [customers](customers) and consumed by [orders](orders).
 
 <a name="params"></a>
 ## Parameters

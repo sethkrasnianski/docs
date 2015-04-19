@@ -1,11 +1,11 @@
 This call edits a currency with a given ID. There are no minumum required parameters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
 
-#### Resource URL {#resource}
+#### Resource URL
 PUT [{{ api_url }}cateogry/:id]({{ api_url }}cateogry/:id)
 
 
-#### Parameters {#parameters}
+#### Parameters
 Key | Type | Description
 --- | ---- | -----------
 code*optional* | String | The currency code (i.e. GBP)
@@ -20,7 +20,7 @@ rounding*optional* | Enumeration (50, 99, full) | The currency rounding (i.e. 50
 default*optional* | Boolean | Is this the default currency? 1 or 0
 
 <!--code-->
-#### Example Successful Response  {#success}
+#### Example Successful Response 
 ``` json
 {
   "status": true,
@@ -42,7 +42,7 @@ default*optional* | Boolean | Is this the default currency? 1 or 0
 ```
 
 
-#### Example Empty Response  {#error}
+#### Example Empty Response 
 ``` json
 {
   "status": false,
