@@ -14,7 +14,7 @@ price | Float | The Price of the product
 status | Choice (1 or 0) | Is the product Live or a Draft
 category | Integer | The Category of the product
 stock_level | Integer | The Stock Level of the product
-stock_status | Choice (0 to 6) | The Stock Status of the product
+stock_status | Choice (0 to 5) | The Stock Status of the product
 description | String | The Description of the product
 requires_shipping | Choice (1 or 0) | Does the product require Shipping?
 sale_price*optional* | Float | The Sale Price of the product
