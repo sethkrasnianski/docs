@@ -23,6 +23,18 @@ height*optional* | Float | The Height of the product, used in shipping calculati
 width*optional* | Float | The Width of the product, used in shipping calculations
 depth*optional* | Float | The Depth of the product, used in shipping calculations
 
+
+#### Stock Status
+Value | Title
+--- | ----
+0 | Unlimited
+1 | In Stock
+2 | Low Stock
+3 | Out of Stock
+4 | More Stock Ordered
+5 | Discontinued
+
+
 <!--code-->
 #### Example Successful Response
 ``` json
