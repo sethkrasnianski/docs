@@ -1,7 +1,7 @@
 This call deletes a brand with a given ID. Once a brand has been deleted all products will lose that brand.
 
 #### Resource URL
-DELETE [{{ api_url }}brand/:id]({{ api_url }}brand/:id)
+DELETE [{{ api_url }}brands/:id]({{ api_url }}brands/:id)
 
 
 #### Parameters
