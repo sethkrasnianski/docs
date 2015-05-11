@@ -2,7 +2,7 @@ This method is used to destroy an entire shopping cart, this can not be undone.
 
 
 #### Resource URL
-DELETE [{{ api_url }}cart/:identifier]({{ api_url }}cart/:identifier])
+DELETE [{{ api_url }}carts/:identifier]({{ api_url }}carts/:identifier])
 
 
 #### Parameters

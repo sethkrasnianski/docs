@@ -2,7 +2,7 @@ This endpoint edits a customers address with a given ID. There are no minumum re
 
 
 #### Resource URL
-PUT [{{ api_url }}customer/:id/address/:id]({{ api_url }}customer/:id/address/:id)
+PUT [{{ api_url }}customers/:id/addresses/:id]({{ api_url }}customers/:id/addresses/:id)
 
 
 #### Parameters

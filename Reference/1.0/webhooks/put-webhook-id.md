@@ -2,7 +2,7 @@ This call edits a webhook with a given id. There are no minumum required paramet
 
 
 #### Resource URL
-PUT [{{ api_url }}webhook/:id]({{ api_url }}webhook/:id)
+PUT [{{ api_url }}webhooks/:id]({{ api_url }}webhooks/:id)
 
 
 #### Parameters

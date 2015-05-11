@@ -15,7 +15,7 @@
 This endpoint allows you delete an entry from the flow you specify.
 
 #### Resource URL
-DELETE [{{ api_url }}flow/:slug/entry/:id]({{ api_url }}flow/:slug/entry/:id)
+DELETE [{{ api_url }}flows/:slug/entries/:id]({{ api_url }}flows/:slug/entries/:id)
 
 
 #### Parameters

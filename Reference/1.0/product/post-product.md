@@ -1,7 +1,7 @@
 This call creates a new product with the POST data provided. If there are any problems with the creation these will be returned in an errors array listing all validation problems, otherwise the new product will be returned.
 
 #### Resource URL
-POST [{{ api_url }}product]({{ api_url }}product)
+POST [{{ api_url }}products]({{ api_url }}products)
 
 
 #### Parameters

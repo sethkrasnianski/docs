@@ -15,7 +15,7 @@ Returns an email template based on a given slug.
 
 
 #### Resource URL
-[{{ api_url }}email/:slug]({{ api_url }}email/:slug)
+[{{ api_url }}emails/:slug]({{ api_url }}emails/:slug)
 
 
 #### Parameters

@@ -15,7 +15,7 @@
 This call returns the data required to build a dynamic flows form based on the product modifier creation requirements. It provides all options available for the choice fields as well as those featured in relationships (eg, product). It also provides information of field requirements, default values, etc.
 
 #### Resource URL
-[{{ api_url }}product/:productId/modifier/fields]({{ api_url }}product/:productId/modifier/fields)
+[{{ api_url }}products/:productId/modifiers/fields]({{ api_url }}products/:productId/modifiers/fields)
 
 #### Parameters
 None required

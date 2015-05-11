@@ -2,7 +2,7 @@ Returns an address based on a given ID. Any relational objects will also be retu
 
 
 #### Resource URL
-[{{ api_url }}customer/:id/address/:id]({{ api_url }}customer/:id/address/:id)
+[{{ api_url }}customers/:id/addresses/:id]({{ api_url }}customers/:id/addresses/:id)
 
 
 #### Parameters

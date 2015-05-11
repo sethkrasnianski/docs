@@ -2,7 +2,7 @@ This call simply returns a product based on a given ID. Any relational objects w
 
 
 #### Resource URL
-GET [{{ api_url }}product/:id]({{ api_url }}product/:id)
+GET [{{ api_url }}products/:id]({{ api_url }}products/:id)
 
 
 #### Parameters

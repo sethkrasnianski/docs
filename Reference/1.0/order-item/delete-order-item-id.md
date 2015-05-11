@@ -2,7 +2,7 @@ This endpoint allows you to remove an item from an order.
 
 
 #### Resource URL
-DELETE [{{ api_url }}order/:id/item]({{ api_url }}order/:id/item)
+DELETE [{{ api_url }}orders/:id/items]({{ api_url }}orders/:id/items)
 
 
 #### Parameters

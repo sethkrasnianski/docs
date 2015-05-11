@@ -15,7 +15,7 @@
 This call deletes a collection with a given ID. Once a collection has been deleted all products will lose that collection.
 
 #### Resource URL
-DELETE [{{ api_url }}collection/:id]({{ api_url }}collection/:id)
+DELETE [{{ api_url }}collections/:id]({{ api_url }}collections/:id)
 
 
 #### Parameters

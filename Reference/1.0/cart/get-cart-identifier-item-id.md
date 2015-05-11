@@ -18,7 +18,7 @@ You can retrieve a specific item from the cart by calling this endpoint with the
 
 
 #### Resource URL
-GET [{{ api_url }}cart/:identifier/item/:id]({{ api_url }}cart/:identifier/item/:id])
+GET [{{ api_url }}carts/:identifier/items/:id]({{ api_url }}carts/:identifier/items/:id])
 
 
 #### Parameters

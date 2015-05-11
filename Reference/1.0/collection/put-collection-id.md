@@ -15,7 +15,7 @@ This endpoint edits a collection with a given ID. There are no minumum required 
 
 
 #### Resource URL
-PUT [{{ api_url }}collection/:id]({{ api_url }}collection/:id)
+PUT [{{ api_url }}collections/:id]({{ api_url }}collections/:id)
 
 
 #### Parameters

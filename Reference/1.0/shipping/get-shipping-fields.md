@@ -1,7 +1,7 @@
 This call returns the data required to build a dynamic flows form based on the product creation requirements. It provides all options available for the choice fields as well as those featured in relationships (eg, Categories). It also provides information of field requirements, default values, etc.
 
 #### Resource URL
-[{{ api_url }}products/fields]({{ api_url }}products/fields)
+[{{ api_url }}shipping/fields]({{ api_url }}shipping/fields)
 
 
 #### Parameters

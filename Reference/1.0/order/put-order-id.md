@@ -15,7 +15,7 @@ This call edits an order with a given ID. There are no minumum required paramete
 
 
 #### Resource URL
-PUT [{{ api_url }}order/:id]({{ api_url }}order/:id)
+PUT [{{ api_url }}orders/:id]({{ api_url }}orders/:id)
 
 
 #### Parameters

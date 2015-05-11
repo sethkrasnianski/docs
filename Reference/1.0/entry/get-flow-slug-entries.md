@@ -15,7 +15,7 @@
 This endpoint displays all the entries for a specified slug.
 
 #### Resource URL
-GET [{{ api_url }}flow/:slug/entries]({{ api_url }}flow/:slug/entries)
+GET [{{ api_url }}flows/:slug/entries]({{ api_url }}flows/:slug/entries)
 
 
 #### Parameters

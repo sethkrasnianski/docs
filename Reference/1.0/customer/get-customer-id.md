@@ -15,7 +15,7 @@ Returns a customer based on a given ID. Any relational objects will also be retu
 
 
 #### Resource URL
-[{{ api_url }}customer/:id]({{ api_url }}customer/:id)
+[{{ api_url }}customers/:id]({{ api_url }}customers/:id)
 
 
 #### Parameters

@@ -2,7 +2,7 @@ Returns a tax band based on a given ID. Any relational objects will also be retu
 
 
 #### Resource URL
-[{{ api_url }}tax/:id]({{ api_url }}tax/:id)
+[{{ api_url }}taxes/:id]({{ api_url }}taxes/:id)
 
 
 #### Parameters

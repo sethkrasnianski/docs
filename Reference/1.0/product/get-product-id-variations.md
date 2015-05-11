@@ -1,7 +1,7 @@
 Returns a range of child-product variations for a product. All choices and relationships will be converted to their appropriate data values to reduce the number of extra calls required.
 
 #### Resource URL
-GET [{{ api_url }}product/:id/variations]({{ api_url }}product/:id/variations)
+GET [{{ api_url }}products/:id/variations]({{ api_url }}products/:id/variations)
 
 #### Parameters
 None required

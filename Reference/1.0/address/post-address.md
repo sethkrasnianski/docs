@@ -2,7 +2,7 @@ This endpoint creates a new address for a customer with the POST data provided. 
 
 
 #### Resource URL
-POST [{{ api_url }}customer/:id/address]({{ api_url }}customer/:id/address)
+POST [{{ api_url }}customers/:id/addresses]({{ api_url }}customers/:id/addresses)
 
 
 #### Parameters

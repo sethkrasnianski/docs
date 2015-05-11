@@ -15,7 +15,7 @@
 This call creates a new product modifier with the POST data provided. If there are any problems with the creation these will be returned in an errors array listing all validation problems, otherwise the new modifier will be returned.
 
 #### Resource URL
-POST [{{ api_url }}product/:productId/modifier]({{ api_url }}product/:productId/modifier)
+POST [{{ api_url }}products/:productId/modifiers]({{ api_url }}products/:productId/modifiers)
 
 #### Parameters
 Key | Type | Description

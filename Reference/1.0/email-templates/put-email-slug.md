@@ -15,7 +15,7 @@ This call edits an email template with a given slug. There are no minumum requir
 
 
 #### Resource URL
-PUT [{{ api_url }}email/:slug]({{ api_url }}email/:slug)
+PUT [{{ api_url }}emails/:slug]({{ api_url }}emails/:slug)
 
 
 #### Parameters

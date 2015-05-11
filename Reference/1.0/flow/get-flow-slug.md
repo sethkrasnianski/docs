@@ -15,7 +15,7 @@
 Returns a single flow with the specified slug.
 
 #### Resource URL
-GET [{{ api_url }}flow/:slug]({{ api_url }}flow/:slug)
+GET [{{ api_url }}flows/:slug]({{ api_url }}flows/:slug)
 
 
 #### Parameters

@@ -15,7 +15,7 @@ Returns a gateway based on a given slug. The gateway settings will also be retur
 
 
 #### Resource URL
-[{{ api_url }}gateway/:slug]({{ api_url }}gateway/:slug)
+[{{ api_url }}gateways/:slug]({{ api_url }}gateways/:slug)
 
 
 #### Parameters

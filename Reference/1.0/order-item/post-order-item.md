@@ -15,7 +15,7 @@ This endpoint allows you to add items to an order.
 
 
 #### Resource URL
-POST [{{ api_url }}order/:id/item]({{ api_url }}order/:id/item)
+POST [{{ api_url }}orders/:id/items]({{ api_url }}orders/:id/items)
 
 
 #### Parameters

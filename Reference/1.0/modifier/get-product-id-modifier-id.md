@@ -15,7 +15,7 @@
 This call simply returns a product modifier based on a given ID. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 #### Resource URL
-GET [{{ api_url }}product/:productId/modifer/:id]({{ api_url }}product/:productId/modifer/:id)
+GET [{{ api_url }}products/:productId/modifers/:id]({{ api_url }}products/:productId/modifers/:id)
 
 #### Parameters
 None required

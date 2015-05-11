@@ -15,7 +15,7 @@
 This endpoint allows you to update an entry from the specified flow.
 
 #### Resource URL
-PUT [{{ api_url }}flow/:slug/entry/:id]({{ api_url }}flow/:slug/entry/:id)
+PUT [{{ api_url }}flows/:slug/entries/:id]({{ api_url }}flows/:slug/entries/:id)
 
 
 #### Parameters

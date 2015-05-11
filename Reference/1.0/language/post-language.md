@@ -2,7 +2,7 @@ This call creates a new currency with the POST data provided. If there are any p
 
 
 #### Resource URL
-POST [{{ api_url }}cateogry]({{ api_url }}cateogry)
+POST [{{ api_url }}languages]({{ api_url }}languages)
 
 
 #### Parameters

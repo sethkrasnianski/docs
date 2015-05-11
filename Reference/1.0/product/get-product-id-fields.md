@@ -3,7 +3,7 @@ This call returns the data required to build a dynamic flows form based on the p
 Unlike /products/fields this adds the current products data to the array to allow for prepopulation of fields.
 
 #### Resource URL
-[{{ api_url }}product/:id/fields]({{ api_url }}product/:id/fields)
+[{{ api_url }}products/:id/fields]({{ api_url }}products/:id/fields)
 
 
 #### Parameters

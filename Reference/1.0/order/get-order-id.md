@@ -15,7 +15,7 @@ Returns an order based on a given ID. Any relational objects will also be return
 
 
 #### Resource URL
-[{{ api_url }}order/:id]({{ api_url }}order/:id)
+[{{ api_url }}orders/:id]({{ api_url }}orders/:id)
 
 
 #### Parameters

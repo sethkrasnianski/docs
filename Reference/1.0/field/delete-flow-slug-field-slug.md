@@ -15,7 +15,7 @@
 With this endpoint you can delete a field from a flow. You can delete any field from a flow you created, but you are limited to deleting only your own fields from default Moltin flows.
 
 #### Resource URL
-DELETE [{{ api_url }}flow/:slug/field/:fieldSlug]({{ api_url }}flow/:slug/field/:fieldSlug)
+DELETE [{{ api_url }}flows/:slug/fields/:fieldSlug]({{ api_url }}flows/:slug/fields/:fieldSlug)
 
 #### Parameters
 None required

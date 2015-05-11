@@ -16,7 +16,7 @@ Returns a collection based on a given ID. Any relational objects will also be re
 
 
 #### Resource URL
-[{{ api_url }}collection/:id]({{ api_url }}collection/:id)
+[{{ api_url }}collections/:id]({{ api_url }}collections/:id)
 
 #### Parameters
 None required

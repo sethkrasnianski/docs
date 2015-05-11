@@ -15,7 +15,7 @@
 This call deletes a product variation with a given ID or a set of modifiers in a comma-seperated list of IDs.
 
 #### Resource URL
-DELETE [{{ api_url }}product/:productId/modifier/:modifierId/variation:id[,:id]]({{ api_url }}product/:productId/modifier/:modifierId/variation:id[,:id])
+DELETE [{{ api_url }}products/:productId/modifiers/:modifierId/variations/:id({{ api_url }}products/:productId/modifiers/:modifierId/variations/:id)
 
 #### Parameters
 None required

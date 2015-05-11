@@ -15,7 +15,7 @@
 This call deletes a file with a given ID. Once a file has been deleted all items will lose that file.
 
 #### Resource URL
-DELETE [{{ api_url }}file/:id]({{ api_url }}file/:id)
+DELETE [{{ api_url }}files/:id]({{ api_url }}files/:id)
 
 
 #### Parameters

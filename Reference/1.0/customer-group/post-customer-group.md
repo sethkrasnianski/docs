@@ -15,7 +15,7 @@ This endpoint creates a new customer with the POST data provided. If there are a
 
 
 #### Resource URL
-POST [{{ api_url }}customer]({{ api_url }}customer)
+POST [{{ api_url }}customers/groups]({{ api_url }}customers/groups)
 
 
 #### Parameters

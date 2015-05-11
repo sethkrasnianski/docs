@@ -14,10 +14,10 @@
 -->
 This call returns the data required to build a dynamic flows form based on the product edit requirements. It provides all options available for the choice fields as well as those featured in relationships (eg, Modifier). It also provides information of field requirements, default values, etc.
 
-Unlike /product/:id/modifier/fields this adds the current variation data to the array to allow for prepopulation of fields.
+Unlike /products/:id/modifiers/fields this adds the current variation data to the array to allow for prepopulation of fields.
 
 #### Resource URL
-[{{ api_url }}product/:productId/modifier/:id/fields]({{ api_url }}product/:productId/modifier/:id/fields)
+[{{ api_url }}products/:productId/modifiers/:id/fields]({{ api_url }}products/:productId/modifiers/:id/fields)
 
 #### Parameters
 None required

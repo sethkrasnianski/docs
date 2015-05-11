@@ -1,7 +1,7 @@
 This call deletes a language with the specified slug.
 
 #### Resource URL
-DELETE [{{ api_url }}language/:slug]({{ api_url }}language/:slug)
+DELETE [{{ api_url }}languages/:slug]({{ api_url }}languages/:slug)
 
 
 #### Parameters

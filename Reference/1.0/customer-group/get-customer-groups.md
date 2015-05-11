@@ -16,7 +16,7 @@ Returns a range of customers based on a given set of parameters. All choices and
 
 
 #### Resource URL  
-GET [{{ api_url }}customers]({{ api_url }}customers)
+GET [{{ api_url }}customers/groups]({{ api_url }}customers/groups)
 
 
 #### Parameters

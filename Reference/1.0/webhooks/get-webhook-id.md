@@ -2,7 +2,7 @@ Returns a webhook based on a given id.
 
 
 #### Resource URL
-[{{ api_url }}webhook/:id]({{ api_url }}webhook/:id)
+[{{ api_url }}webhooks/:id]({{ api_url }}webhooks/:id)
 
 
 #### Parameters

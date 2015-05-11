@@ -2,7 +2,7 @@ Returns a list of addresses. All choices and relationships will be converted to 
 
 
 #### Resource URL
-GET [{{ api_url }}customer/:id/addresses]({{ api_url }}customer/:id/addresses)
+GET [{{ api_url }}customers/:id/addresses]({{ api_url }}customers/:id/addresses)
 
 
 #### Parameters

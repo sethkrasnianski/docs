@@ -15,7 +15,7 @@ Returns an array of order items for a specified order.
 
 
 #### Resource URL
-GET [{{ api_url }}order/:id/items]({{ api_url }}order/:id/items)
+GET [{{ api_url }}orders/:id/items]({{ api_url }}orders/:id/items)
 
 
 #### Parameters

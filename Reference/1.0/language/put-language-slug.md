@@ -2,7 +2,7 @@ This call edits a currency with a given ID. There are no minumum required parame
 
 
 #### Resource URL
-PUT [{{ api_url }}cateogry/:id]({{ api_url }}cateogry/:id)
+PUT [{{ api_url }}languages/:id]({{ api_url }}languages/:id)
 
 
 #### Parameters

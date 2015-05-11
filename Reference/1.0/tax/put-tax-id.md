@@ -2,7 +2,7 @@ This call edits a tax band with a given ID. There are no minumum required parame
 
 
 #### Resource URL
-PUT [{{ api_url }}tax/:id]({{ api_url }}tax/:id)
+PUT [{{ api_url }}taxes/:id]({{ api_url }}taxes/:id)
 
 
 #### Parameters

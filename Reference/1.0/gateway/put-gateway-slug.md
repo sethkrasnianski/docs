@@ -16,7 +16,7 @@ This method edits a gateway with a given slug.
 
 
 #### Resource URL
-PUT [{{ api_url }}gateway/:slug]({{ api_url }}gateway/:slug)
+PUT [{{ api_url }}gateways/:slug]({{ api_url }}gateways/:slug)
 
 
 #### Parameters

@@ -15,7 +15,7 @@ Returns an order based on a given set of key-value properties. Any relational ob
 
 
 #### Resource URL
-[{{ api_url }}order]({{ api_url }}order)
+[{{ api_url }}orders]({{ api_url }}orders)
 
 
 #### Parameters

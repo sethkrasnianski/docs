@@ -17,7 +17,7 @@ You can insert an item into the cart by POSTing to the cart endpoint with a list
 
 
 #### Resource URL
-POST [{{ api_url }}cart/[:identifier]]({{ api_url }}cart/[:identifier])
+POST [{{ api_url }}carts/[:identifier]]({{ api_url }}carts/[:identifier])
 
 
 #### Parameters

@@ -1,7 +1,7 @@
 Returns a range of modifiers and variations for a product. All choices and relationships will be converted to their appropriate data values to reduce the number of extra calls required.
 
 #### Resource URL
-GET [{{ api_url }}product/:id/modifiers]({{ api_url }}product/:id/modifiers)
+GET [{{ api_url }}products/:id/modifiers]({{ api_url }}products/:id/modifiers)
 
 #### Parameters
 None required

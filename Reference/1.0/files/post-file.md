@@ -16,7 +16,7 @@ This endpoint creates a new file with the POST data provided. If there are any p
 
 
 #### Resource URL
-POST [{{ api_url }}file]({{ api_url }}file)
+POST [{{ api_url }}files]({{ api_url }}files)
 
 
 #### Parameters

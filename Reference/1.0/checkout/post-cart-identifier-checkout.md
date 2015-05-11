@@ -17,7 +17,7 @@ When you have collected the data required to process the checkout, you can post 
 
 
 #### Resource URL
-POST [{{ api_url }}cart/:identifier/checkout]({{ api_url }}cart/:identifier/checkout])
+POST [{{ api_url }}carts/:identifier/checkout]({{ api_url }}carts/:identifier/checkout])
 
 
 #### Parameters

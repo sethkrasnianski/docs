@@ -2,7 +2,7 @@ Checks if the cart contains the specified item identifier
 
 
 #### Resource URL
-GET [{{ api_url }}cart/:identifier/has/:id]({{ api_url }}cart/:identifier/has/:id])
+GET [{{ api_url }}carts/:identifier/has/:id]({{ api_url }}carts/:identifier/has/:id])
 
 
 #### Parameters

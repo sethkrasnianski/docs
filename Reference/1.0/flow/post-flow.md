@@ -16,7 +16,7 @@ This endpoint allows you to create a new flow.
 
 
 #### Resource URL
-POST [{{ api_url }}flow]({{ api_url }}flow)
+POST [{{ api_url }}flows]({{ api_url }}flows)
 
 
 #### Parameters

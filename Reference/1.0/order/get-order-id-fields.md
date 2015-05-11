@@ -3,7 +3,7 @@ This call returns the data required to build a dynamic flows form based on the o
 Unlike /orders/fields this adds the current products data to the array to allow for prepopulation of fields.
 
 #### Resource URL
-[{{ api_url }}order/:id/fields]({{ api_url }}order/:id/fields)
+[{{ api_url }}orders/:id/fields]({{ api_url }}orders/:id/fields)
 
 
 #### Parameters

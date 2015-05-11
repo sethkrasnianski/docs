@@ -1,8 +1,8 @@
-Returns a currency based on a given ID. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
+Returns a language based on a given ID. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 
 #### Resource URL
-[{{ api_url }}currency/:id]({{ api_url }}currency/:id)
+[{{ api_url }}languages/:id]({{ api_url }}languages/:id)
 
 
 #### Parameters

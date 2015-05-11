@@ -16,7 +16,7 @@ Returns a file based on a given ID. Any relational objects will also be returned
 
 
 #### Resource URL
-[{{ api_url }}file/:id]({{ api_url }}file/:id)
+[{{ api_url }}files/:id]({{ api_url }}files/:id)
 
 
 #### Parameters

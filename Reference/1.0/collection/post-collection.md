@@ -16,7 +16,7 @@ This endpoint creates a new collection with the POST data provided. If there are
 
 
 #### Resource URL
-POST [{{ api_url }}collection]({{ api_url }}collection)
+POST [{{ api_url }}collections]({{ api_url }}collections)
 
 
 #### Parameters

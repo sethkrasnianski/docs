@@ -14,7 +14,7 @@
 This call deletes an email template with the specified slug.
 
 #### Resource URL
-DELETE [{{ api_url }}email/:slug]({{ api_url }}email/:slug)
+DELETE [{{ api_url }}emails/:slug]({{ api_url }}emails/:slug)
 
 
 #### Parameters

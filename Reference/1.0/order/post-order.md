@@ -15,7 +15,7 @@ This call creates a new order with the POST data provided. If there are any prob
 
 
 #### Resource URL
-POST [{{ api_url }}order]({{ api_url }}order)
+POST [{{ api_url }}orders]({{ api_url }}orders)
 
 
 #### Parameters

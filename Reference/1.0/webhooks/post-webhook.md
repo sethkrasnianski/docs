@@ -2,7 +2,7 @@ This call creates a new webhook with the POST data provided. If there are any pr
 
 
 #### Resource URL
-POST [{{ api_url }}webhook]({{ api_url }}webhook)
+POST [{{ api_url }}webhooks]({{ api_url }}webhooks)
 
 
 #### Parameters

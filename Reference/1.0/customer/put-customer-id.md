@@ -15,7 +15,7 @@ This call edits a customer with a given ID. There are no minumum required parame
 
 
 #### Resource URL
-PUT [{{ api_url }}customer/:id]({{ api_url }}customer/:id)
+PUT [{{ api_url }}customers/:id]({{ api_url }}customers/:id)
 
 
 #### Parameters

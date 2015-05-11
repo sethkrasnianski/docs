@@ -16,7 +16,7 @@ This endpoint allows you to update one of your flows. You can only update custom
 
 
 #### Resource URL
-PUT [{{ api_url }}flow/:slug]({{ api_url }}flow/:slug)
+PUT [{{ api_url }}flows/:slug]({{ api_url }}flows/:slug)
 
 
 #### Parameters

@@ -2,7 +2,7 @@ Returns a brand based on a given ID. Any relational objects will also be returne
 
 
 #### Resource URL
-[{{ api_url }}brand/:id]({{ api_url }}brand/:id)
+[{{ api_url }}brands/:id]({{ api_url }}brands/:id)
 
 
 #### Parameters

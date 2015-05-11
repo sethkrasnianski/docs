@@ -15,7 +15,7 @@
 This endpoint will return a single entry for the ID you specified.
 
 #### Resource URL
-GET [{{ api_url }}flow/:slug/entry/:id]({{ api_url }}flow/:slug/entry/:id)
+GET [{{ api_url }}flows/:slug/entries/:id]({{ api_url }}flows/:slug/entries/:id)
 
 
 #### Parameters

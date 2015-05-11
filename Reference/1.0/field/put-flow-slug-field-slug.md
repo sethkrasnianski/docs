@@ -15,7 +15,7 @@
 You can update fields for any field, including the default Moltin fields. However, you are restricted to updating only the field title on the default fields.
 
 #### Resource URL
-PUT [{{ api_url }}flow/:slug/field/:fieldSlug]({{ api_url }}flow/:slug/field/:fieldSlug)
+PUT [{{ api_url }}flows/:slug/fields/:fieldSlug]({{ api_url }}flows/:slug/fields/:fieldSlug)
 
 #### Parameters
 Key | Type | Description

@@ -15,7 +15,7 @@
 This endpoint displays all the fields for a specified slug.
 
 #### Resource URL
-GET [{{ api_url }}flow/:slug/fields]({{ api_url }}flow/:slug/fields)
+GET [{{ api_url }}flows/:slug/fields]({{ api_url }}flows/:slug/fields)
 
 
 #### Parameters

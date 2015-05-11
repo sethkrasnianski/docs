@@ -15,7 +15,7 @@
 This call edits a product variation with a given ID. There are no minumum required parameters and only those differing from current values will be updated, as such you can pass all or one of the fields and there will be no difference.
 
 #### Resource URL
-PUT [{{ api_url }}product/:productId/modifier/:modifierId/variation/:id]({{ api_url }}product/:productId/modifier/:modifierId/variation/:id)
+PUT [{{ api_url }}products/:productId/modifiers/:modifierId/variations/:id]({{ api_url }}products/:productId/modifiers/:modifierId/variations/:id)
 
 #### Parameters
 Key | Type | Description

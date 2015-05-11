@@ -15,7 +15,7 @@
 Returns a single field from the specified flow and with the specified field slug.
 
 #### Resource URL
-GET [{{ api_url }}flow/:slug/field/:fieldSlug]({{ api_url }}flow/:slug/field/:fieldSlug)
+GET [{{ api_url }}flows/:slug/fields/:fieldSlug]({{ api_url }}flows/:slug/fields/:fieldSlug)
 
 
 #### Parameters

@@ -1,7 +1,7 @@
 This call deletes a webhook with the specified id.
 
 #### Resource URL
-DELETE [{{ api_url }}webhook/:id]({{ api_url }}webhook/:id)
+DELETE [{{ api_url }}webhooks/:id]({{ api_url }}webhooks/:id)
 
 
 #### Parameters

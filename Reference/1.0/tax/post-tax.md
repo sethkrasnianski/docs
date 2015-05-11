@@ -2,7 +2,7 @@ This call creates a new tax band with the POST data provided. If there are any p
 
 
 #### Resource URL
-POST [{{ api_url }}tax]({{ api_url }}tax)
+POST [{{ api_url }}taxes]({{ api_url }}taxes)
 
 
 #### Parameters

@@ -4,7 +4,7 @@ While this call is similar to search it will only return a single product.
 
 
 #### Resource URL
-GET [{{ api_url }}product]({{ api_url }}product)
+GET [{{ api_url }}products]({{ api_url }}products)
 
 
 #### Parameters

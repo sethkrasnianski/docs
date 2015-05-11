@@ -15,7 +15,7 @@
 This endpoint deletes a flow with the specified slug. Only flows you created can be deleted, flows created by Moltin are locked.
 
 #### Resource URL
-DELETE [{{ api_url }}flow/:id]({{ api_url }}flow/:id)
+DELETE [{{ api_url }}flows/:id]({{ api_url }}flows/:id)
 
 
 #### Parameters

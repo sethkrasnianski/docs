@@ -2,7 +2,7 @@ Deleting an item from a users cart is as simple as calling the item URL with a D
 
 
 #### Resource URL
-DELETE [{{ api_url }}cart/:identifier/item/:id]({{ api_url }}cart/:identifier/item/:id])
+DELETE [{{ api_url }}carts/:identifier/items/:id]({{ api_url }}carts/:identifier/items/:id])
 
 
 #### Parameters

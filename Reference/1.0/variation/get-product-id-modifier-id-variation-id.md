@@ -15,7 +15,7 @@
 This call simply returns a product variation based on a given ID. Any relational objects will also be returned as either key, values or for multiple-relational items an array.
 
 #### Resource URL
-GET [{{ api_url }}product/:productId/modifer/:modifierId/variation/:id]({{ api_url }}product/:productId/modifer/:modifierId/variation/:id)
+GET [{{ api_url }}products/:productId/modifers/:modifierId/variations/:id]({{ api_url }}products/:productId/modifers/:modifierId/variations/:id)
 
 #### Parameters
 None required

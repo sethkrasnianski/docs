@@ -1,7 +1,7 @@
 This call deletes a currency with the specified id.
 
 #### Resource URL
-DELETE [{{ api_url }}currency/:id]({{ api_url }}currency/:id)
+DELETE [{{ api_url }}currencies/:id]({{ api_url }}currencies/:id)
 
 
 #### Parameters

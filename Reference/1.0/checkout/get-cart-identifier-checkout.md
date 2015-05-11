@@ -2,7 +2,7 @@ When you are ready to take a cart to checkout, you can make a call to the checko
 
 
 #### Resource URL
-GET [{{ api_url }}cart/:identifier/checkout]({{ api_url }}cart/:identifier/checkout])
+GET [{{ api_url }}carts/:identifier/checkout]({{ api_url }}carts/:identifier/checkout])
 
 
 #### Parameters

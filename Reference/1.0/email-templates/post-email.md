@@ -15,7 +15,7 @@ This call creates a new email template with the POST data provided. If there are
 
 
 #### Resource URL
-POST [{{ api_url }}email]({{ api_url }}email)
+POST [{{ api_url }}emails]({{ api_url }}emails)
 
 
 #### Parameters

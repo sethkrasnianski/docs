@@ -2,7 +2,7 @@ Returns a currency based on a given ID. Any relational objects will also be retu
 
 
 #### Resource URL
-[{{ api_url }}currency/:id]({{ api_url }}currency/:id)
+[{{ api_url }}currencies/:id]({{ api_url }}currencies/:id)
 
 
 #### Parameters

@@ -17,7 +17,7 @@ You can update an item in the cart by sending a PUT request to the item's endpoi
 
 
 #### Resource URL
-PUT [{{ api_url }}cart/:identifier/item/:id]({{ api_url }}cart/:identifier/item/:id])
+PUT [{{ api_url }}carts/:identifier/item/:id]({{ api_url }}carts/:identifier/item/:id])
 
 #### Parameters
 Key | Type | Description

@@ -15,7 +15,7 @@
 This method deletes a customer with a given ID. Once a customer has been deleted all orders and addresses for that customer will become anonymous. Addresses which have not been used in an order will be permanently deleted.
 
 #### Resource URL
-DELETE [{{ api_url }}customer/:id]({{ api_url }}customer/:id)
+DELETE [{{ api_url }}customers/groups/:id]({{ api_url }}customers/groups/:id)
 
 
 #### Parameters

@@ -2,7 +2,7 @@ This endpoint creates a new brand with the POST data provided. If there are any 
 
 
 #### Resource URL
-POST [{{ api_url }}brand]({{ api_url }}brand)
+POST [{{ api_url }}brands]({{ api_url }}brands)
 
 
 #### Parameters

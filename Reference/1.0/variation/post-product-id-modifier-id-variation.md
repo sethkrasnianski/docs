@@ -15,7 +15,7 @@
 This call creates a new product variation with the POST data provided. If there are any problems with the creation these will be returned in an errors array listing all validation problems, otherwise the new variation will be returned.
 
 #### Resource URL
-POST [{{ api_url }}product/:productId/modifier/:modifierId/variation]({{ api_url }}product/:productId/modifier/:modifierId/variation)
+POST [{{ api_url }}products/:productId/modifiers/:modifierId/variations]({{ api_url }}products/:productId/modifiers/:modifierId/variations)
 
 #### Parameters
 Key | Type | Description

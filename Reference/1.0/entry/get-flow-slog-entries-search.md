@@ -1,7 +1,7 @@
 This call returns a range of entries based on the provided search criteria. Using limit and offset you can also paginate the results. The search parameters available will depend on the fields that you have added to this flow.
 
 #### Resource URL
-GET [{{ api_url }}flow/:slug/entries/search]({{ api_url }}flow/:slug/entries/search)
+GET [{{ api_url }}flows/:slug/entries/search]({{ api_url }}flows/:slug/entries/search)
 
 
 #### Parameters

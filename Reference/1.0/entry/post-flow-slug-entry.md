@@ -15,7 +15,7 @@
 This endpoint allows you to insert an entry into the flow.
 
 #### Resource URL
-POST [{{ api_url }}flow/:slug/entry]({{ api_url }}flow/:slug/entry)
+POST [{{ api_url }}flows/:slug/entries]({{ api_url }}flows/:slug/entries)
 
 
 #### Parameters
