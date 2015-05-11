@@ -2,7 +2,7 @@ This endpoint edits a brand with a given ID. There are no minumum required param
 
 
 #### Resource URL
-PUT [{{ api_url }}brand/:id]({{ api_url }}brand/:id)
+PUT [{{ api_url }}brands/:id]({{ api_url }}brands/:id)
 
 
 #### Parameters
