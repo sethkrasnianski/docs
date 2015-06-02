@@ -203,7 +203,7 @@ if ( address.status === true ) {
 ## Update
 
 ``` php
-$address = Address::Edit('<CUSTOMER ID>', '<ID>', [
+$address = Address::Update('<CUSTOMER ID>', '<ID>', [
     'title'  => 'Example Address - Updated',
     'slug'   => 'example-address-updated',
     'status' => 0
