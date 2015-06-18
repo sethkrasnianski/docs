@@ -171,7 +171,7 @@ moltin.Shipping.Create({
     status:      1,
     description: 'Free shipping from FedEx',
     price:       '10',
-    tax_band':    1
+    tax_band:    1
 }, function(shipping) {
     console.log(shipping);
 }, function(error) {
@@ -188,7 +188,7 @@ var shipping = moltin.Shipping.Create({
     status:      1,
     description: 'Free shipping from FedEx',
     price:       '10',
-    tax_band':    1
+    tax_band:    1
 });
 
 if ( shipping.status === true ) {
@@ -222,7 +222,7 @@ moltin.Shipping.Update('<ID>', {
     status:      1,
     description: 'Free shipping from FedEx',
     price:       '20',
-    tax_band':    1
+    tax_band:    1
 }, function(shipping) {
     console.log(shipping);
 }, function(error) {
@@ -239,7 +239,7 @@ var shipping = moltin.Shipping.Update('<ID>', {
     status:      1,
     description: 'Free shipping from FedEx',
     price:       '20',
-    tax_band':    1
+    tax_band:    1
 });
 
 if ( shipping.status === true ) {
