@@ -4,6 +4,7 @@
 - [Cart Options](#options)
 - [Create Order from Cart](#order)
 - [Process Payment](#payment)
+- [Complete a payment (For remote gateways)](#complete)
 
 <a name="introduction"></a>
 ## Introduction
@@ -149,3 +150,62 @@ purchase | Authorize and immediately capture an amount on the customers card
 complete_purchase | Handle return from off-site gateways after purchase
 refund | Refund an already processed transaction
 void | Generally can only be called up to 24 hours after submitting a transaction
+
+<a name="complete"></a>
+## Complete a payment for remote gateways
+
+Some gateways require you to redirect to an external URL (PayPal, SagePay, etc..). For this case the payment flow is shifted outside of the API and you will need to update any payments, orders and transactions manually.
+
+You can call this endpoint once you've verified the payment is or is not complete.
+
+``` php
+$result = Checkout::Complete('<ORDER ID>', [
+    'data' => [
+        'order_status'           => '<PAYMENT STATUS>',
+        'transaction_success'    => '<TRANSACTION SUCCESS>',
+        'transaction_reference'  => '<TRANSACTION REFERENCE>'
+    ]
+]);
+```
+
+#### Asynchronous
+``` js
+moltin.Checkout.Complete('<ORDER ID>', {
+    data: {
+        'order_status':          '<PAYMENT STATUS>',
+        'transaction_success':   '<TRANSACTION SUCCESS>',
+        'transaction_reference': '<TRANSACTION REFERENCE>'
+    }
+}, function(result) {
+    console.log(result);
+}, function(error) {
+    // Something went wrong...
+});
+```
+
+#### Synchronous
+``` js
+var result = moltin.Checkout.Complete('<ORDER ID>', {
+    data: {
+        'order_status':          '<PAYMENT STATUS>',
+        'transaction_success':   '<TRANSACTION SUCCESS>',
+        'transaction_reference': '<TRANSACTION REFERENCE>'
+    }
+});
+
+if ( result.status === true ) {
+    console.log(result.result);
+} else {
+    // Something went wrong...
+}
+
+Method | Description
+------ | -----------
+order_status | "paid", "dispatched", "processing", "refunded", "cancelled", "failed", "declined", "mismatch" | The status of the order
+transaction_success | 1, 0 | The transaction success
+transaction_reference | A reference to the transaction from the payment gateway
+
+
+
+
+
