@@ -201,8 +201,8 @@ if ( result.status === true ) {
 
 Method | Description
 ------ | -----------
-order_status | "paid", "dispatched", "processing", "refunded", "cancelled", "failed", "declined", "mismatch" | The status of the order
-transaction_success | 1, 0 | The transaction success
+order_status | The status of the order
+transaction_success | The transaction success
 transaction_reference | A reference to the transaction from the payment gateway
 
 
