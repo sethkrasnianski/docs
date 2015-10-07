@@ -33,7 +33,7 @@ Description | description | Text | No | No | -
 Discount Code | discount_code | String | No | Yes | The voucher code to be used (if applicable).
 From Date | from | Date | Yes | No | Start date of the promotion.
 To Date | to | Date | Yes | No | End date of the promotion
-Maximum uses | max_uses | Integer | No | No | Maximum number of uses accross the entire store.
+Maximum uses | max_uses | Integer | No | No | Maximum number of uses across the entire store.
 Uses per customer | customer_uses | Integer | No | No | Maximum number of uses per customer.
 Customer Group | customer_group | Multiple | No | No | Relates to [customer](customer).
 Status | status | Choice | Yes | No | Choices available are 0 (Disabled), 1 (Enabled).
@@ -198,7 +198,7 @@ Within promotions there are a number of types that you can apply, either automat
 <a name="rule"></a>
 ## Rules
 
-Promotion rules are JSON objects designed to allow you to write advanced matches and come in two variations, ```match_rules``` and ```match_items```. ```match_rules``` allow you to limit a promotion to cart attributes like total value, number of items, etc or customer attributes like previous sales or group. ```match_items``` are similiar and allow you match a promotion on a products attributes, like SKU, group, category and more.
+Promotion rules are JSON objects designed to allow you to write advanced matches and come in two variations, ```match_rules``` and ```match_items```. ```match_rules``` allow you to limit a promotion to cart attributes like total value, number of items, etc or customer attributes like previous sales or group. ```match_items``` are similar and allow you match a promotion on a products attributes, like SKU, group, category and more.
 
 > **Note:** All rules can be nested and used in combination to create more advanced promotions.
 
@@ -218,7 +218,7 @@ As the top level of each ruleset, there is an empty condition which declares tha
 ### Basic Example
 
 In this next example you'll see how to do a ```match_items``` condition which will apply the promotion only to items with a specific SKU. Any product field can be supplied instead or as well as it.
-	
+
 	{
 		"type":     "group",
 		"operator": "",

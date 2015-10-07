@@ -105,7 +105,7 @@ Collection | collection | Relationship | No | No | Relates to [Collections](coll
                 "value": "In Stock"
             }
         },
-        "description": "Drawing with conté sticks is a sure way to achive high contrast, richly pigmented images. This media can also be used to shapen lines as a final stage of a painting's development. ",
+        "description": "Drawing with conté sticks is a sure way to achieve high contrast, richly pigmented images. This media can also be used to shapen lines as a final stage of a painting's development. ",
         "requires_shipping":
         {
             "value": "Yes",

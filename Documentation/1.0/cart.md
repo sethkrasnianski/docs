@@ -15,7 +15,7 @@
 <a name="introduction"></a>
 ## Introduction
 
-The cart allows users to register their interest in items and store them to be bought now or later. The cart system can have normal products, variatons and custom items added to it, all data added to a cart is stored and available whenever it or an [order](order) is retrieved.
+The cart allows users to register their interest in items and store them to be bought now or later. The cart system can have normal products, variations and custom items added to it, all data added to a cart is stored and available whenever it or an [order](order) is retrieved.
 
 <a name="params"></a>
 ## Parameters

@@ -8,9 +8,9 @@
 <a name="introduction"></a>
 ## Introduction
 
-OMG YOU FOUND IT!!!!111 Here's the deal, we would love to send you a free tshirt and some small extras to say thanks for being awesome. All you have to do is call the endpoint below with your email, shipping address and shirt style and we'll take care of the rest!
+OMG YOU FOUND IT!!!!!!! Here's the deal, we would love to send you a free t-shirt and some small extras to say thanks for being awesome. All you have to do is call the endpoint below with your email, shipping address and shirt style and we'll take care of the rest!
 
-> **Note:** This endpoint is only available in v1 of the API, please make sure to use the correct version otherwise your order will not be recieved.
+> **Note:** This endpoint is only available in v1 of the API, please make sure to use the correct version otherwise your order will not be received.
 
 <a name="params"></a>
 ## Parameters
@@ -23,7 +23,7 @@ Style | style | String | Yes | No | The style must match gray, red, or purple
 Size | size | String | Yes | No | The size must match s, m, l, xl, or xxl
 First Name | first_name | String | Yes | No | First name of recipient
 Last Name | last_name | String | Yes | No | Last name of recipient
-Email | email | String | Yes | Yes | Email to recieve order and shipping confirmation
+Email | email | String | Yes | Yes | Email to receive order and shipping confirmation
 Ship To | ship_to | Array | Yes | No | [Address object](/{{ version }}/address/{{ language }}#object) for order to be shipped to
 
 <a name="object"></a>

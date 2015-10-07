@@ -10,7 +10,7 @@
 <a name="documentation"></a>
 ## Documentation
 
-Writing consise documentation is difficult and while we always try to maintain them to the highest standard, we are only human and do miss things. If you notice any issues, or have something that would be useful for the community to know, you can suggest it or (even better!) submit a pull-request on our documentations [github repo](https://github.com/moltin/docs).
+Writing concise documentation is difficult and while we always try to maintain them to the highest standard, we are only human and do miss things. If you notice any issues, or have something that would be useful for the community to know, you can suggest it or (even better!) submit a pull-request on our documentations [github repo](https://github.com/moltin/docs).
 
 <a name="sdk"></a>
 ## SDKs
@@ -49,7 +49,7 @@ We want to be as open as possible with our community and we maintain a public [a
 * Submit issues that are general suggestions, as opposed to *specific, technical* bugs or *confirmed* features
 * Create disrespectful or inflammatory comments
 
-> **Note:** This repostiory is for issues only, feature requests will be removed.
+> **Note:** This repository is for issues only, feature requests will be removed.
 
 <a name="request"></a>
 ## Feature Requests

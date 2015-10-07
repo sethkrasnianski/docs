@@ -12,9 +12,9 @@
 <a name="introduction"></a>
 ## Introduction
 
-Webhooks are callbacks to an external location you define in order to recieve information on any create, update or delete action performed in the API. This allows you to listen for events rather than having to poll for changes to your store, allowing integrations with accountancy software, channel partners and more.
+Webhooks are callbacks to an external location you define in order to receive information on any create, update or delete action performed in the API. This allows you to listen for events rather than having to poll for changes to your store, allowing integrations with accountancy software, channel partners and more.
 
-> **Note:** Webhooks will be tried 3 times over a 30 minute period, if no 200 response is recieved after those attempts, the data will be logged and made available under the forge dashboard.
+> **Note:** Webhooks will be tried 3 times over a 30 minute period, if no 200 response is received after those attempts, the data will be logged and made available under the forge dashboard.
 
 <a name="params"></a>
 ## Parameters
